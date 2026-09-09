@@ -696,8 +696,19 @@
            limpo, com borda dura, e o olho le o que aconteceu: a foto
            estava na frente, saiu, e o que estava atras ficou. O clip do
            proprio hero engole a barra quando ela passa da borda. */
+        /* TODAS PARA CIMA, e nao alternando como no desktop.
+
+           Alternando, metade das barras desce, e descer significa varrer a
+           tela inteira por cima do que esta atras. Barra descendo sobre a
+           foto de uma carta nao le como cortina abrindo, le como coisa
+           caindo em cima. Foi a palavra do Arthur: "invadindo as imagens".
+
+           Subindo todas, o movimento so descobre. Nenhuma barra passa por
+           cima de conteudo que ja estava a mostra, e o gesto vira cortina
+           sendo levantada em tiras. O escalonamento pelas bordas continua,
+           entao a assinatura do capitulo se mantem. */
         var st1 = gsap.to(barras, {
-          yPercent: function (i) { return i % 2 === 0 ? -108 : 108; },
+          yPercent: -108,
           ease: 'none',
           stagger: { each: 0.05, from: 'edges' },
           scrollTrigger: {
@@ -707,12 +718,17 @@
                A secao fica parada, entao a conta e estavel. */
             trigger: secao,
             start: 'top top',
-            /* Larga o bastante para o olho registrar que aquilo era uma
-               foto, curta o bastante para a cortina ter saido antes de as
-               cartas subirem. Em 180% ela ainda estava saindo quando a
-               primeira carta chegava no meio da tela, e as duas coisas
-               apareciam juntas. */
-            end: '+=110%',
+            /* 60% nao e numero solto, casa com a altura do cabecalho.
+
+               O cabecalho tem 160svh, entao a primeira carta comeca a 1,6
+               tela do topo da secao e so encosta na borda de baixo da
+               janela depois de 0,6 tela de rolagem. Terminando a cortina
+               exatamente ai, ela ja saiu quando a primeira carta aparece.
+               Foi o defeito que sobrou da tentativa anterior: em 110% a
+               cortina ainda estava saindo com as cartas em cena.
+
+               Mexer num sem mexer no outro traz o problema de volta. */
+            end: '+=60%',
             scrub: 0.5,
             invalidateOnRefresh: true
           }

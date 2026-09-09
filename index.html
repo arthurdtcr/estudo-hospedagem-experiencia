@@ -19,7 +19,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="image" href="img/cap01-cabana.webp" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1&family=Inter:wght@300..600&family=JetBrains+Mono:wght@200..600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<!-- O ?v= existe para o navegador nao servir folha velha depois de um
+     ajuste. Cache-Control do GitHub Pages e de 600s, e ja aconteceu de
+     uma correcao parecer nao ter saido quando so estava em cache.
+     Subir o numero a cada ajuste de estilo ou de movimento. -->
+<link rel="stylesheet" href="styles.css?v=4">
 
 <!-- Meta Pixel Code -->
 <script>
@@ -873,7 +877,7 @@ src="https://www.facebook.com/tr?id=1605313931100585&ev=PageView&noscript=1" alt
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
-<script src="main.js" defer></script>
+<script src="main.js?v=4" defer></script>
 
 </body>
 </html>

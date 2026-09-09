@@ -1141,8 +1141,22 @@ button {
      foto e aparece conforme ela se desfaz. As cartas vem logo abaixo e
      atravessam o que sobrou dela. */
   .js-revelacao-movel .revelacao__conteudo { padding-block-start: 0; }
+
+  /* 160svh, e a conta e com a faixa da cortina no main.js.
+
+     Com 100svh o cabecalho ocupava exatamente uma tela, entao a primeira
+     carta ficava logo abaixo da dobra e entrava em cena no primeiro pixel
+     de rolagem, ou seja, no meio da cortina saindo. As duas coisas
+     apareciam juntas e o gesto nao lia.
+
+     Com 160svh a carta so encosta na borda de baixo depois de 0,6 tela,
+     que e onde a cortina termina. Quando ela aparece, a cortina ja saiu.
+     O titulo fica no meio do bloco, entao nasce atras da cortina e e
+     descoberto por ela, que e o ponto todo.
+
+     Se mexer aqui, mexer no end do gestoRevelacao junto. */
   .js-revelacao-movel .revelacao__cabeca {
-    min-height: 100svh;
+    min-height: 160svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
