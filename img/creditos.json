@@ -1,0 +1,98 @@
+[
+ {
+  "nome": "cap01-cabana",
+  "id": "wcpofj_J3mc",
+  "url": "https://images.unsplash.com/photo-1782226796423-8d72656a332c",
+  "fotografo": "Jonathan Adams",
+  "perfil": "https://unsplash.com/@jonathanadamsphoto",
+  "desc": "Cabana de madeira iluminada por dentro, fogueira acesa em primeiro plano, ao entardecer. Dominante #262626, luz quente concentrada nas janelas e no fogo, todo o resto em sombra."
+ },
+ {
+  "nome": "cap02-domo",
+  "id": "KCVp2nvM5kU",
+  "url": "https://images.unsplash.com/photo-1783696521772-e3ba2c4ef0b5",
+  "fotografo": "Tommaso Ubezio",
+  "perfil": "https://unsplash.com/@tommasoubezio",
+  "desc": "Domo geodésico iluminado por dentro à noite, cama visível através da membrana translúcida, no deserto. Fundo preto, o domo brilha em âmbar (#260c0c). 6720x4480. Wadi Rum, Jordânia."
+ },
+ {
+  "nome": "cap04-banheira",
+  "id": "jlB0JgWlAns",
+  "url": "https://images.unsplash.com/photo-1773423386509-b57f17224b30",
+  "fotografo": "Clay Banks",
+  "perfil": "https://unsplash.com/@claybanks",
+  "desc": "Sala de sauna e banheira em madeira, com chinelos no piso. Dominante #260c0c, luz quente lateral, sem pessoas."
+ },
+ {
+  "nome": "cap06-janelas",
+  "id": "ZfNppoUbqT8",
+  "url": "https://images.unsplash.com/photo-1724914222791-5111f16dd4cc",
+  "fotografo": "Arthur Tseng",
+  "perfil": "https://unsplash.com/@arthur3607",
+  "desc": "Par de janelas triangulares acesas dentro de volume escuro, à noite. Dominante #262626, geometria forte e legível, sem pessoas."
+ },
+ {
+  "nome": "cap07-mesa",
+  "id": "NvGyjAwG1Gg",
+  "url": "https://images.unsplash.com/photo-1760533536699-85be9a478652",
+  "fotografo": "Tomi Saputra",
+  "perfil": "https://unsplash.com/@udatommo",
+  "desc": "Mesa posta com duas cadeiras e uma vela acesa, ao pôr do sol, ninguém sentado. Dominante #260c0c."
+ },
+ {
+  "nome": "cap08-sequoias",
+  "id": "ojEK3p9cDg4",
+  "url": "https://images.unsplash.com/photo-1516402707257-787c50fc3898",
+  "fotografo": "Jeremy Bishop",
+  "perfil": "https://unsplash.com/@jeremybishop",
+  "desc": "Casa isolada no meio de sequoias altíssimas em Big Sur, escala esmagadora, luz baixa. Dominante #0c2626."
+ },
+ {
+  "nome": "cap10-cabana-noite",
+  "id": "Or97wekcpBw",
+  "url": "https://images.unsplash.com/photo-1774248772093-7da493634a82",
+  "fotografo": "Harrison Lin",
+  "perfil": "https://unsplash.com/@htlin",
+  "desc": "Cabana acesa à noite dentro de floresta escura, vista distante. Dominante #26260c, massa escura ocupando mais de oitenta por cento do quadro."
+ },
+ {
+  "nome": "divisor-fogo",
+  "id": "KJrPFBGBtEs",
+  "url": "https://images.unsplash.com/photo-1788143082029-8d172dc18628?ixlib=rb-4.1.0&q=85&fm=jpg",
+  "fotografo": "Oleg",
+  "perfil": "https://unsplash.com/@olezhanjudi",
+  "desc": "Chamas laranja entre duas achas de lenha dentro de um fogão de ferro escuro. Fundo praticamente preto, só a chama tem cor (#260c0c). 6192x4128. Christchurch, Nova Zelândia."
+ },
+ {
+  "nome": "cap10-hero",
+  "id": "599L6X_Vogo",
+  "url": "https://images.unsplash.com/photo-1768385592801-94eb1d78860f",
+  "fotografo": "Phil Hearing",
+  "perfil": "https://unsplash.com/@philhearing",
+  "desc": "Riscos de luz dourada sobre fundo escuro, close extremo quase abstrato. Dominante #262626. Aprovada no topico textures-patterns. E a imagem que se desfaz em barras verticais na abertura do Capitulo 10."
+ },
+ {
+  "nome": "cap10-banheiro",
+  "id": "RxaCpvl3N0E",
+  "url": "https://images.unsplash.com/photo-1685949546169-0d6e2505acae",
+  "fotografo": "Igal Ness",
+  "perfil": "https://unsplash.com/@igalness",
+  "desc": "Chuveiro jogando agua contra parede de azulejo, em contraluz. Cartao do Anuncio 01, o que mostra o banheiro."
+ },
+ {
+  "nome": "cap10-conversa",
+  "id": "aWHpV-ocThE",
+  "url": "https://images.unsplash.com/photo-1551612084-0fdf19cb8f72",
+  "fotografo": "Alex Suprun",
+  "perfil": "https://unsplash.com/@sooprun",
+  "desc": "Duas pessoas no sofa, uma esticando o celular para mostrar a tela para a outra. Marrom e mostarda, roupa comum, luz de casa. Dominante #735940. E o mecanismo do anuncio no proprio quadro: alguem mostrando uma tela para alguem. Quarta tentativa deste cartao: antes vieram uma rua a noite escura demais, um estudio de fundo amarelo e azul, um ensaio editorial de moda que o Arthur achou sexy demais para o contexto, e uma sala em plano geral onde as pessoas sumiam."
+ },
+ {
+  "nome": "cap10-distancia",
+  "id": "kIOMj6L7EAo",
+  "url": "https://images.unsplash.com/photo-1697462248416-9671bbbf60ce",
+  "fotografo": "Clay Banks",
+  "perfil": "https://unsplash.com/@claybanks",
+  "desc": "Cabana em A vista de cima, sozinha, com a floresta inteira em volta. Mostra a construcao e o espaco ao redor no mesmo quadro, que e o argumento do anuncio. Substituiu um galpao num campo vazio, que tinha ar de lugar abandonado. Cartao do Anuncio 03, silencio em numeros."
+ }
+]

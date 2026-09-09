@@ -1,0 +1,1325 @@
+/* =========================================================================
+   ESTUDO: HOSPEDAGEM DE EXPERIENCIA
+   Impulse Performance
+
+   Sistema de design cruzado a partir de duas propostas independentes:
+   escala tipografica e drama do editorial, ritmo vertical e pontos de
+   quebra do compacto.
+
+   Paleta ancorada em Son Daven (taupe sobre carvao) e Amrit Palace
+   (dourado sobre carvao), com um unico acento saturado.
+   ========================================================================= */
+
+/* -------------------------------------------------------------------------
+   1. TOKENS
+   ------------------------------------------------------------------------- */
+
+:root {
+  /* ---- Cor ---- */
+  --carvao:          #242019;  /* fundo dominante */
+  --carvao-alto:     #2C2721;  /* cartao, superficie elevada */
+  --carvao-fundo:    #1C1914;  /* poco, faixa mais funda */
+  --creme:           #EFE7DA;  /* texto corrido, 14.2:1 sobre carvao */
+  --taupe:           #A89474;  /* estrutura, filete, detalhe, 5.53:1 */
+  --texto-apoio:     #9A9080;  /* texto pequeno secundario, 5.17:1 */
+  --silenciado:      #7A7264;  /* SO filete e texto grande, 3.33:1 */
+  --verde-profundo:  #2E3A2E;  /* fundo dos momentos de natureza */
+  --ambar:           #F2A73B;  /* a unica cor saturada, 8.02:1 */
+
+  /* Regra do ambar: CTA, numeros dos indicadores, e uma palavra por
+     capitulo. Nada alem disso. */
+
+  --linha:           color-mix(in srgb, var(--taupe) 24%, transparent);
+  --linha-forte:     color-mix(in srgb, var(--taupe) 45%, transparent);
+  --veu:             color-mix(in srgb, var(--carvao) 72%, transparent);
+
+  /* ---- Tipografia ---- */
+  --f-titulo: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --f-corpo:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --f-mono:   "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  --t-display-hero: clamp(3rem, 11vw, 9rem);
+  --t-display:      clamp(2.5rem, 7.5vw, 6rem);
+  --t-titulo:       clamp(1.875rem, 4.6vw, 3.5rem);
+  --t-secao:        clamp(1.375rem, 2.8vw, 2rem);
+  --t-cartao:       clamp(1.0625rem, 1.5vw, 1.3125rem);
+  --t-citacao:      clamp(1.3125rem, 2.5vw, 1.875rem);
+  --t-corpo-lg:     clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
+  --t-corpo:        clamp(1rem, 0.97rem + 0.2vw, 1.0625rem);
+  --t-corpo-sm:     clamp(0.875rem, 0.85rem + 0.1vw, 0.9375rem);
+  --t-rotulo:       clamp(0.6875rem, 0.66rem + 0.12vw, 0.75rem);
+  --t-fonte-ano:    clamp(0.6875rem, 0.67rem + 0.08vw, 0.75rem);
+  --t-numero:       clamp(2.75rem, 8.5vw, 5.5rem);
+  --t-numero-sm:    clamp(1.375rem, 2.6vw, 1.875rem);
+  --t-preloader:    clamp(3.5rem, 15vw, 9rem);
+  --t-botao:        clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+
+  --lh-apertado: 0.94;
+  --lh-titulo:   1.06;
+  --lh-secao:    1.18;
+  --lh-corpo:    1.68;
+  --lh-denso:    1.5;
+
+  --ls-display: -0.032em;
+  --ls-titulo:  -0.02em;
+  --ls-corpo:   0.003em;
+  --ls-rotulo:  0.15em;
+  --ls-botao:   0.12em;
+
+  /* ---- Espaco ---- */
+  --e-1:  0.25rem;
+  --e-2:  0.5rem;
+  --e-3:  0.75rem;
+  --e-4:  1rem;
+  --e-5:  1.5rem;
+  --e-6:  2rem;
+  --e-7:  2.75rem;   /* tambem o alvo minimo de toque */
+  --e-8:  4rem;
+  --e-9:  6rem;
+
+  --ar-paragrafo: clamp(1rem, 1.6vw, 1.5rem);
+  --ar-bloco:     clamp(1.75rem, 3.5vw, 3.25rem);
+  --ar-capitulo:  clamp(3.5rem, 7vw, 7.5rem);
+  --ar-silencio:  clamp(5rem, 11vw, 10rem);
+  --margem:       clamp(1.25rem, 5vw, 4rem);
+  --goteira:      clamp(0.75rem, 2vw, 1.5rem);
+
+  /* ---- Largura ---- */
+  --l-texto:    min(100%, 36rem);
+  --l-estreita: min(100%, 30rem);
+  --l-titulo:   min(100%, 22ch);
+  --l-citacao:  min(100%, 28rem);
+  --l-cartao:   min(100%, 22rem);
+  --l-conteudo: min(100%, 68rem);
+  --l-larga:    min(100%, 82rem);
+  --l-max:      76rem;
+
+  /* ---- Tempo ---- */
+  --d-linha:     800ms;
+  --d-contador: 1600ms;
+  --d-toque:      90ms;
+  --d-hover:     170ms;
+  --d-estado:    280ms;
+  --d-abrir:     320ms;
+  --d-cortina:   560ms;
+
+  --c-saida:    cubic-bezier(0.16, 1, 0.30, 1);
+  --c-suave:    cubic-bezier(0.33, 1, 0.68, 1);
+  --c-simetro:  cubic-bezier(0.65, 0, 0.35, 1);
+  --c-padrao:   cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---- Grade ---- */
+  --colunas: 4;
+
+  color-scheme: dark;
+}
+
+@media (min-width: 768px)  { :root { --colunas: 8;  } }
+@media (min-width: 1024px) { :root { --colunas: 12; } }
+
+/* Celular em pe com tela curta: capitulo de tela cheia com respiro grande
+   empurra a primeira frase para fora da dobra. */
+@media (max-height: 660px) {
+  :root { --ar-capitulo: clamp(3rem, 9vw, 6rem); --ar-silencio: 6rem; }
+}
+
+/* -------------------------------------------------------------------------
+   2. BASE
+   ------------------------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  /* clip e nao hidden: hidden mata o position sticky do ScrollTrigger */
+  overflow-x: clip;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--carvao);
+  color: var(--creme);
+  font-family: var(--f-corpo);
+  font-size: var(--t-corpo);
+  line-height: var(--lh-corpo);
+  letter-spacing: var(--ls-corpo);
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+/* Lenis assume o scroll; sem ele o nativo continua funcionando */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+img, svg, video { max-width: 100%; display: block; }
+img { height: auto; }
+
+h1, h2, h3, h4, p, figure, blockquote { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.22em; }
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ambar);
+  outline-offset: 3px;
+  border-radius: 2px;
+  transition: outline-color var(--d-toque) var(--c-padrao);
+}
+
+::selection { background: var(--ambar); color: var(--carvao); }
+
+/* -------------------------------------------------------------------------
+   3. GRAO
+   O que separa "tela preta" de "papel fotografico". Duas linhas de custo.
+   ------------------------------------------------------------------------- */
+
+.grao {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* -------------------------------------------------------------------------
+   4. PRELOADER
+   Teto real de 1,2s. Se os recursos vierem antes, ele sai antes.
+   ------------------------------------------------------------------------- */
+
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: end;
+  padding: var(--margem);
+  padding-bottom: clamp(2rem, 6vw, 4rem);
+  background: var(--carvao-fundo);
+  will-change: clip-path;
+}
+
+.preloader[hidden] { display: none; }
+
+.preloader__frase {
+  grid-row: 1;
+  align-self: end;
+  max-width: var(--l-estreita);
+  font-family: var(--f-titulo);
+  font-size: var(--t-corpo-lg);
+  font-weight: 300;
+  line-height: 1.4;
+  color: var(--taupe);
+}
+
+.preloader__contador {
+  grid-row: 2;
+  justify-self: end;
+  font-family: var(--f-mono);
+  font-size: var(--t-preloader);
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+  color: var(--creme);
+}
+
+.preloader__contador::after { content: "%"; font-size: 0.32em; vertical-align: super; color: var(--taupe); }
+
+/* -------------------------------------------------------------------------
+   5. PRIMITIVAS DE LAYOUT
+   ------------------------------------------------------------------------- */
+
+.env {
+  width: 100%;
+  max-width: var(--l-max);
+  margin-inline: auto;
+  padding-inline: var(--margem);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(var(--colunas), minmax(0, 1fr));
+  gap: var(--goteira);
+}
+
+/* minmax(0,1fr) acima e obrigatorio: sem ele numero mono grande e imagem
+   larga estouram a coluna e criam rolagem horizontal acidental. */
+
+/* As quatro figuras em sangria sao filhas diretas de section.capitulo, que
+   nao tem recuo lateral. Entao 100% ja e sangria completa. Com 100vw a
+   barra de rolagem entra na conta, a imagem sai 7,5px fora de centro e a
+   pagina passa a declarar largura maior que a janela. */
+.sangria {
+  width: 100%;
+  margin-inline: 0;
+}
+
+.capitulo {
+  position: relative;
+  padding-block: var(--ar-capitulo);
+}
+
+.capitulo--silencio { padding-block: var(--ar-silencio); }
+
+.texto { max-width: var(--l-texto); }
+.texto > * + * { margin-top: var(--ar-paragrafo); }
+
+.bloco + .bloco { margin-top: var(--ar-bloco); }
+
+/* Ate 1024px cada bloco ocupa a grade inteira. Sem esta declaracao o filho
+   cai em uma coluna de quatro, o titulo quebra palavra por palavra e a
+   mascara de linha corta a palavra no meio. Era o bug do celular. */
+.capitulo__corpo,
+.capitulo__titulo,
+.capitulo__margem { grid-column: 1 / -1; }
+
+/* Composicao editorial fixa: rotulo na margem, titulo a esquerda,
+   texto deslocado. Repetida em dez capitulos, e o que cria unidade. */
+@media (min-width: 1024px) {
+  .capitulo__corpo { grid-column: 3 / span 8; }
+  .capitulo__titulo { grid-column: 1 / span 9; }
+  .capitulo__margem { grid-column: 11 / span 2; }
+}
+
+/* -------------------------------------------------------------------------
+   6. TIPOGRAFIA
+   ------------------------------------------------------------------------- */
+
+.display-hero,
+.display,
+.titulo,
+.secao {
+  font-family: var(--f-titulo);
+  font-optical-sizing: auto;
+  text-wrap: balance;
+}
+
+.display-hero {
+  font-size: var(--t-display-hero);
+  font-weight: 300;
+  line-height: 0.9;
+  letter-spacing: var(--ls-display);
+  max-width: var(--l-titulo);
+  font-variation-settings: "SOFT" 0, "WONK" 1;
+}
+
+.display {
+  font-size: var(--t-display);
+  font-weight: 300;
+  line-height: var(--lh-apertado);
+  letter-spacing: var(--ls-display);
+  max-width: var(--l-titulo);
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+}
+
+.titulo {
+  font-size: var(--t-titulo);
+  font-weight: 400;
+  line-height: var(--lh-titulo);
+  letter-spacing: var(--ls-titulo);
+  max-width: 24ch;
+}
+
+.secao {
+  font-size: var(--t-secao);
+  font-weight: 500;
+  line-height: var(--lh-secao);
+  letter-spacing: -0.012em;
+}
+
+.citacao {
+  font-family: var(--f-titulo);
+  font-size: var(--t-citacao);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.3;
+  letter-spacing: -0.014em;
+  max-width: var(--l-citacao);
+  padding-left: var(--e-5);
+  border-left: 1px solid var(--taupe);
+}
+
+.corpo-lg { font-size: var(--t-corpo-lg); line-height: 1.55; }
+.corpo-sm { font-size: var(--t-corpo-sm); line-height: var(--lh-denso); color: var(--texto-apoio); }
+
+.rotulo {
+  font-family: var(--f-mono);
+  font-size: var(--t-rotulo);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: var(--ls-rotulo);
+  text-transform: uppercase;
+  color: var(--texto-apoio);
+}
+
+.fonte-ano {
+  font-family: var(--f-mono);
+  font-size: var(--t-fonte-ano);
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  color: var(--texto-apoio);
+}
+
+.ambar { color: var(--ambar); }
+
+/* Revelacao palavra por palavra. Mesma logica da mascara de linha:
+   o respiro embaixo existe para a perna do g nao ser cortada, e o JS
+   solta o corte quando a animacao termina. */
+.palavra-caixa {
+  display: inline-block;
+  overflow: clip;
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
+}
+.palavra-caixa > span { display: inline-block; will-change: transform; }
+
+/* Mascara de revelacao por linha. O JS envolve cada linha em .linha > span */
+.linha { display: block; overflow: clip; padding-bottom: 0.14em; margin-bottom: -0.14em; }
+.linha > span { display: block; will-change: transform; }
+
+/* -------------------------------------------------------------------------
+   7. DIVISOR
+   ------------------------------------------------------------------------- */
+
+.divisor {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  margin-block: var(--e-9);
+  background: linear-gradient(90deg, transparent, var(--linha) 18%, var(--linha) 82%, transparent);
+}
+
+.divisor--marca {
+  height: auto;
+  background: none;
+  display: grid;
+  place-items: center;
+  color: var(--silenciado);
+}
+
+/* -------------------------------------------------------------------------
+   8. PARALLAX
+   ------------------------------------------------------------------------- */
+
+.palco {
+  position: relative;
+  overflow: clip;
+  isolation: isolate;
+}
+
+.camada {
+  position: absolute;
+  inset: -12% 0;
+  z-index: -1;
+}
+
+.camada img { width: 100%; height: 100%; object-fit: cover; }
+
+.palco::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(to top,
+      var(--carvao) 0%,
+      color-mix(in srgb, var(--carvao) 88%, transparent) 32%,
+      color-mix(in srgb, var(--carvao) 46%, transparent) 66%,
+      transparent 100%),
+    linear-gradient(to right,
+      color-mix(in srgb, var(--carvao) 90%, transparent) 0%,
+      color-mix(in srgb, var(--carvao) 55%, transparent) 46%,
+      transparent 80%),
+    linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24));
+}
+
+/* O capitulo 1 poe texto sobre a parte acesa da foto, na metade superior,
+   onde o veu padrao ja e transparente. Aqui a cobertura minima e 72% de
+   carvao: com a imagem a 76% de brilho, e o que leva o creme a 5:1. */
+/* Vale para todo capitulo com texto sobre foto (1, 8 e 10).
+   As figuras puras, sem texto, ficam com o veu leve padrao. */
+.capitulo.palco::after {
+  background:
+    linear-gradient(to top,
+      var(--carvao) 0%,
+      color-mix(in srgb, var(--carvao) 80%, transparent) 45%,
+      color-mix(in srgb, var(--carvao) 64%, transparent) 100%),
+    linear-gradient(to right,
+      color-mix(in srgb, var(--carvao) 70%, transparent) 0%,
+      color-mix(in srgb, var(--carvao) 30%, transparent) 60%,
+      transparent 100%),
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+}
+
+
+
+/* -------------------------------------------------------------------------
+   9. INDICADORES
+   ------------------------------------------------------------------------- */
+
+.indicadores {
+  display: grid;
+  gap: var(--e-6) var(--goteira);
+  grid-template-columns: 1fr;
+  max-width: var(--l-larga);
+}
+
+@media (min-width: 480px)  { .indicadores { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .indicadores { grid-template-columns: repeat(4, 1fr); } }
+
+.indicador__numero {
+  font-family: var(--f-mono);
+  font-size: var(--t-numero);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ambar);
+}
+
+.indicador__legenda { margin-top: var(--e-3); max-width: 24ch; }
+.indicador__fonte   { margin-top: var(--e-2); }
+
+/* -------------------------------------------------------------------------
+   10. TRILHO HORIZONTAL (capitulo dos medos)
+   Sem JS vira flex rolavel com snap. Abaixo de 1024px, empilhamento.
+   ------------------------------------------------------------------------- */
+
+.trilho {
+  display: flex;
+  flex-direction: column;
+  gap: var(--e-6);
+}
+
+.trilho__painel {
+  max-width: var(--l-cartao);
+  padding: var(--e-5);
+  background: var(--carvao-alto);
+  border: 1px solid var(--linha);
+}
+
+@media (min-width: 1024px) {
+  .trilho {
+    flex-direction: row;
+    gap: clamp(1.5rem, 3vw, 3rem);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .trilho::-webkit-scrollbar { display: none; }
+  .trilho__painel {
+    flex: 0 0 min(78vw, 26rem);
+    max-width: none;
+    padding: var(--e-6);
+    scroll-snap-align: center;
+  }
+  /* Com JS o ScrollTrigger fixa a secao e empurra o trilho */
+  .js-trilho-ativo .trilho { overflow: visible; }
+}
+
+/* -------------------------------------------------------------------------
+   GRAFICO DO RISCO (capitulo 5)
+   O diagrama e a lista de degraus abaixo dele sao a mesma informacao em dois
+   formatos. Apontar para um acende o outro: e isso que transforma o desenho
+   em coisa navegavel, em vez de ilustracao parada.
+   ------------------------------------------------------------------------- */
+
+.risco__alvos rect {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.risco__detalhe {
+  opacity: 0;
+  transition: opacity var(--d-estado) var(--c-saida);
+  pointer-events: none;
+}
+
+.risco__detalhe[data-ativo] { opacity: 1; }
+
+.risco__guia {
+  stroke: var(--ambar);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+  opacity: 0.55;
+}
+
+.risco__halo {
+  fill: none;
+  stroke: var(--ambar);
+  stroke-width: 1.5;
+  opacity: 0.7;
+}
+
+.risco__nota {
+  fill: var(--creme);
+  font-family: var(--f-mono);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-anchor: middle;
+  paint-order: stroke;
+  /* Contorno na cor do fundo, porque a nota cruza a escada e as grades.
+     Em 4px ele engrossava demais e comia a haste das letras, que na mono
+     sao finas. 2,5px abre o suficiente sem apagar o desenho da letra. */
+  stroke: var(--carvao);
+  stroke-width: 2.5px;
+  stroke-linejoin: round;
+}
+
+/* Com um degrau aceso, os outros recuam. Sem escurecer os vizinhos o olho
+   nao sabe para onde ir, e a interacao nao comunica nada. */
+.degraus[data-algum-ativo] .degrau { opacity: 0.38; }
+.degraus[data-algum-ativo] .degrau[data-ativo] { opacity: 1; }
+
+.degrau {
+  transition: opacity var(--d-estado) var(--c-saida),
+              border-top-color var(--d-estado) var(--c-saida);
+  cursor: pointer;
+}
+
+.degrau[data-ativo] { border-top-color: var(--ambar); }
+
+/* Degraus do capitulo 5: o que a escada do grafico quer dizer, em texto */
+.degraus {
+  display: grid;
+  gap: var(--e-4);
+  max-width: var(--l-larga);
+  counter-reset: degrau;
+}
+
+@media (min-width: 768px)  { .degraus { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--e-5); } }
+@media (min-width: 1024px) { .degraus { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.degrau {
+  padding: var(--e-4) 0 0;
+  border-top: 2px solid var(--linha);
+}
+
+/* cada degrau um pouco mais aceso que o anterior, ecoando a subida da escada */
+.degrau:nth-child(2) { border-top-color: color-mix(in srgb, var(--ambar) 30%, var(--linha)); }
+.degrau:nth-child(3) { border-top-color: color-mix(in srgb, var(--ambar) 60%, var(--linha)); }
+.degrau:nth-child(4) { border-top-color: var(--ambar); }
+
+.degrau .rotulo { color: var(--creme); }
+.degrau .corpo-sm { margin-top: var(--e-3); }
+
+/* -------------------------------------------------------------------------
+   11. EQUACAO DO VALOR
+   ------------------------------------------------------------------------- */
+
+.equacao {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--e-2);
+  max-width: var(--l-larga);
+}
+
+@media (min-width: 768px)  { .equacao { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+
+.variavel {
+  padding: var(--e-4);
+  border: 1px solid var(--linha);
+  text-align: left;
+  min-height: var(--e-7);
+  transition:
+    border-color var(--d-hover) var(--c-suave),
+    background-color var(--d-hover) var(--c-suave),
+    color var(--d-hover) var(--c-suave);
+}
+
+.variavel:hover,
+.variavel:focus-visible,
+.variavel[aria-expanded="true"] {
+  border-color: var(--linha-forte);
+  background: var(--carvao-alto);
+}
+
+.variavel__nome { font-family: var(--f-titulo); font-size: var(--t-cartao); font-weight: 500; }
+.variavel__texto {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--d-abrir) var(--c-saida);
+}
+.variavel__texto > div { overflow: hidden; }
+.variavel[aria-expanded="true"] .variavel__texto { grid-template-rows: 1fr; }
+
+/* -------------------------------------------------------------------------
+   12. ALTERNADOR (a decisao de duas pessoas)
+   ------------------------------------------------------------------------- */
+
+.alternador { display: inline-flex; border: 1px solid var(--linha); }
+
+.alternador__botao {
+  font-family: var(--f-mono);
+  font-size: var(--t-botao);
+  font-weight: 500;
+  letter-spacing: var(--ls-botao);
+  text-transform: uppercase;
+  padding: var(--e-3) var(--e-5);
+  min-height: var(--e-7);
+  color: var(--texto-apoio);
+  transition: color var(--d-estado) var(--c-suave), background-color var(--d-estado) var(--c-suave);
+}
+
+.alternador__botao[aria-selected="true"] { color: var(--carvao); background: var(--taupe); }
+
+.painel-lado[hidden] { display: none; }
+
+/* -------------------------------------------------------------------------
+   13. AUTODIAGNOSTICO
+   ------------------------------------------------------------------------- */
+
+.diagnostico { max-width: var(--l-conteudo); }
+
+.pergunta {
+  padding-block: var(--e-5);
+  border-top: 1px solid var(--linha);
+  display: grid;
+  gap: var(--e-4);
+}
+
+@media (min-width: 768px) {
+  .pergunta { grid-template-columns: 1fr auto; align-items: start; column-gap: var(--e-6); }
+}
+
+.pergunta__acoes { display: flex; gap: var(--e-2); }
+
+.pergunta__botao {
+  font-family: var(--f-mono);
+  font-size: var(--t-botao);
+  font-weight: 500;
+  letter-spacing: var(--ls-botao);
+  text-transform: uppercase;
+  min-width: 5rem;
+  min-height: var(--e-7);
+  border: 1px solid var(--linha);
+  color: var(--texto-apoio);
+  transition: all var(--d-toque) var(--c-padrao);
+}
+
+.pergunta__botao[aria-pressed="true"] { color: var(--carvao); background: var(--creme); border-color: var(--creme); }
+
+.pergunta__leitura {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--d-abrir) var(--c-saida);
+  grid-column: 1 / -1;
+}
+.pergunta__leitura > div { overflow: hidden; }
+.pergunta.esta-aberta .pergunta__leitura { grid-template-rows: 1fr; }
+
+.placar { margin-top: var(--e-8); padding-top: var(--e-6); border-top: 1px solid var(--linha-forte); }
+.placar__numero {
+  font-family: var(--f-mono);
+  font-size: var(--t-numero-sm);
+  font-variant-numeric: tabular-nums;
+  color: var(--ambar);
+}
+
+/* -------------------------------------------------------------------------
+   14. REVELACAO (abertura do capitulo 10)
+   A unica secao clara do site inteiro. Fundo creme, tinta carvao. Inverter a
+   paleta uma vez so, bem no lugar onde o estudo vira peca, e o que faz o
+   corte doer. Repetir isso em outro capitulo mata o efeito.
+
+   Sao tres estagios amarrados ao scroll: a foto se desfaz em barras
+   verticais, aparece o titulo, entram as tres cartas. Acima de 1024px a
+   secao fica fixa enquanto isso acontece. Abaixo disso nao fixa nada,
+   porque tres cartas mais titulo nao cabem em 100svh de celular.
+   ------------------------------------------------------------------------- */
+
+.revelacao {
+  --tinta: var(--carvao);
+  /* 6,14:1 sobre o creme, medido. E o unico apoio claro do site. */
+  --tinta-apoio: #5A5347;
+  --linha-clara: rgba(36, 32, 25, 0.18);
+
+  position: relative;
+  width: 100%;
+  background: var(--creme);
+  color: var(--tinta);
+}
+
+/* A faixa clara encosta na borda de cima do capitulo, sem respiro escuro
+   entre o fim do capitulo 9 e o comeco dela. */
+.capitulo--revelacao { padding-top: 0; }
+
+/* A emenda de saida. Sem ela o creme acaba de uma vez e a volta ao carvao
+   aparece como corte de tela, nao como passagem. Na entrada nao existe
+   emenda porque o hero ja e escuro: o capitulo 9 escuro encontra uma foto
+   escura, e quem apresenta o creme e a propria dissolucao. */
+.emenda--saida {
+  width: 100%;
+  height: clamp(6rem, 22svh, 14rem);
+  background: linear-gradient(to bottom, var(--creme), var(--carvao));
+}
+
+.revelacao__palco {
+  position: relative;
+  overflow: clip;
+}
+
+/* ---- Estagio 1: a foto e as barras ---- */
+
+/* Sem JS o hero e so uma faixa de imagem, em fluxo normal, e o conteudo vem
+   embaixo. Nada quebra, so nao tem dissolucao. */
+.revelacao__hero {
+  position: relative;
+  height: clamp(15rem, 45vh, 26rem);
+  overflow: clip;
+  /* Ancora a unidade cqw usada pelas fatias. Sem isso cada fatia teria que
+     se medir em porcentagem da propria barra, e o arredondamento de
+     subpixel abre uma costura clara entre uma barra e a seguinte. */
+  container-type: inline-size;
+}
+
+.revelacao__hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Quando o JS nao assume, seja por movimento reduzido, por script desligado
+   ou por largura de celular, a foto entra como faixa e sem o veu do gesto 8.
+   Sem isto ela aparece de uma vez logo depois do capitulo 9, que e escuro e
+   chapado, e a passagem vira corte. Este degrade faz a borda de cima nascer
+   do mesmo carvao. E CSS puro: vale mesmo sem uma linha de JavaScript. */
+.revelacao:not(.js-revelacao-ativa) .revelacao__hero::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 55%;
+  z-index: 4;
+  pointer-events: none;
+  background: linear-gradient(to bottom, var(--carvao) 4%, transparent);
+}
+
+.revelacao__barra {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: clip;
+  will-change: transform, opacity;
+}
+
+/* O veu da entrada. O capitulo 9 e escuro e chapado, e a foto entrava
+   pronta, de uma vez, na largura inteira da tela. Com o veu ela nasce do
+   mesmo escuro em que o capitulo 9 termina, ao longo de uma tela inteira de
+   rolagem, e chega inteira bem na hora em que a secao trava.
+
+   Nasce transparente no CSS de proposito: quem o acende e o GSAP. Sem JS ou
+   com movimento reduzido ele nunca aparece, e nao ha o que apagar. */
+.revelacao__veu {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background: var(--carvao);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* A fatia e a foto inteira, recuada para que a barra mostre so o seu pedaco.
+   Largura e recuo saem em cqw, ou seja, em porcentagem do hero, e nao da
+   barra. Duas consequencias boas: todas as fatias tem exatamente a mesma
+   caixa, entao o background-size: cover recorta igual em todas; e a barra
+   pode crescer 1px para cobrir a costura sem mover a foto um milimetro.
+   O recuo em cqw e escrito pelo JS, junto com a largura da barra. */
+.revelacao__fatia {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100cqw;
+  background-image: var(--foto);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ---- Estagio 2 e 3: titulo e cartas ---- */
+
+.revelacao__conteudo {
+  position: relative;
+  z-index: 1;
+  padding-block: var(--ar-capitulo);
+}
+
+.revelacao__selo {
+  color: var(--tinta-apoio);
+  margin-bottom: var(--e-4);
+}
+
+.revelacao__titulo {
+  color: var(--tinta);
+  max-width: 16ch;
+}
+
+/* O final seco do titulo. Fica em corpo, nao em display, porque a frase
+   curta depois da frase grande e o que faz o titulo aterrissar. */
+.revelacao__linha {
+  margin-top: var(--e-5);
+  font-size: var(--t-corpo-lg);
+  color: var(--tinta-apoio);
+}
+
+.revelacao__cartas {
+  display: grid;
+  gap: var(--ar-bloco);
+  margin-top: var(--ar-capitulo);
+}
+
+.carta {
+  position: relative;
+  margin: 0;
+  overflow: clip;
+  background: var(--creme);
+  box-shadow: 0 18px 40px rgba(36, 32, 25, 0.18);
+  /* piso de altura no celular: em 4/3 puro o resumo fechava no limite exato
+     da carta, sem folga nenhuma para variacao de fonte */
+  min-height: 17.5rem;
+}
+
+/* No celular a proporcao e mais alta que a da foto original. Nao e estetica:
+   o resumo precisa caber por dentro da carta, e em 3/2 a 375px o texto
+   estourava a altura. */
+.carta img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* O resumo do anuncio, por cima da foto. Nao e janela, nao e dialogo, nao
+   prende o foco nem trava a rolagem: e a propria carta virando texto. Por
+   isso o "+" gira e vira "x", que e o mesmo sinal do acordeao do rodape. */
+.carta__resumo {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: end;
+  gap: var(--e-3);
+  padding: var(--e-5);
+  padding-right: calc(var(--e-7) + var(--e-5));
+  /* opaco onde tem texto, aberto em cima, para a foto continuar sendo lida
+     por tras do resumo. Se cobrir tudo, vira cartão de texto e a carta
+     deixa de ser foto. */
+  background: linear-gradient(to top, rgba(28, 25, 20, 0.95) 58%, rgba(28, 25, 20, 0.38));
+  color: var(--creme);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity var(--d-abrir) var(--c-saida),
+    visibility var(--d-abrir) var(--c-saida);
+}
+
+.carta__mais[aria-expanded="true"] ~ .carta__resumo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.carta__resumo .rotulo { color: var(--taupe); }
+
+.carta__resumo-texto {
+  font-size: var(--t-corpo-sm);
+  line-height: var(--lh-denso);
+}
+
+.carta__link {
+  position: relative;
+  justify-self: start;
+  font-family: var(--f-mono);
+  font-size: var(--t-rotulo);
+  letter-spacing: var(--ls-rotulo);
+  text-transform: uppercase;
+  color: var(--taupe);
+  text-decoration-color: var(--linha-forte);
+  padding-block: var(--e-2);
+}
+
+/* Mesma solucao dos links do rodape: o link tem 38px de altura, o criterio
+   pede 44, e crescer a caixa empurraria o resumo inteiro. A area de toque
+   cresce por fora. */
+.carta__link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: max(100%, 44px);
+  height: 44px;
+}
+
+/* Com o resumo aberto o selo sai, senao ele briga com o rotulo de dentro */
+.carta__mais[aria-expanded="true"] ~ .carta__selo { opacity: 0; }
+.carta__selo { transition: opacity var(--d-abrir) var(--c-saida); }
+
+.carta__selo {
+  position: absolute;
+  left: var(--e-4);
+  bottom: var(--e-4);
+  font-family: var(--f-mono);
+  font-size: var(--t-rotulo);
+  font-weight: 500;
+  letter-spacing: var(--ls-rotulo);
+  text-transform: uppercase;
+  color: var(--creme);
+  /* a foto por baixo varia, entao o selo carrega o proprio fundo */
+  background: rgba(36, 32, 25, 0.82);
+  padding: var(--e-2) var(--e-3);
+}
+
+.carta__mais {
+  position: absolute;
+  z-index: 2;
+  right: var(--e-4);
+  bottom: var(--e-4);
+  width: var(--e-7);
+  height: var(--e-7);
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #FFFFFF;
+  color: var(--carvao);
+  box-shadow: 0 4px 14px rgba(36, 32, 25, 0.32);
+  transition: transform var(--d-hover) var(--c-suave);
+}
+
+.carta__mais:hover,
+.carta__mais:focus-visible { transform: scale(1.08); }
+
+.carta__mais svg {
+  width: 42%;
+  height: 42%;
+  transition: transform var(--d-abrir) var(--c-saida);
+}
+
+/* o mais vira x, o mesmo sinal do acordeao */
+.carta__mais[aria-expanded="true"] svg { transform: rotate(45deg); }
+
+@media (min-width: 1024px) {
+  /* Titulo em cima, cartas em linha embaixo. As tres nao se sobrepoem mais:
+     o resumo precisa caber dentro da propria carta, e carta encoberta por
+     outra nao tem onde escrever. */
+  .revelacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100svh;
+  }
+  .revelacao__cabeca {
+    max-width: 44rem;
+    margin-bottom: clamp(2.5rem, 5vh, 5rem);
+  }
+  .revelacao__cartas {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(0.75rem, 1.6vw, 1.75rem);
+    margin-top: 0;
+    align-items: start;
+  }
+
+  /* Cartao deitado, nao em pe. As fotos sao paisagem 3:2; num cartao retrato
+     o object-fit cortava 39% da largura e a cena deixava de se ler, o sofa
+     sumia e sobrava close de gente. Em 4:3 o corte cai para 11%, e a altura
+     acompanha a largura sozinha, sem numero fixo amarrado na janela. */
+  .carta {
+    position: relative;
+    aspect-ratio: 4 / 3;
+  }
+  .carta img { aspect-ratio: auto; }
+
+  /* giros pequenos, so o suficiente para nao parecer grade de catalogo */
+  .carta--1 { rotate: -1.4deg; }
+  .carta--2 { rotate: 1.1deg; }
+  .carta--3 { rotate: -0.7deg; }
+}
+
+/* Com o ScrollTrigger no ar o hero deixa o fluxo e vira a tela inteira, e o
+   conteudo passa a viver por cima dele. Mesmo padrao do trilho do
+   capitulo 4: a classe so entra quando o JS assume. */
+/* O palco fixado carrega o proprio fundo. Sem isso ele fica transparente
+   sobre a viewport e, em qualquer descompasso de medida do ScrollTrigger, o
+   capitulo 9 aparece por tras das barras no meio da dissolucao.
+
+   Altura exata de uma janela, nao min-height. Com min-height o respiro do
+   conteudo somava uns 240px alem da tela, o ScrollTrigger fixava um bloco
+   maior que a viewport, o final ficava para sempre fora de vista e a
+   entrada no pin dava um salto. Era metade do corte entre o 9 e o 10. */
+.js-revelacao-ativa .revelacao__palco {
+  height: 100svh;
+  min-height: 0;
+  background: var(--creme);
+}
+
+.js-revelacao-ativa .revelacao__conteudo {
+  min-height: 100svh;
+  padding-block: 0;
+}
+.js-revelacao-ativa .revelacao__hero {
+  position: absolute;
+  inset: 0;
+  height: auto;
+  z-index: 2;
+  pointer-events: none;
+}
+.js-revelacao-ativa .revelacao__hero img { display: none; }
+
+/* -------------------------------------------------------------------------
+   15. ANUNCIOS (capitulo da pratica)
+   Duas partes por anuncio: a peca de um lado, a razao do outro. So a partir
+   de 1024px, porque abaixo disso lado a lado espreme justamente a copy, que
+   e o que precisa ser lido inteiro. O filete no topo de cada anuncio repete
+   o filete dos degraus do capitulo 5, para o olho reconhecer a familia.
+   ------------------------------------------------------------------------- */
+
+.anuncios {
+  display: grid;
+  gap: var(--ar-bloco);
+  max-width: var(--l-larga);
+}
+
+.anuncio {
+  padding-top: var(--e-5);
+  border-top: 2px solid var(--linha);
+}
+
+.anuncio__cabeca { margin-bottom: var(--e-5); }
+.anuncio__cabeca .secao { margin-top: var(--e-2); }
+
+@media (min-width: 1024px) {
+  .anuncio {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(2rem, 4vw, 4rem);
+    align-items: start;
+  }
+  .anuncio__cabeca { grid-column: 1 / -1; }
+}
+
+/* A peca reusa a caixa do trilho do capitulo 4. E o mesmo objeto: um bloco
+   que se le como cartao, nao como texto corrido. */
+.anuncio__peca {
+  padding: var(--e-5);
+  background: var(--carvao-alto);
+  border: 1px solid var(--linha);
+}
+
+.anuncio__campo + .anuncio__campo { margin-top: var(--e-5); }
+
+/* O rotulo fica no --texto-apoio que ele ja herda. Escurecer para
+   --silenciado aqui derruba o contraste para 3,03:1 sobre --carvao-alto,
+   e rotulo e texto pequeno. Medido, nao estimado. */
+
+/* A copy do anuncio fica na fonte do corpo, nao na de titulo. E a fala dela,
+   nao a voz do estudo, e a diferenca precisa aparecer. Continua um degrau
+   acima da razao ao lado, porque a peca e o que se le primeiro. */
+.anuncio__frase {
+  margin-top: var(--e-2);
+  font-size: var(--t-corpo);
+  line-height: var(--lh-denso);
+  color: var(--creme);
+}
+
+.anuncio__campo .corpo-sm { margin-top: var(--e-2); }
+
+/* Tres linhas grandes, que e o anuncio inteiro do conceito 03 */
+.anuncio__placa {
+  margin-top: var(--e-3);
+  font-family: var(--f-titulo);
+  font-size: var(--t-secao);
+  line-height: 1.28;
+  color: var(--creme);
+}
+
+/* Um corpo abaixo do texto corrido do site. A razao de cada anuncio e nota
+   de rodape do conceito, nao capitulo: no tamanho do corpo ela competia com
+   o argumento e o bloco ficava pesado. */
+.anuncio__razao {
+  margin-top: var(--e-5);
+  font-size: var(--t-corpo-sm);
+  line-height: var(--lh-corpo);
+}
+.anuncio__razao > * + * { margin-top: var(--e-4); }
+
+@media (min-width: 1024px) {
+  .anuncio__razao { margin-top: 0; }
+}
+
+/* A ressalva de metodo. Separada do resto, porque e a parte que sustenta a
+   credibilidade do capitulo inteiro. Filete em taupe, o mesmo da citacao:
+   ambar aqui roubaria a unica palavra acesa do capitulo. */
+.ressalva {
+  border-left: 1px solid var(--taupe);
+  padding-left: var(--e-5);
+  max-width: var(--l-texto);
+}
+.ressalva > * + * { margin-top: var(--ar-paragrafo); }
+
+/* -------------------------------------------------------------------------
+   16. CTA
+   ------------------------------------------------------------------------- */
+
+.cta { padding-block: var(--ar-silencio); text-align: left; }
+
+.cta__botao {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e-3);
+  font-family: var(--f-mono);
+  font-size: var(--t-botao);
+  font-weight: 500;
+  letter-spacing: var(--ls-botao);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--carvao);
+  background: var(--ambar);
+  padding: var(--e-4) var(--e-6);
+  min-height: var(--e-7);
+  transition: transform var(--d-hover) var(--c-suave), filter var(--d-hover) var(--c-suave);
+}
+
+.cta__botao:hover { filter: brightness(1.08); transform: translateY(-2px); }
+.cta__botao:active { transform: translateY(0); }
+
+/* -------------------------------------------------------------------------
+   17. ACORDEAO
+   ------------------------------------------------------------------------- */
+
+.acordeao__item { border-top: 1px solid var(--linha); }
+
+.acordeao__gatilho {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--e-4);
+  text-align: left;
+  padding-block: var(--e-5);
+  min-height: var(--e-7);
+  font-family: var(--f-titulo);
+  font-size: var(--t-cartao);
+  font-weight: 500;
+  transition: color var(--d-hover) var(--c-suave);
+}
+
+.acordeao__gatilho:hover { color: var(--taupe); }
+
+.acordeao__sinal { flex: none; color: var(--taupe); transition: transform var(--d-abrir) var(--c-saida); }
+.acordeao__gatilho[aria-expanded="true"] .acordeao__sinal { transform: rotate(45deg); }
+
+.acordeao__conteudo {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--d-abrir) var(--c-saida);
+}
+.acordeao__conteudo > div { overflow: hidden; }
+.acordeao__gatilho[aria-expanded="true"] + .acordeao__conteudo { grid-template-rows: 1fr; }
+
+/* -------------------------------------------------------------------------
+   18. RODAPE
+   ------------------------------------------------------------------------- */
+
+.rodape { padding-block: var(--e-9) var(--e-8); border-top: 1px solid var(--linha); }
+.rodape__fontes li + li { margin-top: var(--e-3); }
+.rodape__fontes a {
+  color: var(--texto-apoio);
+  position: relative;
+  display: inline-block;
+  padding-block: var(--e-2);
+  text-decoration-color: var(--linha-forte);
+}
+
+/* O link fica com 37px de altura, e o criterio de aceite pede 44 por 44.
+   Crescer o link empurraria a entrelinha da lista inteira, entao a area de
+   toque cresce por fora, sem mexer no que se ve. */
+.rodape__fontes a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: max(100%, 44px);
+  height: 44px;
+}
+.rodape__fontes a:hover { color: var(--taupe); }
+.rodape__assinatura { margin-top: var(--e-8); color: var(--texto-apoio); }
+
+/* -------------------------------------------------------------------------
+   19. PROGRESSO E PULAR
+   ------------------------------------------------------------------------- */
+
+.progresso {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2px;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  background: var(--ambar);
+  z-index: 50;
+  pointer-events: none;
+}
+
+.pular {
+  position: absolute;
+  left: var(--margem);
+  top: 0;
+  transform: translateY(-150%);
+  background: var(--ambar);
+  color: var(--carvao);
+  padding: var(--e-3) var(--e-4);
+  z-index: 110;
+  font-family: var(--f-mono);
+  font-size: var(--t-botao);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-botao);
+  text-decoration: none;
+  transition: transform var(--d-estado) var(--c-saida);
+}
+.pular:focus { transform: translateY(0); }
+
+.so-leitor {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* -------------------------------------------------------------------------
+   20. MOVIMENTO REDUZIDO
+   Entrega a versao estatica, completa e legivel exigida na secao 10 da
+   especificacao. E a mesma versao que aparece com JavaScript desligado.
+   ------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .linha > span { transform: none !important; opacity: 1 !important; }
+  .camada { position: static; inset: auto; transform: none !important; }
+  .progresso { display: none; }
+}
+
+/* Sem JavaScript o texto ja esta no lugar */
+html:not(.js) .linha > span { transform: none; }
+html:not(.js) .preloader { display: none; }
