@@ -1159,8 +1159,26 @@ button {
     min-height: 160svh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
+    /* Encostado embaixo, nao centralizado, e os dois defeitos que isso
+       corrige sao o mesmo numero.
+
+       Centralizado, o titulo caia a 80svh do inicio da secao. Isso o punha
+       DENTRO da tela que a cortina cobre, entao as barras subiam por cima
+       dele; e, quando a cortina saia, ele ficava no alto com um vao vazio
+       de quase uma tela ate as fotos.
+
+       Encostado embaixo ele fica perto de 120svh: abaixo da dobra
+       enquanto a cortina esta em cena, entao nenhuma barra o atravessa, e
+       perto das cartas quando aparece. O recuo de 25svh e o respiro entre
+       o texto e a primeira foto. */
+    justify-content: flex-end;
+    padding-bottom: 25svh;
   }
+
+  /* O respiro ja esta no recuo do cabecalho acima. Somar os dois traz de
+     volta a distancia que estamos tirando. */
+  .js-revelacao-movel .revelacao__cartas { margin-top: 0; }
 }
 
 /* -------------------------------------------------------------------------
