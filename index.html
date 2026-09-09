@@ -23,7 +23,7 @@
      ajuste. Cache-Control do GitHub Pages e de 600s, e ja aconteceu de
      uma correcao parecer nao ter saido quando so estava em cache.
      Subir o numero a cada ajuste de estilo ou de movimento. -->
-<link rel="stylesheet" href="styles.css?v=7">
+<link rel="stylesheet" href="styles.css?v=8">
 
 <!-- Meta Pixel Code -->
 <script>
@@ -42,7 +42,7 @@ src="https://www.facebook.com/tr?id=1605313931100585&ev=PageView&noscript=1" alt
 
 <body>
 
-<a class="pular" href="#capitulo-1">Pular para o estudo</a>
+<a class="pular" href="#capitulo-0">Pular para o estudo</a>
 
 <div class="preloader" aria-hidden="true">
   <p class="preloader__frase">Quarenta segundos. É todo o tempo que ela te dá.</p>
@@ -53,6 +53,41 @@ src="https://www.facebook.com/tr?id=1605313931100585&ev=PageView&noscript=1" alt
 <div class="grao" aria-hidden="true"></div>
 
 <main>
+
+<!-- ===================================================================
+     CAPÍTULO 0 · A PROMESSA
+
+     Cartao de rosto, nao capitulo de leitura. Quem recebe o link pelo
+     WhatsApp nao sabe o que isso e, nem quanto tempo custa, nem o que
+     leva no fim. O capitulo 1 entrega o problema muito bem e nunca
+     respondia nenhuma dessas tres coisas. Isto responde e sai da frente.
+
+     Fica em 88svh de proposito, e nao numa tela cheia: a foto de abertura
+     precisa aparecer por baixo, senao viram duas telas cheias empilhadas
+     antes de qualquer conteudo e a promessa custa o impacto do heroi.
+
+     Nao repete "quarenta segundos". O preloader diz, e o capitulo 1 diz
+     duas vezes. Uma quarta mencao no primeiro minuto vira tique.
+
+     A palavra em ambar esta no texto de apoio, nao na frase grande, e o
+     motivo e tecnico: o gestoLinhas faz textContent e reconstroi o
+     elemento, entao qualquer span dentro de um [data-revelar] se perde.
+     Nenhum [data-revelar] do site tem ambar dentro, e isso nao e acaso.
+     =================================================================== -->
+<section class="capitulo" id="capitulo-0" aria-labelledby="t0"
+         style="min-height:88svh;display:flex;flex-direction:column;justify-content:center">
+  <div class="env">
+    <p class="rotulo">Capítulo 00 &middot; A promessa</p>
+    <h2 class="display" id="t0" data-revelar style="margin-top:var(--e-5);max-width:20ch">No fim desta página você vai entender a decisão dela melhor do que ela mesma.</h2>
+
+    <div class="texto" style="margin-top:var(--ar-bloco)">
+      <p>Onze capítulos, com a <span class="ambar">fonte</span> de cada número aberta no rodapé. Seis perguntas para você responder no meio do caminho. Três anúncios escritos a partir de tudo isso, no fim.</p>
+      <!-- nowrap porque no celular "e-mail" quebrava no hifen e virava
+           "e-" numa linha e "mail" na outra -->
+      <p class="corpo-sm">Vinte minutos de leitura. Nada aqui pede o seu <span style="white-space:nowrap">e-mail</span>.</p>
+    </div>
+  </div>
+</section>
 
 <!-- ===================================================================
      CAPÍTULO 1 · A VIRADA DE PERSPECTIVA
@@ -876,7 +911,7 @@ src="https://www.facebook.com/tr?id=1605313931100585&ev=PageView&noscript=1" alt
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
-<script src="main.js?v=7" defer></script>
+<script src="main.js?v=8" defer></script>
 
 </body>
 </html>
