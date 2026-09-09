@@ -1079,6 +1079,60 @@ button {
 }
 .js-revelacao-ativa .revelacao__hero img { display: none; }
 
+/* ---- A mesma revelacao, na escala do celular ----
+
+   O que estava errado ate 9 de setembro de 2026: no celular a foto era uma
+   faixa de 45vh colada ACIMA do conteudo, e o titulo e as tres cartas
+   vinham depois dela, empilhados. Duas consequencias. A emenda entre a
+   faixa e o creme era um corte reto, e sobretudo a dissolucao nao
+   dissolvia nada: as barras saiam e revelavam a propria foto de base, que
+   continuava visivel porque a regra que a apaga estava presa a classe do
+   desktop. O que aparecia eram copias deslocadas da imagem sobre ela
+   mesma, que o olho le como defeito de carregamento.
+
+   Agora a foto e uma tela que gruda no topo e o conteudo corre POR TRAS
+   dela, que e a relacao do desktop. As barras se desfazem e o capitulo
+   aparece de dentro da foto, em vez de comecar embaixo dela.
+
+   Sticky, e nao pin de ScrollTrigger, de proposito. Pin trava a rolagem, e
+   a regra do projeto e nao prender a tela de quem le em pe no WhatsApp.
+   Com sticky a pagina rola no ritmo normal o tempo inteiro: o que fica
+   parada e so a camada da foto. Ninguem fica presa em lugar nenhum. */
+@media (max-width: 1023px) {
+  /* Sticky nao gruda dentro de ancestral que vira contexto de rolagem. O
+     clip fica no proprio hero, que e quem precisa cortar as barras. */
+  .js-revelacao-movel .revelacao__palco { overflow: visible; }
+
+  .js-revelacao-movel .revelacao__hero {
+    position: sticky;
+    top: 0;
+    height: 100svh;
+    /* Puxa o conteudo para debaixo da foto. Sem isto ele comeca embaixo
+       dela, que e exatamente o defeito que estamos corrigindo. */
+    margin-bottom: -100svh;
+    z-index: 2;
+    /* A camada cobre as cartas o capitulo inteiro. Sem isto o botao "+"
+       de cada carta fica intocavel. */
+    pointer-events: none;
+  }
+
+  /* A foto de base sai de cena e as barras passam a ser a unica forma da
+     imagem. E o que faz existir um "por tras". Fica opacity e nao display
+     para o leitor de tela continuar recebendo a descricao da foto. */
+  .js-revelacao-movel .revelacao__hero img { opacity: 0; }
+
+  /* O cabecalho ocupa a primeira tela, entao ele nasce inteiro atras da
+     foto e aparece conforme ela se desfaz. As cartas vem logo abaixo e
+     atravessam o que sobrou dela. */
+  .js-revelacao-movel .revelacao__conteudo { padding-block-start: 0; }
+  .js-revelacao-movel .revelacao__cabeca {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 /* -------------------------------------------------------------------------
    15. ANUNCIOS (capitulo da pratica)
    Duas partes por anuncio: a peca de um lado, a razao do outro. So a partir

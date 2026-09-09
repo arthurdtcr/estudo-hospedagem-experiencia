@@ -668,7 +668,19 @@
       },
 
       '(max-width: 1023px)': function () {
-        // Sem fixar. As barras se desfazem enquanto a faixa cruza a tela.
+        /* Sem fixar. As barras se desfazem enquanto a faixa cruza a tela.
+
+           A classe e outra, de proposito. A do desktop carrega junto altura
+           de tela cheia e hero fora do fluxo, que no celular nao servem. O
+           que as duas precisam dividir e uma coisa so: apagar a foto de
+           base. Sem isso as barras animam POR CIMA dela, cada uma com a
+           mesma foto dentro, e o que aparece sao copias deslocadas da
+           imagem sobre ela mesma. Alem de parecer defeito, a dissolucao
+           nao acontece: as barras saem e revelam a mesma foto que ja
+           estava ali. Com a foto de base apagada elas revelam o creme, que
+           e o fundo do capitulo, e a faixa escura se desfaz na pagina
+           clara. E a mesma ideia do desktop, na escala do celular. */
+        secao.classList.add('js-revelacao-movel');
         var barras = montaBarras(7);
 
         var st1 = gsap.to(barras, {
@@ -677,11 +689,18 @@
           ease: 'none',
           stagger: { each: 0.05, from: 'edges' },
           scrollTrigger: {
-            trigger: hero,
-            // faixa larga pelo mesmo motivo do desktop: em curso curto a
-            // dissolucao passa antes de o olho registrar que era uma foto
-            start: 'top bottom',
-            end: 'bottom 20%',
+            /* O gatilho e a secao, nao o hero. O hero agora e sticky, e a
+               caixa de um elemento sticky muda de lugar sozinha conforme
+               ele gruda e desgruda: medir por ele devolve numero que anda.
+               A secao fica parada, entao a conta e estavel. */
+            trigger: secao,
+            start: 'top top',
+            /* Faixa larga pelo mesmo motivo do desktop: em curso curto a
+               dissolucao passa antes de o olho registrar que era uma foto.
+               Como o conteudo corre por tras enquanto isso, e essa largura
+               que faz o titulo e a primeira carta atravessarem a foto ainda
+               se desfazendo, em vez de chegarem numa tela ja limpa. */
+            end: '+=180%',
             scrub: 0.5,
             invalidateOnRefresh: true
           }
@@ -694,6 +713,7 @@
         });
 
         return function () {
+          secao.classList.remove('js-revelacao-movel');
           [st1, st2].forEach(function (t) {
             t.scrollTrigger && t.scrollTrigger.kill();
             t.kill();
