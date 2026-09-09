@@ -683,9 +683,21 @@
         secao.classList.add('js-revelacao-movel');
         var barras = montaBarras(7);
 
+        /* SEM OPACIDADE AQUI, e essa e a diferenca que faz o gesto ler.
+
+           No desktop a barra some em opacidade porque atras dela nao tem
+           nada: o palco esta vazio e o titulo so entra depois. No celular
+           tem o capitulo inteiro atras, e barra translucida sobre conteudo
+           nao parece cortina saindo, parece sujeira por cima. Foi o que o
+           Arthur viu: "nao passa a impressao de que estava atras".
+
+           Sem opacidade a barra continua opaca do primeiro ao ultimo
+           quadro e simplesmente sai de cena. O que ela descobre aparece
+           limpo, com borda dura, e o olho le o que aconteceu: a foto
+           estava na frente, saiu, e o que estava atras ficou. O clip do
+           proprio hero engole a barra quando ela passa da borda. */
         var st1 = gsap.to(barras, {
           yPercent: function (i) { return i % 2 === 0 ? -108 : 108; },
-          opacity: 0,
           ease: 'none',
           stagger: { each: 0.05, from: 'edges' },
           scrollTrigger: {
@@ -695,12 +707,12 @@
                A secao fica parada, entao a conta e estavel. */
             trigger: secao,
             start: 'top top',
-            /* Faixa larga pelo mesmo motivo do desktop: em curso curto a
-               dissolucao passa antes de o olho registrar que era uma foto.
-               Como o conteudo corre por tras enquanto isso, e essa largura
-               que faz o titulo e a primeira carta atravessarem a foto ainda
-               se desfazendo, em vez de chegarem numa tela ja limpa. */
-            end: '+=180%',
+            /* Larga o bastante para o olho registrar que aquilo era uma
+               foto, curta o bastante para a cortina ter saido antes de as
+               cartas subirem. Em 180% ela ainda estava saindo quando a
+               primeira carta chegava no meio da tela, e as duas coisas
+               apareciam juntas. */
+            end: '+=110%',
             scrub: 0.5,
             invalidateOnRefresh: true
           }

@@ -1106,10 +1106,26 @@ button {
   .js-revelacao-movel .revelacao__hero {
     position: sticky;
     top: 0;
-    height: 100svh;
+
+    /* lvh, nao svh, e aqui a unidade muda o resultado.
+
+       svh e a MENOR altura possivel da janela, medida com a barra do
+       Safari aberta. Quando a barra encolhe no scroll, a area visivel
+       passa a ser maior que isso e sobra uma faixa creme embaixo da foto,
+       porque a camada acabou antes da tela. Apareceu no aparelho do
+       Arthur em 9 de setembro de 2026.
+
+       lvh e a MAIOR, entao a camada cobre a janela nos dois estados. O
+       excedente vaza para baixo da dobra e ninguem ve, que e o
+       comportamento certo para uma camada que precisa tapar. vh antes
+       como reserva para navegador sem as unidades novas. */
+    height: 100vh;
+    height: 100lvh;
+
     /* Puxa o conteudo para debaixo da foto. Sem isto ele comeca embaixo
        dela, que e exatamente o defeito que estamos corrigindo. */
-    margin-bottom: -100svh;
+    margin-bottom: -100vh;
+    margin-bottom: -100lvh;
     z-index: 2;
     /* A camada cobre as cartas o capitulo inteiro. Sem isto o botao "+"
        de cada carta fica intocavel. */
