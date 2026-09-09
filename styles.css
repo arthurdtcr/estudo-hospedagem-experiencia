@@ -710,10 +710,33 @@ button {
   min-height: var(--e-7);
   border: 1px solid var(--linha);
   color: var(--texto-apoio);
-  transition: all var(--d-toque) var(--c-padrao);
+  /* Propriedades nomeadas, nao `all`. Com `all` o navegador vigia a folha
+     inteira do elemento, inclusive coisas que nunca mudam aqui. */
+  transition:
+    color var(--d-toque) var(--c-padrao),
+    border-color var(--d-toque) var(--c-padrao),
+    background-color var(--d-toque) var(--c-padrao),
+    transform var(--d-toque) var(--c-padrao);
 }
 
 .pergunta__botao[aria-pressed="true"] { color: var(--carvao); background: var(--creme); border-color: var(--creme); }
+
+/* Estes doze botoes sao o lugar mais tocado do site, e ate agora eram os
+   unicos elementos interativos sem nenhuma reacao antes do clique. Num
+   capitulo que pede seis respostas honestas, botao que nao responde ao
+   dedo faz duvidar se a resposta entrou.
+
+   O hover fica atras de (hover: hover) porque no celular o navegador
+   deixa o estado colado depois do toque, e o botao ficaria aceso como se
+   estivesse escolhido. */
+@media (hover: hover) {
+  .pergunta__botao:hover { color: var(--creme); border-color: var(--texto-apoio); }
+  .pergunta__botao[aria-pressed="true"]:hover { filter: brightness(0.93); }
+}
+
+/* O afundar de 3% e o unico retorno que o dedo recebe no celular, onde
+   hover nao existe. */
+.pergunta__botao:active { transform: scale(0.97); }
 
 .pergunta__leitura {
   display: grid;
@@ -948,6 +971,14 @@ button {
   color: var(--taupe);
   text-decoration-color: var(--linha-forte);
   padding-block: var(--e-2);
+  transition:
+    color var(--d-hover) var(--c-suave),
+    text-decoration-color var(--d-hover) var(--c-suave);
+}
+
+/* Unico link dentro das cartas, e o unico que nao acendia. */
+@media (hover: hover) {
+  .carta__link:hover { color: var(--tinta); text-decoration-color: currentColor; }
 }
 
 /* Mesma solucao dos links do rodape: o link tem 38px de altura, o criterio
@@ -1372,7 +1403,13 @@ button {
   width: 100%;
   transform: scaleX(0);
   transform-origin: 0 50%;
-  background: var(--ambar);
+  /* Degrade em vez de ambar chapado. Como a barra cresce por scaleX, o
+     degrade estica junto e o inicio fica sempre discreto, com a cor
+     saturada so na ponta que avanca. Traco chapado de ponta a ponta era o
+     unico elemento da pagina que parecia peca de template. */
+  background: linear-gradient(90deg,
+    color-mix(in srgb, var(--taupe) 55%, transparent),
+    var(--ambar));
   z-index: 50;
   pointer-events: none;
 }
