@@ -1,0 +1,42 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-01T04:10:00Z"
+  },
+  "title": "Impulse Elite",
+  "namespace": "ImpulseElite",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Logos"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "impulse-logo-dourada.jpg"
+      ],
+      "files": {
+        "impulse-logo-dourada.jpg": {
+          "name": "impulse-logo-dourada.jpg",
+          "blob": "9a849d5684a6d1c6607d7758cd8f64d9",
+          "size": 37308,
+          "type": "image/jpeg"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Arthur",
+    "at": "2026-11-01T20:04:30Z",
+    "via": "Claude Code",
+    "note": "v2: formatos e zonas seguras do Instagram, Reels, story interativo, 4 miolos e 1 capa novos, fluxo de briefing, legenda e checklist"
+  }
+}

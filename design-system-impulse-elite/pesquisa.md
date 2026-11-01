@@ -1,0 +1,14 @@
+# Contexto de pesquisa (Instagram, nov/2026), com fontes e ressalvas
+
+- Grade do perfil passou de 1:1 para 3:4 (jan/2025). Post 4:5 (1080x1350) é cortado nas laterais na grade (~34px de cada lado). 3:4 (1080x1440) é aceito como upload e preenche a grade; guias relatam que 3:4 não pode ser impulsionado (não confirmado pela Meta). Todos os slides do carrossel seguem a proporção do primeiro. Carrossel: até 20 slides.
+  Fontes: nealschaffer.com/instagram-post-size, creatorflow.so/blog/instagram-post-size-guide, marketingmalone.com/blog/instagram-size-guide
+- Capa de Reels 1080x1920; a grade 3:4 mostra o centro 1080x1440 (corta ~240px em cima e embaixo). Fontes: hopperhq.com/blog/instagram-reel-size, socialk.it reel covers guide.
+- Zonas seguras: Story ~250px topo e 250 a 340px base (340 com stickers/ads). Reels: números variam por fonte (topo 220-270, base 320-672, direita 120-140 pelos botões). Anúncio Story/Reels: Meta usa 14% topo, 35% base, 6% laterais. Nenhum documento oficial com números exatos para orgânico.
+  Fontes: kreatli.com/guides/safe-zone-guide, campaignswift.com/blog/instagram-safe-zone-sizes, inro.social/blog/instagram-story-size
+- Hashtags: limite de 5 por post/Reels anunciado por Mosseri em dez/2025. Fontes: socialmediatoday.com (808309), blogdumoderateur.com
+- Sinais de ranqueamento citados por Mosseri (jan/2025, repetidos em 2026): tempo de visualização, curtidas por alcance e envios por alcance (DM). Envio pesa mais para não seguidores; curtida para seguidores. Fontes: buffer.com/resources/instagram-algorithms, sproutsocial.com/insights/instagram-algorithm
+- Originalidade (30/abr/2026): contas que majoritariamente repostam foto/carrossel de terceiros saem das recomendações; marca d'água/crédito não bastam; comentário/voz/texto próprio por cima conta como transformação. Fontes: tubefilter.com/2026/04/30/..., petapixel.com/2026/04/30/...
+- Legenda: ~125 caracteres visíveis antes do "mais" (observado, não oficial); 2.200 máx. Busca do Instagram usa palavras da legenda; alt text editável por imagem. Indexação no Google de posts profissionais: alegada, não confirmada.
+- Carrossel: vendors dizem 5-10 slides ideal, gancho curto, slide final pedindo save/share conforme objetivo; indicadores "3/7" reduzem abandono segundo um vendor (não verificado). Instagram pode reexibir carrossel não deslizado com outro slide como capa (alegação de vendor).
+- Claude Design / Design System no Claude: projetos herdam cores, tipografia e componentes do design system; recomenda-se nomear componentes no pedido; o sistema se refina com feedback. Fontes: anthropic.com/news/claude-design-anthropic-labs, support.claude.com/en/articles/14604406
+- Boas práticas de DS para IA: tokens legíveis por máquina (JSON), regras de voz separadas, templates com campos obrigatórios + checagens de aceite, poucos templates bem versionados. Fontes: mindstudio.ai (design tokens para agentes), mydropai.com (brand-safe AI templates)

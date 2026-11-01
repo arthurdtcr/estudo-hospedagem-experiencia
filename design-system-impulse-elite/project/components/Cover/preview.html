@@ -1,0 +1,49 @@
+<!-- @dsCard height=320 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Impulse Elite</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--fundo); color:var(--tinta); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:320px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:320px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:320px; }
+  .gold { fill:var(--destaque); }
+  .medio { fill:var(--ouro-medio); }
+  .deep { fill:var(--borda-elevada); }
+  .ink { fill:var(--tinta); }
+  .rule { stroke:var(--destaque); stroke-width:1.5; fill:none; opacity:.75; }
+  .words { position:absolute; left:48px; bottom:48px; max-width:440px; }
+  .name { margin:0; font-family:var(--font-serif); font-weight:400; font-size:108px; line-height:.95; letter-spacing:-.02em; color:var(--tinta); }
+  .name em { font-style:italic; color:var(--destaque); }
+  .tag { margin:16px 0 0 4px; font-size:14px; line-height:20px; color:var(--tinta-suave); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 320" width="480" height="320">
+<!--
+  blocks      destaque slab 144x288 bled off the top (the gold the brand is known by) · borda-elevada 200x176 with a chanfro-lg corner (bound to borda-elevada, grafite vanishes on preto) · ouro-medio 72x96 with a chanfro-sm corner · tinta strip 72x24 (marfim on Noite, preto on Marfim)
+  arrangement one tall gold slab with satellites, bottoms on one line space-6 above the edge, space-2 gutters
+  pattern     three hairline diagonals at 58 degrees in destaque, the angle of the monogram stroke: an editorial, borders-not-shadows system whose only shape is that diagonal and the cut corner
+  scales      sides in space-1 multiples (144, 288, 200, 176, 72, 96, 24); gutters space-2; bottom inset space-6; corners canto (0) with chanfro-lg 32 and chanfro-sm 16 cuts
+-->
+<rect class="gold" x="24" y="-16" width="144" height="288"/>
+<rect class="ink" x="184" y="48" width="72" height="24"/>
+<polygon class="deep" points="184,96 352,96 384,128 384,272 184,272"/>
+<polygon class="medio" points="400,176 456,176 472,192 472,272 400,272"/>
+<line class="rule" x1="120" y1="320" x2="320" y2="0"/>
+<line class="rule" x1="216" y1="320" x2="416" y2="0"/>
+<line class="rule" x1="312" y1="320" x2="512" y2="0"/>
+</svg>
+</div>
+<div class="words">
+<p class="name">Impulse<br><em>Elite</em></p>
+<p class="tag">Preto, marfim e ouro. Menos cartaz, mais editorial.</p>
+</div>
+</div>
+</body>
+</html>
