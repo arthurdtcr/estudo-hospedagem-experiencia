@@ -1,0 +1,126 @@
+{
+ "id": 9,
+ "titulo": "De onde veio a sua última venda?",
+ "nivel": "Consciente do problema para consciente da solução",
+ "acao": "Salvar",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "De onde veio a sua <em>última venda?</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "A resposta comum",
+   "rotulo": "A resposta comum",
+   "blocos": [
+    [
+     "manchete",
+     "De onde veio a última venda? “Acho que <em>do Instagram.</em>”"
+    ],
+    [
+     "corpo-suave",
+     "Muito dono de negócio responde assim. Não por descuido: ninguém montou o jeito de saber."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Um problema antigo",
+   "rotulo": "Um problema antigo",
+   "blocos": [
+    [
+     "titulo",
+     "“Metade do que eu gasto em propaganda é desperdício. O problema é que <em>não sei qual metade.</em>”"
+    ],
+    [
+     "nota",
+     "Frase atribuída ao varejista John Wanamaker, há mais de cem anos."
+    ],
+    [
+     "corpo",
+     "Hoje dá para saber muito mais."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O custo do chute",
+   "rotulo": "O custo do chute",
+   "blocos": [
+    [
+     "manchete",
+     "Sem saber de onde veio, você não sabe <em>onde pôr o próximo real.</em>"
+    ],
+    [
+     "corpo",
+     "E pode acabar cortando o que funcionava."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O efeito escondido",
+   "rotulo": "O efeito escondido",
+   "blocos": [
+    [
+     "manchete",
+     "A plataforma aprende com o que você <em>conta para ela.</em>"
+    ],
+    [
+     "corpo-suave",
+     "Se ela só sabe dos cliques, procura gente que clica. Se sabe quem comprou, procura gente parecida com quem compra."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "O básico bem feito",
+   "rotulo": "O básico bem feito",
+   "itens": [
+    [
+     "Pixel e API de Conversões",
+     "o site avisa de cada venda ou pedido"
+    ],
+    [
+     "Links com etiqueta (UTM)",
+     "o Analytics mostra qual anúncio trouxe"
+    ],
+    [
+     "Uma pergunta",
+     "“como você conheceu a gente?”"
+    ]
+   ],
+   "fecho": "Perfeito não existe. <em>O básico, sim.</em>"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "No WhatsApp, à mão",
+   "rotulo": "No WhatsApp, você conta à mão",
+   "itens": [
+    [
+     "Mensagem pronta por anúncio",
+     "“vi o anúncio da promoção”"
+    ],
+    [
+     "Etiquetas no WhatsApp Business",
+     "contato, orçamento, cliente"
+    ],
+    [
+     "No fim do mês",
+     "quantos clientes vieram de cada anúncio"
+    ]
+   ],
+   "fecho": "E já mostra <em>onde pôr o próximo real.</em>"
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "De onde veio a sua última venda?",
+   "titulo2": "Da próxima vez, <em>você vai ter a resposta.</em>",
+   "lead": "Salve e comece pelo mais simples esta semana. Nada disso exige verba de anúncio.",
+   "chave": "Salve <b>para montar</b>"
+  }
+ ],
+ "legenda": "De onde veio a sua última venda? Se a resposta começou com “acho que”, você não está sozinho.\n\nTem uma frase atribuída ao varejista John Wanamaker, de mais de cem anos atrás: metade do que ele gastava em propaganda era desperdício, o problema é que ele não sabia qual metade.\n\nHoje dá para saber muito mais. O básico: Pixel e API de Conversões no site, um link com etiqueta (UTM) para cada anúncio, um número ou página por canal e uma pergunta simples para o cliente: como você conheceu a gente?\n\nNo WhatsApp, a conta é à mão: uma mensagem pronta diferente para cada anúncio e etiquetas no WhatsApp Business. No fim do mês, você vê quantos clientes vieram de cada um.\n\nNada disso exige verba de anúncio. Algumas partes pedem ajuda técnica, outras você faz hoje.\n\nSalve este post e comece pelo mais simples."
+}

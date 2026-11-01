@@ -1,0 +1,118 @@
+{
+ "id": 1,
+ "titulo": "Ele quase comprou de você",
+ "nivel": "Inconsciente para consciente do problema",
+ "acao": "Enviar",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "Ele <em>quase</em> comprou de você."
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Viu o anúncio.",
+    "Clicou.",
+    "Olhou o perfil.",
+    "E comprou <em>do outro.</em>"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O que você vê",
+   "rotulo": "O que você vê",
+   "blocos": [
+    [
+     "manchete",
+     "Nos números do anúncio, ele é só <em>um clique.</em>"
+    ],
+    [
+     "lead",
+     "O resto da história não aparece."
+    ],
+    [
+     "filete",
+     ""
+    ],
+    [
+     "corpo-suave",
+     "Ninguém avisa que desistiu. Não reclama, não volta. Só some."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "A conclusão",
+   "rotulo": "A conclusão",
+   "blocos": [
+    [
+     "manchete",
+     "No fim do mês, o veredito: anúncio não funciona."
+    ],
+    [
+     "filete",
+     ""
+    ],
+    [
+     "titulo",
+     "Às vezes é verdade. Mas muitas vezes o anúncio trouxe a pessoa até a <em>porta.</em>"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Onde ele desiste",
+   "rotulo": "Onde ele desiste",
+   "itens": [
+    [
+     "No perfil",
+     "o último post é de meses atrás"
+    ],
+    [
+     "No Google",
+     "uma reclamação sem resposta"
+    ],
+    [
+     "No site",
+     "demorou para abrir no celular"
+    ],
+    [
+     "No WhatsApp",
+     "a resposta veio no dia seguinte"
+    ]
+   ],
+   "fecho": "Nada disso aparece <em>nos números.</em>"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Faça o teste",
+   "rotulo": "Faça o teste",
+   "itens": [
+    [
+     "Procure sua empresa",
+     "no Google e no Instagram, pelo celular"
+    ],
+    [
+     "Depois, um concorrente",
+     "de quem você compraria?"
+    ],
+    [
+     "Mande uma mensagem",
+     "de outro número, e cronometre"
+    ]
+   ],
+   "fecho": "O que você viu é <em>o que ele viu.</em>"
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Ele quase comprou de você.",
+   "titulo2": "Agora você sabe <em>onde procurar.</em>",
+   "lead": "Conhece alguém que ainda culpa o anúncio?",
+   "chave": "Envie <b>este post</b>"
+  }
+ ],
+ "legenda": "Ele viu o seu anúncio, clicou, olhou o seu perfil e comprou do concorrente. Você nunca ficou sabendo.\n\nNos números do tráfego pago, ele vira só mais um clique. E no fim do mês a conclusão costuma ser a mesma: anúncio não funciona.\n\nÀs vezes é verdade. Eu já vi anúncio ruim queimar dinheiro. Mas muitas vezes o cliente desistiu depois do clique: no perfil parado, na reclamação sem resposta no Google, no site lento, na mensagem respondida no dia seguinte no WhatsApp.\n\nO teste do slide 6 leva poucos minutos e mostra o que ele viu.\n\nEste é o primeiro de cinco posts sobre o caminho até a venda.\n\nConhece alguém que ainda culpa o anúncio? Envia este post para ele."
+}

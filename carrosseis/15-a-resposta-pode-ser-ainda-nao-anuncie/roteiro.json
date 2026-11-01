@@ -1,0 +1,118 @@
+{
+ "id": 15,
+ "titulo": "A resposta pode ser: ainda não anuncie",
+ "nivel": "Totalmente consciente",
+ "acao": "Comentar Diagnóstico",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "A resposta pode ser: <em>ainda não anuncie.</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Estranho, né",
+   "rotulo": "Estranho, né",
+   "blocos": [
+    [
+     "manchete",
+     "Agência de tráfego mandando <em>não anunciar?</em>"
+    ],
+    [
+     "corpo-suave",
+     "Pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Antes de anunciar",
+   "rotulo": "Antes de anunciar",
+   "itens": [
+    [
+     "A oferta",
+     "não cabe em uma frase"
+    ],
+    [
+     "O WhatsApp",
+     "ninguém responde rápido"
+    ],
+    [
+     "O perfil",
+     "parado, sem avaliação"
+    ],
+    [
+     "A margem",
+     "cada cliente custa mais do que deixa"
+    ]
+   ],
+   "fecho": "Se marcou um, anunciar só <em>acelera o problema.</em>"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Quando é hora",
+   "rotulo": "Quando é hora",
+   "itens": [
+    [
+     "A oferta",
+     "cabe em uma frase"
+    ],
+    [
+     "Alguém responde",
+     "em minutos, não em horas"
+    ],
+    [
+     "Quem pesquisa",
+     "encontra avaliação recente"
+    ],
+    [
+     "A margem",
+     "paga o cliente com folga"
+    ]
+   ],
+   "fecho": "Aí, anunciar <em>acelera o que já funciona.</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O que você leva",
+   "rotulo": "O que você leva",
+   "blocos": [
+    [
+     "manchete",
+     "Você não sai com um não. Sai sabendo <em>o que arrumar primeiro.</em>"
+    ],
+    [
+     "corpo-suave",
+     "Na ordem do que mais trava. Muita coisa você resolve sozinho."
+    ]
+   ]
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Dizer não custa caro",
+    "para a agência.",
+    "<em>Dizer sim errado custa mais.</em>"
+   ]
+  },
+  {
+   "tipo": "retrato",
+   "titulo": "Arthur",
+   "foto": "Foto do Arthur · P&amp;B",
+   "nome": "Quem diz esse não <em>sou eu.</em>",
+   "cargo": "Arthur, fundador da Impulse",
+   "corpo_suave": "Cada diagnóstico passa pela minha mão.",
+   "corpo": "Prefiro adiar uma venda a começar um projeto que eu sei que vai te frustrar."
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "A resposta pode ser: ainda não anuncie.",
+   "titulo2": "Ou pode ser: <em>anuncie agora.</em>",
+   "lead": "O diagnóstico gratuito serve para saber qual das duas é a sua. São 30 minutos.",
+   "chave": "Comente <b>Diagnóstico</b>"
+  }
+ ],
+ "legenda": "A resposta do diagnóstico pode ser: ainda não anuncie. Parece estranho vindo de quem vive de tráfego pago.\n\nMas pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido. Isso é ruim para você e é ruim para mim.\n\nSe a oferta não cabe em uma frase, se ninguém responde rápido no WhatsApp, se o perfil está parado e sem avaliação, ou se cada cliente custa mais do que deixa, anunciar só acelera o problema.\n\nQuando é assim, você não sai com um não. Sai sabendo o que arrumar primeiro. Muita coisa você resolve sozinho.\n\nE quando a oferta cabe em uma frase, alguém responde em minutos, quem pesquisa encontra avaliação recente e a margem paga o cliente com folga, a resposta é a outra: anuncie agora.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser saber qual das duas é a sua, comenta DIAGNÓSTICO."
+}

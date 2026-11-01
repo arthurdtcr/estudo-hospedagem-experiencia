@@ -1,0 +1,113 @@
+{
+ "id": 3,
+ "titulo": "Antes de te chamar, ele te confere",
+ "nivel": "Consciente do problema para consciente da solução",
+ "acao": "Salvar",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "Antes de te chamar, ele <em>te confere.</em>"
+  },
+  {
+   "tipo": "numeral",
+   "titulo": "Antes de chamar",
+   "rotulo": "Antes de chamar",
+   "numeral": "97%",
+   "lead": "das pessoas leem avaliações de negócios locais.",
+   "nota": "BrightLocal, Local Consumer Review Survey 2026. 1.002 adultos nos EUA."
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Uma estrela",
+   "rotulo": "Uma estrela",
+   "blocos": [
+    [
+     "manchete",
+     "Uma estrela a mais, de 5% a 9% <em>mais receita.</em>"
+    ],
+    [
+     "lead",
+     "Em restaurantes independentes. Nas grandes redes, nenhum efeito."
+    ],
+    [
+     "filete",
+     ""
+    ],
+    [
+     "corpo",
+     "Rede famosa já chega com confiança. Negócio como o seu precisa provar."
+    ],
+    [
+     "nota",
+     "Michael Luca, Harvard Business School, 2011. Yelp, Seattle."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "No Google",
+   "rotulo": "No Google",
+   "itens": [
+    [
+     "A nota",
+     "quantas avaliações, e se são recentes"
+    ],
+    [
+     "As respostas",
+     "principalmente às reclamações"
+    ],
+    [
+     "As fotos",
+     "do lugar de verdade"
+    ],
+    [
+     "O horário",
+     "ou ele bate na porta fechada"
+    ]
+   ],
+   "fecho": "Tudo isso antes de <em>falar com você.</em>"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "No perfil e no site",
+   "rotulo": "No perfil e no site",
+   "itens": [
+    [
+     "Post recente",
+     "sinal de empresa viva"
+    ],
+    [
+     "Cliente de verdade",
+     "foto, depoimento, resultado"
+    ],
+    [
+     "Como funciona",
+     "num destaque ou no site"
+    ],
+    [
+     "Um botão para chamar",
+     "que abre rápido no celular"
+    ]
+   ],
+   "fecho": "Perfil parado parece <em>empresa parada.</em>"
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "O anúncio leva até a porta.",
+    "O que ele confere <em>decide.</em>"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Ele vai te conferir.",
+   "titulo2": "Faça isso <em>antes dele.</em>",
+   "lead": "Salve e confira hoje o seu Google, o seu perfil e o seu site. É o que a gente olha antes de qualquer anúncio.",
+   "chave": "Salve <b>para conferir</b>"
+  }
+ ],
+ "legenda": "Antes de te chamar, ele te confere. No Google, no Instagram e no site.\n\nUma pesquisa da BrightLocal de 2026, com 1.002 adultos nos EUA, mostrou que 97% leem avaliações de negócios locais.\n\nE tem um estudo que eu acho ainda mais importante. Michael Luca, da Harvard Business School, cruzou avaliações do Yelp com o faturamento de restaurantes de Seattle (2011): uma estrela a mais rendeu de 5% a 9% mais receita nos independentes. Nas grandes redes, nenhum efeito.\n\nRede famosa já chega com confiança. Negócio como o seu precisa provar.\n\nPesquise hoje o nome da sua empresa no Google, pelo celular, como um cliente novo faria. E salve este post para conferir item por item."
+}

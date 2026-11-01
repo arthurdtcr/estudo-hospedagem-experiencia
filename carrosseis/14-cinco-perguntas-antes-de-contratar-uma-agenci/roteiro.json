@@ -1,0 +1,98 @@
+{
+ "id": 14,
+ "titulo": "Cinco perguntas antes de contratar uma agência",
+ "nivel": "Consciente do produto",
+ "acao": "Salvar",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "Cinco perguntas antes de <em>contratar uma agência.</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O teste",
+   "rotulo": "O teste",
+   "blocos": [
+    [
+     "manchete",
+     "Agência boa gosta <em>dessas perguntas.</em>"
+    ],
+    [
+     "corpo",
+     "Quem trabalha direito responde claro e sem rodeio. Quem enrola, já te respondeu."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "As perguntas",
+   "rotulo": "As perguntas",
+   "itens": [
+    [
+     "“A conta fica no meu nome?”",
+     "sim: conta, pixel e cartão seus"
+    ],
+    [
+     "“Como você vai medir venda?”",
+     "com os seus números, não só clique"
+    ],
+    [
+     "“Quem mexe na minha conta?”",
+     "alguém que você conhece"
+    ]
+   ],
+   "fecho": ""
+  },
+  {
+   "tipo": "lista",
+   "titulo": "As perguntas, continuação",
+   "rotulo": "As perguntas",
+   "inicio": 4,
+   "itens": [
+    [
+     "“O que você precisa de mim?”",
+     "resposta rápida, acessos, números de venda"
+    ],
+    [
+     "“Você garante resultado?”",
+     "se disser sim, já te respondeu"
+    ]
+   ],
+   "fecho": "Cinco perguntas. <em>Nenhuma exige saber de tráfego.</em>"
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Ninguém controla tudo",
+    "entre o anúncio",
+    "<em>e a venda.</em>"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "E para a gente",
+   "rotulo": "E para a gente",
+   "blocos": [
+    [
+     "manchete",
+     "Faça essas perguntas <em>para a gente também.</em>"
+    ],
+    [
+     "corpo",
+     "A conta fica no seu nome. Quem mexe nela é quem você conhece. E a gente vai precisar dos seus números de venda."
+    ]
+   ]
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Antes de contratar, pergunte.",
+   "titulo2": "Para a próxima agência, <em>ou para a que você já tem.</em>",
+   "lead": "Salve e use na próxima conversa. Inclusive com a gente.",
+   "chave": "Salve <b>esta lista</b>"
+  }
+ ],
+ "legenda": "Antes de contratar alguém para cuidar do seu tráfego pago, faça estas cinco perguntas. Agência boa gosta delas.\n\n1. A conta de anúncio fica no meu nome? (A resposta boa: conta, pixel e cartão no seu portfólio da Meta.)\n2. Como você vai medir venda, e não só clique?\n3. Quem mexe na minha conta?\n4. O que você precisa de mim?\n5. Você garante resultado? (Se disser sim, já te respondeu.)\n\nNinguém controla tudo o que acontece entre o anúncio e a venda. Por isso garantia não é a pergunta certa. Processo é.\n\nServe também para a agência que você já tem. E para a minha.\n\nSalve para usar na próxima conversa."
+}

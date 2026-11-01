@@ -1,0 +1,125 @@
+{
+ "id": 7,
+ "titulo": "Já investi em anúncio. Não funcionou.",
+ "nivel": "Consciente do problema",
+ "acao": "Comentar Diagnóstico",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "“Já investi em anúncio. <em>Não funcionou.</em>”"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Pode ser verdade",
+   "rotulo": "Pode ser verdade",
+   "blocos": [
+    [
+     "manchete",
+     "Muitas vezes, o anúncio não funcionou <em>mesmo.</em>"
+    ],
+    [
+     "corpo-suave",
+     "A gente não vai dizer que foi impressão. Anúncio mal feito queima dinheiro."
+    ],
+    [
+     "corpo",
+     "A pergunta útil é outra: onde exatamente travou?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Onde costuma travar",
+   "rotulo": "Onde costuma travar",
+   "itens": [
+    [
+     "O público",
+     "falou com quem não compra"
+    ],
+    [
+     "A oferta",
+     "ninguém viu motivo"
+    ],
+    [
+     "O caminho",
+     "clicaram e se perderam"
+    ],
+    [
+     "O tempo",
+     "desligou antes de ter dados"
+    ],
+    [
+     "A margem",
+     "custou mais do que deixou"
+    ]
+   ],
+   "fecho": "Cada uma tem <em>conserto diferente.</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Fato e conclusão",
+   "rotulo": "Fato e conclusão",
+   "blocos": [
+    [
+     "manchete",
+     "“Não funcionou” é um fato."
+    ],
+    [
+     "titulo",
+     "“Não funciona para o meu negócio” é <em>uma conclusão.</em>"
+    ],
+    [
+     "corpo-suave",
+     "E conclusão precisa de dado."
+    ]
+   ]
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Campanha não é promessa.",
+    "É hipótese.",
+    "E hipótese <em>se testa.</em>"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Antes da próxima",
+   "rotulo": "Antes da próxima",
+   "itens": [
+    [
+     "O público",
+     "quem compraria"
+    ],
+    [
+     "A oferta",
+     "motivo para comprar"
+    ],
+    [
+     "O caminho",
+     "o depois do clique"
+    ],
+    [
+     "O prazo",
+     "quanto tempo testar"
+    ],
+    [
+     "A margem",
+     "quanto um cliente pode custar"
+    ]
+   ],
+   "fecho": "Assim, se der errado, <em>você sabe onde.</em>"
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Já investiu e não funcionou?",
+   "titulo2": "Antes de tentar de novo, <em>veja onde travou.</em>",
+   "lead": "No diagnóstico gratuito, a gente olha a última tentativa antes de falar da próxima. São 30 minutos.",
+   "chave": "Comente <b>Diagnóstico</b>"
+  }
+ ],
+ "legenda": "“Já investi em anúncio e não funcionou.” Eu escuto muito essa frase. E muitas vezes é verdade.\n\nAnúncio mal feito queima dinheiro, e eu não vou fingir que não.\n\nMas tem uma diferença entre “não funcionou” e “não funciona para o meu negócio”. A primeira é um fato. A segunda é uma conclusão, e conclusão precisa de dado.\n\nFoi o público? A oferta? O que a pessoa encontrou depois do clique? A campanha desligada antes de ter dados? Ou a margem, que nunca ia fechar? Cada uma tem um conserto diferente.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser que eu olhe a sua última tentativa antes da próxima, comenta DIAGNÓSTICO."
+}

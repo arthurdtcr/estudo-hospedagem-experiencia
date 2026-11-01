@@ -1,0 +1,100 @@
+{
+ "id": 8,
+ "titulo": "Seu relatório mostra cliques. E os clientes?",
+ "nivel": "Consciente do problema",
+ "acao": "Salvar",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "Seu relatório mostra cliques. <em>E os clientes?</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "No seu relatório",
+   "rotulo": "No seu relatório",
+   "blocos": [
+    [
+     "manchete",
+     "Alcance, impressões, cliques. Tudo <em>subindo.</em>"
+    ],
+    [
+     "corpo-suave",
+     "E no fim do mês, ninguém te diz quantas vendas vieram daí."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Outra pergunta",
+   "rotulo": "Outra pergunta",
+   "blocos": [
+    [
+     "manchete",
+     "Esses números não estão errados. Só respondem <em>outra coisa.</em>"
+    ],
+    [
+     "corpo",
+     "Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta. E campanha que mira clique entrega clique."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Os números certos",
+   "rotulo": "Os números certos",
+   "itens": [
+    [
+     "Custo por contato",
+     "quanto custa cada chamada"
+    ],
+    [
+     "Contato que vira cliente",
+     "de cada dez, quantos compram"
+    ],
+    [
+     "Custo por cliente",
+     "verba dividida pelos clientes do anúncio"
+    ],
+    [
+     "Margem",
+     "o que sobra de cada cliente"
+    ]
+   ],
+   "fecho": "O anúncio <em>se pagou?</em>"
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Clique é sinal.",
+    "Contato é chance.",
+    "<em>Cliente é resultado.</em>"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Um trabalho a dois",
+   "rotulo": "Um trabalho a dois",
+   "blocos": [
+    [
+     "manchete",
+     "A agência vê o contato. <em>Você vê a venda.</em>"
+    ],
+    [
+     "corpo",
+     "Sem você contar quantos contatos compraram, ninguém fecha essa conta."
+    ]
+   ]
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Seu relatório mostra cliques.",
+   "titulo2": "Monte <em>o custo por cliente.</em>",
+   "lead": "Leve esta lista para quem cuida dos seus anúncios. Ele traz o custo por contato. Você traz as vendas.",
+   "chave": "Salve <b>esta lista</b>"
+  }
+ ],
+ "legenda": "Seu relatório de tráfego pago mostra cliques. Mas quantos clientes vieram daí?\n\nAlcance, impressões e cliques não estão errados. Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta.\n\nOs números que eu olho são quatro: custo por contato, quantos contatos viram cliente, custo por cliente e a margem de cada um.\n\nE tem uma parte que só você vê: a venda. Quem cuida do anúncio traz o custo por contato. Você traz quantos compraram. Juntos, sai o custo por cliente.\n\nQual desses quatro você sabe hoje de cabeça?\n\nSalve este post e leve a lista para a próxima conversa com quem cuida dos seus anúncios."
+}

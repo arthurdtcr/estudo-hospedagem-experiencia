@@ -1,0 +1,120 @@
+{
+ "id": 4,
+ "titulo": "Dobrar a verba não dobra as vendas",
+ "nivel": "Consciente da solução",
+ "acao": "Comentar Diagnóstico",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "Dobrar a verba não dobra <em>as vendas.</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Por que não dobra",
+   "rotulo": "Por que não dobra",
+   "blocos": [
+    [
+     "manchete",
+     "Quando a verba sobe, os clientes a mais tendem a <em>custar mais.</em>"
+    ],
+    [
+     "corpo-suave",
+     "A plataforma entrega primeiro para quem tem mais chance de comprar. Para gastar mais, ela precisa buscar quem está mais longe."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O segundo motivo",
+   "rotulo": "O segundo motivo",
+   "blocos": [
+    [
+     "manchete",
+     "Quem chega de mais longe precisa de <em>mais motivo</em> para comprar."
+    ],
+    [
+     "corpo-suave",
+     "Oferta confusa, perfil fraco e resposta lenta já perdiam clientes. Com esse público mais frio, perdem ainda mais."
+    ]
+   ]
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Mais verba.",
+    "Gente mais fria.",
+    "<em>O mesmo caminho.</em>"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Onde o caminho perde",
+   "rotulo": "Onde o caminho perde",
+   "itens": [
+    [
+     "Oferta confusa",
+     "quem chega frio não pergunta, vai embora"
+    ],
+    [
+     "Perfil que não convence",
+     "quem não te conhece não arrisca"
+    ],
+    [
+     "Atendimento lento",
+     "fica mais lento quando chega mais gente"
+    ]
+   ],
+   "fecho": "Verba em cima disso é <em>desperdício mais rápido.</em>"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Por onde a gente começa",
+   "rotulo": "Por onde a gente começa",
+   "itens": [
+    [
+     "A oferta",
+     "cabe em uma frase?"
+    ],
+    [
+     "A checagem",
+     "quem procura seu nome confia?"
+    ],
+    [
+     "O atendimento",
+     "quanto tempo até responder?"
+    ],
+    [
+     "A conta",
+     "quanto custa um cliente, e quanto ele deixa no caixa?"
+    ]
+   ],
+   "fecho": "Só depois, <em>o anúncio.</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "A objeção",
+   "rotulo": "A objeção",
+   "blocos": [
+    [
+     "manchete",
+     "Parece mais lento. Lento é seguir pagando <em>pelo mesmo erro.</em>"
+    ],
+    [
+     "corpo",
+     "Com o caminho arrumado, aumentar a verba passa a fazer sentido. A gente não é contra escalar. É contra escalar antes."
+    ]
+   ]
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Dobrar a verba não dobra as vendas.",
+   "titulo2": "Antes de aumentar, descubra <em>onde o caminho perde.</em>",
+   "lead": "É isso que a gente faz no diagnóstico gratuito de 30 minutos.",
+   "chave": "Comente <b>Diagnóstico</b>"
+  }
+ ],
+ "legenda": "Dobrar a verba de tráfego pago quase nunca dobra as vendas. Eu sei que não é o que você espera ouvir de uma agência.\n\nO primeiro motivo: a plataforma entrega o anúncio primeiro para quem tem mais chance de comprar. Quando a verba sobe, ela precisa buscar gente mais longe, e os clientes a mais tendem a custar mais.\n\nO segundo: quem chega de mais longe precisa de mais motivo para comprar. Oferta confusa, perfil fraco e resposta lenta já perdiam clientes. Com esse público mais frio, perdem ainda mais.\n\nNão sou contra escalar. Sou contra escalar antes de arrumar o caminho.\n\nAntes de aumentar, quatro perguntas: a oferta cabe em uma frase? Quem procura seu nome confia? Quanto tempo você leva para responder? Quanto custa um cliente, e quanto ele deixa no caixa?\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e a gente faz isso com você em 30 minutos, de graça."
+}

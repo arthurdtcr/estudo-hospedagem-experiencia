@@ -1,0 +1,119 @@
+{
+ "id": 13,
+ "titulo": "Em quanto tempo o anúncio dá resultado?",
+ "nivel": "Consciente do produto",
+ "acao": "Comentar Diagnóstico",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "Em quanto tempo <em>o anúncio dá resultado?</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O que o primeiro mês responde",
+   "rotulo": "O que o primeiro mês responde",
+   "blocos": [
+    [
+     "manchete",
+     "Quem compra de você, e <em>por que compra.</em>"
+    ],
+    [
+     "corpo-suave",
+     "Sem essa resposta, todo anúncio é palpite. Com ela, cada real começa a ter endereço."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Antes de começar",
+   "rotulo": "Antes de começar",
+   "blocos": [
+    [
+     "manchete",
+     "Combine antes: em quanto tempo e <em>medindo o quê.</em>"
+    ],
+    [
+     "corpo",
+     "E quem registra a venda. Sem isso, no fim do mês, a conversa vira opinião."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Semana a semana",
+   "rotulo": "Semana a semana",
+   "itens": [
+    [
+     "Semana um",
+     "mede do clique à venda"
+    ],
+    [
+     "Semana dois",
+     "mostra o que traz contato"
+    ],
+    [
+     "Semana três",
+     "corta o fraco, reforça o forte"
+    ],
+    [
+     "Semana quatro",
+     "mostra o primeiro custo por cliente"
+    ]
+   ],
+   "fecho": "É assim que <em>o chute vira critério.</em>"
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O que atrapalha",
+   "rotulo": "O que atrapalha",
+   "blocos": [
+    [
+     "manchete",
+     "Mexer todo dia atrapalha. Ajuste tem <em>dia marcado.</em>"
+    ],
+    [
+     "corpo-suave",
+     "A plataforma precisa de tempo e de dados. Cada mudança grande recomeça o aprendizado."
+    ]
+   ]
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Pressa desliga cedo.",
+    "Teimosia desliga tarde.",
+    "<em>Método desliga na hora certa.</em>"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "E se sair caro",
+   "rotulo": "E se sair caro",
+   "blocos": [
+    [
+     "manchete",
+     "E se o cliente sair <em>caro demais?</em>"
+    ],
+    [
+     "corpo-suave",
+     "Às vezes a resposta é ajustar a oferta, o público ou o atendimento. Às vezes é parar."
+    ],
+    [
+     "corpo",
+     "As duas são resposta."
+    ]
+   ]
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Em quanto tempo o anúncio dá resultado?",
+   "titulo2": "Comece sabendo <em>como medir a resposta.</em>",
+   "lead": "No diagnóstico gratuito, a gente olha com você o que medir e quem registra a venda. São 30 minutos.",
+   "chave": "Comente <b>Diagnóstico</b>"
+  }
+ ],
+ "legenda": "Em quanto tempo o anúncio dá resultado? Antes de olhar a sua conta, eu não sei. Ninguém sabe.\n\nO que eu sei é a pergunta que o primeiro mês precisa responder: quem compra de você, e por que compra.\n\nPara isso, combine antes: em quanto tempo, medindo o quê, e quem registra a venda. Sem isso, no fim do mês a conversa vira opinião.\n\nUm mês bem feito mede do clique à venda, mostra o que traz contato, corta o fraco e mostra o primeiro custo por cliente. Mexer todo dia atrapalha: cada mudança grande recomeça o aprendizado da plataforma.\n\nE se o cliente sair caro demais, às vezes a resposta é ajustar. Às vezes é parar. As duas são resposta.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser começar sabendo o que medir, comenta DIAGNÓSTICO."
+}
