@@ -2,9 +2,9 @@
   "v": 3,
   "createdOnFiles": {
     "v": 1,
-    "at": "2026-11-01T15:23:53Z"
+    "at": "2026-11-01T07:31:00Z"
   },
-  "title": "Carrossel 02 · Seu cliente não sumiu. Esfriou",
+  "title": "Carrossel 02 · Seu cliente não sumiu. Esfriou.",
   "launch": {
     "view": "canvas"
   },
@@ -81,7 +81,7 @@
     "titulo": {
       "x": 0,
       "y": -300,
-      "text": "Série 2 · Carrossel 2 · Seu cliente não sumiu. Esfriou. · Impulse Elite · 1080 × 1350",
+      "text": "Série 1 · Carrossel 2 · Seu cliente não sumiu. Esfriou. · Impulse Elite · 1080 × 1350",
       "kind": "title1",
       "maxW": 9200
     }
@@ -92,7 +92,7 @@
       "namespace": "impulse-elite",
       "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
       "version": "1793507287-6e32",
-      "copiedAt": "2026-11-01T15:23:53Z"
+      "copiedAt": "2026-11-01T07:31:00Z"
     }
   ]
 }

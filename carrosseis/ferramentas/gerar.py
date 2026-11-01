@@ -201,7 +201,7 @@ def canvas_json(c, now):
         "pages": [],
         "boards": boards,
         "order": order,
-        "notes": {"titulo": {"x": 0, "y": -300, "text": "Série 2 · Carrossel %d · %s · Impulse Elite · 1080 × 1350" % (c["id"], c["titulo"]), "kind": "title1", "maxW": total_w}},
+        "notes": {"titulo": {"x": 0, "y": -300, "text": "Série %d · Carrossel %d · %s · Impulse Elite · 1080 × 1350" % (1 if c["id"] <= 5 else 2, c["id"], c["titulo"]), "kind": "title1", "maxW": total_w}},
         "designSystems": [{"title": "Impulse Elite", "namespace": "impulse-elite", "artifact": DS_URL, "version": DS_VERSION, "copiedAt": now}],
     }
 
