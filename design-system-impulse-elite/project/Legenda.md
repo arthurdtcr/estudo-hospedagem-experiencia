@@ -36,7 +36,9 @@ O Instagram aceita um texto alternativo por imagem do carrossel (em "Configuraç
 - O que a imagem mostra, se mostra algo além de texto: "Foto em preto e branco do Arthur, fundador, olhando para a frente."
 - Sem "imagem de" no começo e sem descrever a paleta em todo slide.
 
-Exemplo do slide 1 do Carrossel 15: `Texto: "Nunca faça anúncio pago se a sua empresa ainda não está pronta para o cliente." Arraste para o lado.`
+Exemplo do slide 1 do Carrossel 15: `Texto: "Nunca faça anúncio pago se a sua empresa ainda não está pronta para o cliente."`
+
+Não descreva a dica "Arraste", o filete ou a diagonal: é ruído para quem usa leitor de tela.
 
 ## Reels
 
@@ -46,5 +48,18 @@ Exemplo do slide 1 do Carrossel 15: `Texto: "Nunca faça anúncio pago se a sua 
 
 ## Comentários da palavra-chave
 
-- Responda todo comentário da palavra-chave, pela resposta automática ou à mão, com a mesma mensagem de abertura.
+- Responda todo comentário da palavra-chave, pela resposta automática ou à mão.
+- No comentário, uma resposta curta e variada ("Te mandei no direct."), para não parecer robô.
+- No direct, esta mensagem (troque os colchetes):
+
+```
+Oi, [nome]! Aqui é o Arthur, da Impulse. Que bom que você comentou.
+
+O diagnóstico é uma conversa gratuita de 30 minutos em que a gente olha o caminho até a venda do seu negócio: oferta, Google, WhatsApp e anúncio.
+
+Pra eu chegar preparado: qual é o seu negócio e onde você anuncia hoje?
+
+Se preferir já marcar: [link da agenda]
+```
+
 - Responda também quem comentou outra coisa: conversa no comentário conta como conversa.

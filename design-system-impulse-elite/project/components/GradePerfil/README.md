@@ -1,6 +1,6 @@
-Grade do perfil: como seis capas seguidas aparecem no recorte 3:4, para planejar a sequência antes de publicar.
+Grade do perfil: como as últimas capas aparecem no recorte 3:4, incluindo capas de Reels, para planejar a próxima antes de publicar.
 
-- **Use quando:** antes de escolher a capa de um post novo: confira as duas linhas mais recentes da grade.
-- **Você fornece:** as capas dos últimos posts (carrossel, estático e capa de Reels) na ordem em que aparecem.
-- **Estrutura:** `ie-perfil` > `ie-perfil-tile` com a `ie-arte` da capa dentro; a miniatura já mostra o corte de 34px de cada lado.
-- **Regra que a prévia mostra:** cada linha de três tem pelo menos uma capa clara (C4 ou C6), e nenhuma capa se repete lado a lado.
+- **Use quando:** antes de escolher a capa de qualquer post: carrossel, estático ou Reels.
+- **Você fornece:** as capas das duas últimas publicações, em ordem.
+- **Estrutura:** `ie-perfil` > `ie-perfil-tile` com a `ie-arte` da capa dentro. Capa 4:5 aparece sem 34px de cada lado; capa de Reels (`ie-capa-reels`) aparece pelo centro, sem 240px em cima e embaixo.
+- **Regra que a prévia mostra:** em qualquer janela de três publicações seguidas há uma capa clara (C4, C6 ou `CapaReelsDividida`), e nenhuma capa se repete lado a lado.
