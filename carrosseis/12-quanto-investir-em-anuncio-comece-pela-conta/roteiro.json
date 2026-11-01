@@ -7,7 +7,7 @@
   {
    "tipo": "capa",
    "titulo": "Capa",
-   "texto": "Quanto investir em anúncio? <em>Comece pela conta.</em>"
+   "texto": "Quanto investir em anúncio? <em>A resposta não começa pela verba.</em>"
   },
   {
    "tipo": "texto",
@@ -55,7 +55,7 @@
     ],
     [
      "corpo-suave",
-     "Academia, salão, assinatura: o primeiro mês nem sempre paga o anúncio. Se ele fica o ano, o ano paga."
+     "Academia, salão, assinatura: o primeiro mês nem sempre paga o anúncio. Se ele fica o ano, o ano paga. Desde que o seu caixa aguente esperar."
     ]
    ]
   },
@@ -70,7 +70,7 @@
     ],
     [
      "corpo-suave",
-     "Ela precisa de contatos para saber em quem mirar. Verba que mal gera contato não ensina nada, e parece que anúncio não funciona."
+     "Divida a verba pelo custo de um contato. Se der poucos contatos por semana, ela fica no escuro."
     ]
    ]
   },
@@ -78,9 +78,9 @@
    "tipo": "pausa",
    "titulo": "Pausa",
    "linhas": [
-    "Pouca demais: não aprende.",
-    "Muita demais: não fecha a conta.",
-    "<em>A certa fica no meio.</em>"
+    "Se o teto não alcança o piso,",
+    "a verba certa, hoje,",
+    "<em>é nenhuma.</em>"
    ]
   },
   {
@@ -90,15 +90,15 @@
    "itens": [
     [
      "O teto",
-     "o que você pode pagar por um cliente"
+     "quanto você pode pagar por um cliente"
     ],
     [
      "Vezes",
-     "quantos clientes a mais você atende"
+     "os clientes a mais que você consegue atender"
     ],
     [
-     "Nunca abaixo do piso",
-     "o que a plataforma precisa para aprender"
+     "Nunca abaixo",
+     "do piso que a plataforma precisa"
     ]
    ],
    "fecho": "A mensalidade de quem gerencia <em>entra na conta.</em>"
@@ -112,5 +112,5 @@
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "Quanto investir em tráfego pago? Escuto muito essa pergunta. E a resposta não começa pela verba.\n\nComeça por quanto você pode pagar por um cliente. Pegue o preço médio, tire o que custa entregar (produto, mão de obra, imposto, taxa) e o que sobra é o teto. O máximo, não a meta.\n\nSe o cliente volta a comprar, o teto sobe. Se ele fica o ano, o ano paga.\n\nTem também o piso: verba que mal gera contato não ensina nada à plataforma, e parece que anúncio não funciona.\n\nA conta fica assim: o teto, vezes quantos clientes a mais você consegue atender, nunca abaixo do piso. E a minha mensalidade também entra nessa conta. Custo para conquistar cliente é custo.\n\nUm detalhe que muda tudo: quanto custa um cliente depende também de quem atende o contato.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser fazer essa conta com os seus números, comenta DIAGNÓSTICO."
+ "legenda": "Quanto investir em tráfego pago? Escuto muito essa pergunta. E a resposta não começa pela verba.\n\nComeça por quanto você pode pagar por um cliente. Pegue o preço médio, tire o que custa entregar (produto, mão de obra, imposto, taxa) e o que sobra é o teto. O máximo, não a meta.\n\nSe o cliente volta a comprar, o teto sobe. Se ele fica o ano, o ano paga.\n\nTem também o piso: divida a verba pelo custo de um contato. Se der poucos contatos por semana, a plataforma não tem com que aprender, e parece que anúncio não funciona. Se o teto não alcança o piso, a verba certa, hoje, é nenhuma.\n\nA conta fica assim: o teto, vezes quantos clientes a mais você consegue atender, nunca abaixo do piso. E a minha mensalidade também entra nessa conta. Custo para conquistar cliente é custo.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser fazer essa conta com os seus números, comenta DIAGNÓSTICO."
 }

@@ -10,51 +10,6 @@
    "texto": "Seu cliente não sumiu. <em>Esfriou.</em>"
   },
   {
-   "tipo": "numeral",
-   "titulo": "Tempo de resposta",
-   "rotulo": "Tempo de resposta",
-   "numeral": "7x",
-   "lead": "mais chance de virar conversa de verdade quando você responde na primeira hora, e não uma hora depois.",
-   "nota": "Quase 7 vezes. Harvard Business Review, 2011. Análise de 1,25 milhão de contatos online nos EUA."
-  },
-  {
-   "tipo": "texto",
-   "titulo": "A conta piora",
-   "rotulo": "A conta piora",
-   "blocos": [
-    [
-     "manchete",
-     "Depois de 24 horas, a diferença passa de <em>60 vezes.</em>"
-    ],
-    [
-     "corpo-suave",
-     "Em um dia, dá tempo de chamar o concorrente. E a vontade que trouxe ela até você passa."
-    ],
-    [
-     "nota",
-     "Mesma análise. Harvard Business Review, 2011."
-    ]
-   ]
-  },
-  {
-   "tipo": "numeral",
-   "titulo": "Na prática",
-   "rotulo": "Na prática",
-   "numeral": "37%",
-   "lead": "das empresas testadas responderam na primeira hora.",
-   "nota": "23% nunca responderam. Teste com 2.241 empresas dos EUA, na mesma publicação da Harvard Business Review, 2011.",
-   "corpo": "Hoje, esse contato chega pelo WhatsApp."
-  },
-  {
-   "tipo": "pausa",
-   "titulo": "Pausa",
-   "linhas": [
-    "Você pagou o anúncio.",
-    "O cliente chamou.",
-    "E ficou lá... <em>esperando.</em>"
-   ]
-  },
-  {
    "tipo": "texto",
    "titulo": "Por que acontece",
    "rotulo": "Por que acontece",
@@ -72,6 +27,51 @@
      "O problema é que o cliente não espera o depois."
     ]
    ]
+  },
+  {
+   "tipo": "numeral",
+   "titulo": "Tempo de resposta",
+   "rotulo": "Tempo de resposta",
+   "numeral": "7x",
+   "lead": "mais chance de virar conversa de verdade quando a resposta vem na primeira hora, e não na segunda.",
+   "nota": "Quase 7 vezes. Harvard Business Review, 2011. Análise de 1,25 milhão de contatos online nos EUA."
+  },
+  {
+   "tipo": "texto",
+   "titulo": "A conta piora",
+   "rotulo": "A conta piora",
+   "blocos": [
+    [
+     "manchete",
+     "Depois de 24 horas, a diferença passa de <em>60 vezes.</em>"
+    ],
+    [
+     "corpo-suave",
+     "Em um dia, dá tempo de chamar o concorrente. E a vontade que o trouxe até você passa."
+    ],
+    [
+     "nota",
+     "Mesma análise. Harvard Business Review, 2011."
+    ]
+   ]
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Você pagou o anúncio.",
+    "O cliente chamou.",
+    "E ficou lá... <em>esperando.</em>"
+   ]
+  },
+  {
+   "tipo": "numeral",
+   "titulo": "Quem responde rápido",
+   "rotulo": "Quem responde rápido",
+   "numeral": "37%",
+   "lead": "das empresas testadas responderam na primeira hora.",
+   "nota": "23% nunca responderam. Teste com 2.241 empresas dos EUA, Harvard Business Review, 2011, antes do WhatsApp.",
+   "corpo": "Hoje, esse contato chega pelo WhatsApp."
   },
   {
    "tipo": "lista",
@@ -106,5 +106,5 @@
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "Seu cliente não sumiu. Ele esfriou esperando resposta no WhatsApp.\n\nUm artigo da Harvard Business Review de 2011 analisou 1,25 milhão de contatos online: quem respondeu na primeira hora teve quase 7 vezes mais chance de chegar a uma conversa de verdade do que quem respondeu uma hora depois. Depois de 24 horas, a diferença passou de 60 vezes.\n\nNa mesma publicação, um teste com 2.241 empresas dos EUA: só 37% responderam na primeira hora. 23% nunca responderam.\n\nE eu entendo. Quem toca o negócio responde quando sobra tempo. Só que o cliente não espera o depois.\n\nO anúncio traz o cliente. O tempo de resposta decide se ele fica.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO aqui embaixo."
+ "legenda": "Seu cliente não sumiu. Ele esfriou esperando resposta no WhatsApp.\n\nUm artigo da Harvard Business Review de 2011 analisou 1,25 milhão de contatos online: quem respondeu na primeira hora teve quase 7 vezes mais chance de chegar a uma conversa de verdade do que quem respondeu na segunda hora. Depois de 24 horas, a diferença passou de 60 vezes.\n\nNa mesma publicação, um teste com 2.241 empresas dos EUA: só 37% responderam na primeira hora. 23% nunca responderam.\n\nE eu entendo. Quem toca o negócio responde quando sobra tempo. Só que o cliente não espera o depois.\n\nO anúncio traz o cliente. O tempo de resposta decide se ele fica.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO aqui embaixo."
 }

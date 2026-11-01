@@ -3,21 +3,18 @@
 **Canvas publicado:** https://claude.ai/artifact/43DCSWzixAgBjX4sYUYc3S
 
 - Série 2 · nível de consciência: Consciente da solução · ação: Comentar Diagnóstico
-- Nota do crítico independente (versão v6): 7.1. Versão abaixo já é a 7ª reanálise.
-- Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.
-
-![prévia](previa.png)
+- Notas dos juízes independentes: 7,1 na rodada 1 (versão v6) e 8,4 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
-*itálico* = a única ênfase dourada do slide. Fonte da verdade: `roteiro.json`.
+Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
 
-1. **Capa** (capa) · "Impulsionar não é *anunciar.*" · Arraste
-2. **Turbinar ou impulsionar** · rótulo TURBINAR OU IMPULSIONAR · manchete "O botão não é ruim. Ele só *faz menos.*" · corpo-suave "Mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem."
-3. **O que fica de fora** · rótulo O QUE FICA DE FORA · 01 Objetivo de venda ou cadastro: no Gerenciador de Anúncios · 02 Teste de versões: vários anúncios lado a lado · 03 Escolher onde aparece: feed, stories ou reels · 04 Resultado: por anúncio e público · fecho "Impulsionar é volume. Anunciar é *direção.*"
-4. **Pausa** (pausa, marfim) · "Mais gente viu." / "Mais gente curtiu." / "*Quem comprou?*"
-5. **Quando basta** · rótulo QUANDO BASTA · manchete "Às vezes o botão *basta.*" · corpo-suave "Um post que já foi bem, uma novidade para a sua região, um evento no fim de semana." · corpo "Para vender todo mês... não é com ele."
-6. **A diferença** · rótulo A DIFERENÇA · manchete "O botão procura quem clica. O Gerenciador pode procurar *quem compra.*" · corpo-suave "Desde que o site meça cada venda. Sem essa medição, os dois procuram quase a mesma pessoa."
-7. **CTA** · rótulo PRÓXIMO PASSO · manchete "Impulsionar não é anunciar." · titulo "Se o objetivo é cliente, *peça cliente.*" · lead "No diagnóstico gratuito, a gente olha o que você pede para a plataforma hoje e o que acontece depois do clique. São 30 minutos." · chave COMENTE DIAGNÓSTICO
+1. **Capa** (capa, 4 palavras) · "Impulsionar não é *anunciar.*" · Arraste
+2. **O botão** (texto, 29 palavras) · rótulo O BOTÃO · manchete "O botão não é ruim. Ele só *faz menos.*" · corpo-suave "No Instagram, Turbinar. No Facebook, Impulsionar. Mostra seu post para mais gente e pede uma visita ou mensagem."
+3. **O que só o Gerenciador tem** (lista, 38 palavras) · rótulo O QUE SÓ O GERENCIADOR TEM · itens: Objetivo: de venda ou cadastro; Teste: vários anúncios lado a lado; Onde aparece: feed, stories ou reels, você escolhe; Relatório: qual anúncio e público trouxe resultado · fecho "Impulsionar é volume. Anunciar é *direção.*"
+4. **Pausa** (pausa, fundo claro, 8 palavras) · "Mais gente viu." / "Mais gente curtiu." / "*Quem comprou?*"
+5. **Quando basta** (texto, 33 palavras) · rótulo QUANDO BASTA · manchete "Às vezes o botão *basta.*" · corpo-suave "Um post que já foi bem, uma novidade para a sua região, um evento no fim de semana." · corpo "Para vender todo mês... não é com ele."
+6. **A diferença** (texto, 29 palavras) · rótulo A DIFERENÇA · manchete "O botão procura quem interage. O Gerenciador pode procurar *quem compra.*" · corpo-suave "Desde que ele saiba quem comprou. Sem essa medição, os dois procuram quase a mesma pessoa."
+7. **CTA** (cta, 37 palavras) · manchete "Impulsionar não é anunciar." · titulo2 "Se o objetivo é cliente, *peça cliente.*" · lead "No diagnóstico gratuito, a gente olha o que você pede para a plataforma hoje e o que acontece depois do clique. São 30 minutos." · chave "Comente Diagnóstico"
 
 ## Legenda (primeira pessoa do Arthur)
 
@@ -27,7 +24,7 @@
 >
 > Para vender todo mês, o caminho é o Gerenciador de Anúncios: objetivo de venda ou cadastro, teste de versões, escolha de onde o anúncio aparece e leitura por público.
 >
-> Mas vou ser honesto: o Gerenciador só procura quem compra se o seu site mede cada venda. Sem isso, os dois procuram quase a mesma pessoa.
+> Mas vou ser honesto: o Gerenciador só procura quem compra se ele fica sabendo de cada venda, pelo site ou pelo WhatsApp. Sem isso, os dois procuram quase a mesma pessoa.
 >
 > Se você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.
 >

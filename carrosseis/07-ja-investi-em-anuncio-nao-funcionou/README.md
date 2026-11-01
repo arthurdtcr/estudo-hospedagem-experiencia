@@ -3,21 +3,18 @@
 **Canvas publicado:** https://claude.ai/artifact/3N9f92AykyFfNH4PoHqLq7
 
 - Série 2 · nível de consciência: Consciente do problema · ação: Comentar Diagnóstico
-- Nota do crítico independente (versão v6): 7.2. Versão abaixo já é a 7ª reanálise.
-- Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.
-
-![prévia](previa.png)
+- Notas dos juízes independentes: 7,2 na rodada 1 (versão v6) e 7,9 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
-*itálico* = a única ênfase dourada do slide. Fonte da verdade: `roteiro.json`.
+Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
 
-1. **Capa** (capa) · "“Já investi em anúncio. *Não funcionou.*”" · Arraste
-2. **Pode ser verdade** · rótulo PODE SER VERDADE · manchete "Muitas vezes, o anúncio não funcionou *mesmo.*" · corpo-suave "A gente não vai dizer que foi impressão. Anúncio mal feito queima dinheiro." · corpo "A pergunta útil é outra: onde exatamente travou?"
-3. **Onde costuma travar** · rótulo ONDE COSTUMA TRAVAR · 01 O público: falou com quem não compra · 02 A oferta: ninguém viu motivo · 03 O caminho: clicaram e se perderam · 04 O tempo: desligou antes de ter dados · 05 A margem: custou mais do que deixou · fecho "Cada uma tem *conserto diferente.*"
-4. **Fato e conclusão** · rótulo FATO E CONCLUSÃO · manchete "“Não funcionou” é um fato." · titulo "“Não funciona para o meu negócio” é *uma conclusão.*" · corpo-suave "E conclusão precisa de dado."
-5. **Pausa** (pausa, marfim) · "Campanha não é promessa." / "É hipótese." / "E hipótese *se testa.*"
-6. **Antes da próxima** · rótulo ANTES DA PRÓXIMA · 01 O público: quem compraria · 02 A oferta: motivo para comprar · 03 O caminho: o depois do clique · 04 O prazo: quanto tempo testar · 05 A margem: quanto um cliente pode custar · fecho "Assim, se der errado, *você sabe onde.*"
-7. **CTA** · rótulo PRÓXIMO PASSO · manchete "Já investiu e não funcionou?" · titulo "Antes de tentar de novo, *veja onde travou.*" · lead "No diagnóstico gratuito, a gente olha a última tentativa antes de falar da próxima. São 30 minutos." · chave COMENTE DIAGNÓSTICO
+1. **Capa** (capa, 6 palavras) · "“Já investi em anúncio. *Não funcionou.*”" · Arraste
+2. **Pode ser verdade** (texto, 31 palavras) · rótulo PODE SER VERDADE · manchete "Muitas vezes, o anúncio não funcionou *mesmo.*" · corpo-suave "A gente não vai dizer que foi impressão. Anúncio mal feito queima dinheiro." · corpo "A pergunta útil é outra: onde exatamente travou?"
+3. **Onde travou** (lista, 30 palavras) · rótulo ONDE TRAVOU · itens: Ninguém clicou: público ou oferta; Clicaram e não chamaram: o caminho; Chamaram e não compraram: o atendimento; Venderam e não sobrou: a margem · fecho "Cada sintoma tem *conserto diferente.*"
+4. **Fato e conclusão** (texto, 22 palavras) · rótulo FATO E CONCLUSÃO · manchete "“Não funcionou” é um fato." · titulo "“Não funciona para o meu negócio” é *uma conclusão.*" · corpo-suave "E conclusão precisa de dado."
+5. **Pausa** (pausa, fundo claro, 10 palavras) · "Campanha não é promessa." / "É hipótese." / "E hipótese *se testa.*"
+6. **Antes da próxima, escreva** (lista, 40 palavras) · rótulo ANTES DA PRÓXIMA, ESCREVA · itens: Quem compra: e por que compraria agora; Quem responde: quem chamar, e em quanto tempo; Quanto tempo: vai rodar antes de julgar; Quanto pode custar: um cliente, no máximo · fecho "Assim, se der errado, *você sabe onde.*"
+7. **CTA** (cta, 32 palavras) · manchete "Já investiu e não funcionou?" · titulo2 "Antes de tentar de novo, *veja onde travou.*" · lead "No diagnóstico gratuito, a gente olha a última tentativa antes de falar da próxima. São 30 minutos." · chave "Comente Diagnóstico"
 
 ## Legenda (primeira pessoa do Arthur)
 
@@ -27,7 +24,7 @@
 >
 > Mas tem uma diferença entre “não funcionou” e “não funciona para o meu negócio”. A primeira é um fato. A segunda é uma conclusão, e conclusão precisa de dado.
 >
-> Foi o público? A oferta? O que a pessoa encontrou depois do clique? A campanha desligada antes de ter dados? Ou a margem, que nunca ia fechar? Cada uma tem um conserto diferente.
+> Ninguém clicou? Clicaram e não chamaram? Chamaram e ninguém respondeu a tempo? Venderam e não sobrou nada? Cada sintoma tem um conserto diferente.
 >
 > Se você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.
 >

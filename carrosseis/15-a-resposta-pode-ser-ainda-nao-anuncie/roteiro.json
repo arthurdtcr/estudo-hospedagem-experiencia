@@ -38,8 +38,8 @@
      "ninguém responde rápido"
     ],
     [
-     "O perfil",
-     "parado, sem avaliação"
+     "O Google",
+     "perfil parado, sem avaliação recente"
     ],
     [
      "A margem",
@@ -49,28 +49,19 @@
    "fecho": "Se marcou um, anunciar só <em>acelera o problema.</em>"
   },
   {
-   "tipo": "lista",
+   "tipo": "texto",
    "titulo": "Quando é hora",
    "rotulo": "Quando é hora",
-   "itens": [
+   "blocos": [
     [
-     "A oferta",
-     "cabe em uma frase"
+     "manchete",
+     "Com os quatro de pé, anunciar <em>acelera o que já funciona.</em>"
     ],
     [
-     "Alguém responde",
-     "em minutos, não em horas"
-    ],
-    [
-     "Quem pesquisa",
-     "encontra avaliação recente"
-    ],
-    [
-     "A margem",
-     "paga o cliente com folga"
+     "corpo-suave",
+     "Oferta em uma frase. Resposta em minutos. Avaliação recente. Margem com folga."
     ]
-   ],
-   "fecho": "Aí, anunciar <em>acelera o que já funciona.</em>"
+   ]
   },
   {
    "tipo": "texto",
@@ -79,7 +70,7 @@
    "blocos": [
     [
      "manchete",
-     "Você não sai com um não. Sai sabendo <em>o que arrumar primeiro.</em>"
+     "Do diagnóstico, você não sai com um não. Sai sabendo <em>o que arrumar primeiro.</em>"
     ],
     [
      "corpo-suave",
@@ -91,9 +82,9 @@
    "tipo": "pausa",
    "titulo": "Pausa",
    "linhas": [
-    "Dizer não custa caro",
-    "para a agência.",
-    "<em>Dizer sim errado custa mais.</em>"
+    "Anúncio não conserta",
+    "o que vem depois dele.",
+    "<em>Só mostra mais rápido.</em>"
    ]
   },
   {
@@ -114,5 +105,5 @@
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "A resposta do diagnóstico pode ser: ainda não anuncie. Parece estranho vindo de quem vive de tráfego pago.\n\nMas pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido. Isso é ruim para você e é ruim para mim.\n\nSe a oferta não cabe em uma frase, se ninguém responde rápido no WhatsApp, se o perfil está parado e sem avaliação, ou se cada cliente custa mais do que deixa, anunciar só acelera o problema.\n\nQuando é assim, você não sai com um não. Sai sabendo o que arrumar primeiro. Muita coisa você resolve sozinho.\n\nE quando a oferta cabe em uma frase, alguém responde em minutos, quem pesquisa encontra avaliação recente e a margem paga o cliente com folga, a resposta é a outra: anuncie agora.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser saber qual das duas é a sua, comenta DIAGNÓSTICO."
+ "legenda": "A resposta do diagnóstico pode ser: ainda não anuncie. Parece estranho vindo de quem vive de tráfego pago.\n\nMas pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido. Isso é ruim para você e é ruim para mim.\n\nSe a oferta não cabe em uma frase, se ninguém responde rápido no WhatsApp, se o seu Google está parado e sem avaliação recente, ou se cada cliente custa mais do que deixa, anunciar só acelera o problema.\n\nQuando é assim, você não sai com um não. Sai sabendo o que arrumar primeiro. Muita coisa você resolve sozinho.\n\nE quando a oferta cabe em uma frase, alguém responde em minutos, quem pesquisa encontra avaliação recente e a margem paga o cliente com folga, a resposta é a outra: anuncie agora.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser saber qual das duas é a sua, comenta DIAGNÓSTICO."
 }

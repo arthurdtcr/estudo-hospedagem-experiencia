@@ -20,7 +20,7 @@
     ],
     [
      "corpo-suave",
-     "A plataforma entrega primeiro para quem tem mais chance de comprar. Para gastar mais, ela precisa buscar quem está mais longe."
+     "A plataforma entrega primeiro para quem já estava quase comprando. Com mais verba, chega em quem nunca ouviu falar de você."
     ]
    ]
   },
@@ -31,11 +31,15 @@
    "blocos": [
     [
      "manchete",
-     "Quem chega de mais longe precisa de <em>mais motivo</em> para comprar."
+     "Dobrar de uma vez faz o anúncio <em>reaprender.</em>"
     ],
     [
      "corpo-suave",
-     "Oferta confusa, perfil fraco e resposta lenta já perdiam clientes. Com esse público mais frio, perdem ainda mais."
+     "Mudança grande no orçamento devolve o conjunto de anúncios à fase de aprendizado. Por um tempo, a entrega oscila."
+    ],
+    [
+     "nota",
+     "Central de Ajuda da Meta."
     ]
    ]
   },
@@ -116,5 +120,5 @@
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "Dobrar a verba de tráfego pago quase nunca dobra as vendas. Eu sei que não é o que você espera ouvir de uma agência.\n\nO primeiro motivo: a plataforma entrega o anúncio primeiro para quem tem mais chance de comprar. Quando a verba sobe, ela precisa buscar gente mais longe, e os clientes a mais tendem a custar mais.\n\nO segundo: quem chega de mais longe precisa de mais motivo para comprar. Oferta confusa, perfil fraco e resposta lenta já perdiam clientes. Com esse público mais frio, perdem ainda mais.\n\nNão sou contra escalar. Sou contra escalar antes de arrumar o caminho.\n\nAntes de aumentar, quatro perguntas: a oferta cabe em uma frase? Quem procura seu nome confia? Quanto tempo você leva para responder? Quanto custa um cliente, e quanto ele deixa no caixa?\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e a gente faz isso com você em 30 minutos, de graça."
+ "legenda": "Dobrar a verba de tráfego pago não costuma dobrar as vendas. Eu sei que não é o que você espera ouvir de uma agência.\n\nO primeiro motivo: a plataforma entrega o anúncio primeiro para quem tem mais chance de comprar. Quando a verba sobe, ela precisa buscar gente mais longe, e os clientes a mais tendem a custar mais.\n\nO segundo: uma mudança grande no orçamento devolve o conjunto de anúncios da Meta à fase de aprendizado. Por um tempo, a entrega oscila.\n\nE quem chega de mais longe precisa de mais motivo para comprar. Oferta confusa, perfil fraco e resposta lenta já perdiam clientes. Com esse público mais frio, perdem ainda mais.\n\nNão sou contra escalar. Sou contra escalar antes de arrumar o caminho.\n\nAntes de aumentar, quatro perguntas: a oferta cabe em uma frase? Quem procura seu nome confia? Quanto tempo você leva para responder? Quanto custa um cliente, e quanto ele deixa no caixa?\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e a gente faz isso com você em 30 minutos, de graça."
 }

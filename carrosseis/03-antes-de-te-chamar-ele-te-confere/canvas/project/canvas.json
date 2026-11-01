@@ -1,0 +1,90 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-01T07:34:00Z"
+  },
+  "title": "Carrossel 03 · Antes de te chamar, ele te confere",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "1 · Capa"
+    },
+    "Slide02.dc.html": {
+      "x": 1160,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "2 · Antes de chamar"
+    },
+    "Slide03.dc.html": {
+      "x": 2320,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "3 · Uma estrela"
+    },
+    "Slide04.dc.html": {
+      "x": 3480,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "4 · Pausa"
+    },
+    "Slide05.dc.html": {
+      "x": 4640,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "5 · No Google"
+    },
+    "Slide06.dc.html": {
+      "x": 5800,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "6 · No perfil e no site"
+    },
+    "Slide07.dc.html": {
+      "x": 6960,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "7 · CTA"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Slide02.dc.html",
+    "Slide03.dc.html",
+    "Slide04.dc.html",
+    "Slide05.dc.html",
+    "Slide06.dc.html",
+    "Slide07.dc.html"
+  ],
+  "notes": {
+    "titulo": {
+      "x": 0,
+      "y": -300,
+      "text": "Carrossel 3 de 5 · Antes de te chamar, ele te confere · Impulse Elite · 1080 × 1350",
+      "kind": "title1",
+      "maxW": 8040
+    }
+  },
+  "designSystems": [
+    {
+      "title": "Impulse Elite",
+      "namespace": "impulse-elite",
+      "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
+      "version": "1793507287-6e32",
+      "copiedAt": "2026-11-01T07:34:00Z"
+    }
+  ]
+}

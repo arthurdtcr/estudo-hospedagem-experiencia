@@ -11,8 +11,8 @@
   },
   {
    "tipo": "texto",
-   "titulo": "Turbinar ou impulsionar",
-   "rotulo": "Turbinar ou impulsionar",
+   "titulo": "O botão",
+   "rotulo": "O botão",
    "blocos": [
     [
      "manchete",
@@ -20,30 +20,30 @@
     ],
     [
      "corpo-suave",
-     "Mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem."
+     "No Instagram, Turbinar. No Facebook, Impulsionar. Mostra seu post para mais gente e pede uma visita ou mensagem."
     ]
    ]
   },
   {
    "tipo": "lista",
-   "titulo": "O que fica de fora",
-   "rotulo": "O que fica de fora",
+   "titulo": "O que só o Gerenciador tem",
+   "rotulo": "O que só o Gerenciador tem",
    "itens": [
     [
-     "Objetivo de venda ou cadastro",
-     "no Gerenciador de Anúncios"
+     "Objetivo",
+     "de venda ou cadastro"
     ],
     [
-     "Teste de versões",
+     "Teste",
      "vários anúncios lado a lado"
     ],
     [
-     "Escolher onde aparece",
-     "feed, stories ou reels"
+     "Onde aparece",
+     "feed, stories ou reels, você escolhe"
     ],
     [
-     "Resultado",
-     "por anúncio e público"
+     "Relatório",
+     "qual anúncio e público trouxe resultado"
     ]
    ],
    "fecho": "Impulsionar é volume. Anunciar é <em>direção.</em>"
@@ -83,11 +83,11 @@
    "blocos": [
     [
      "manchete",
-     "O botão procura quem clica. O Gerenciador pode procurar <em>quem compra.</em>"
+     "O botão procura quem interage. O Gerenciador pode procurar <em>quem compra.</em>"
     ],
     [
      "corpo-suave",
-     "Desde que o site meça cada venda. Sem essa medição, os dois procuram quase a mesma pessoa."
+     "Desde que ele saiba quem comprou. Sem essa medição, os dois procuram quase a mesma pessoa."
     ]
    ]
   },
@@ -100,5 +100,5 @@
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "Você impulsionou. Mais gente viu, mais gente curtiu. E quem comprou?\n\nO botão (Turbinar no Instagram, Impulsionar no Facebook) não é ruim. Ele só faz menos: mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem. Às vezes basta, para um post que já foi bem ou um evento no fim de semana.\n\nPara vender todo mês, o caminho é o Gerenciador de Anúncios: objetivo de venda ou cadastro, teste de versões, escolha de onde o anúncio aparece e leitura por público.\n\nMas vou ser honesto: o Gerenciador só procura quem compra se o seu site mede cada venda. Sem isso, os dois procuram quase a mesma pessoa.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser que eu olhe o que você está pedindo para a plataforma hoje, comenta DIAGNÓSTICO."
+ "legenda": "Você impulsionou. Mais gente viu, mais gente curtiu. E quem comprou?\n\nO botão (Turbinar no Instagram, Impulsionar no Facebook) não é ruim. Ele só faz menos: mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem. Às vezes basta, para um post que já foi bem ou um evento no fim de semana.\n\nPara vender todo mês, o caminho é o Gerenciador de Anúncios: objetivo de venda ou cadastro, teste de versões, escolha de onde o anúncio aparece e leitura por público.\n\nMas vou ser honesto: o Gerenciador só procura quem compra se ele fica sabendo de cada venda, pelo site ou pelo WhatsApp. Sem isso, os dois procuram quase a mesma pessoa.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser que eu olhe o que você está pedindo para a plataforma hoje, comenta DIAGNÓSTICO."
 }

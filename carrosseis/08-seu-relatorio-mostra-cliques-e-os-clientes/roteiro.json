@@ -20,7 +20,7 @@
     ],
     [
      "corpo-suave",
-     "E no fim do mês, ninguém te diz quantas vendas vieram daí."
+     "E no fim do mês, a pergunta continua: quantas vendas vieram daí?"
     ]
    ]
   },
@@ -31,18 +31,37 @@
    "blocos": [
     [
      "manchete",
-     "Esses números não estão errados. Só respondem <em>outra coisa.</em>"
+     "Campanha que mira clique <em>entrega clique.</em>"
     ],
     [
      "corpo",
-     "Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta. E campanha que mira clique entrega clique."
+     "Esses números não estão errados. Dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Um exemplo",
+   "rotulo": "Um exemplo",
+   "blocos": [
+    [
+     "manchete",
+     "Dois anúncios, mesma verba."
+    ],
+    [
+     "corpo",
+     "O A trouxe mais cliques. O B, menos cliques e mais clientes."
+    ],
+    [
+     "corpo-suave",
+     "Pelo relatório de clique, você desligaria <em>o B.</em>"
     ]
    ]
   },
   {
    "tipo": "lista",
-   "titulo": "Os números certos",
-   "rotulo": "Os números certos",
+   "titulo": "Os números que faltam",
+   "rotulo": "Os números que faltam",
    "itens": [
     [
      "Custo por contato",
@@ -96,5 +115,5 @@
    "chave": "Salve <b>esta lista</b>"
   }
  ],
- "legenda": "Seu relatório de tráfego pago mostra cliques. Mas quantos clientes vieram daí?\n\nAlcance, impressões e cliques não estão errados. Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta.\n\nOs números que eu olho são quatro: custo por contato, quantos contatos viram cliente, custo por cliente e a margem de cada um.\n\nE tem uma parte que só você vê: a venda. Quem cuida do anúncio traz o custo por contato. Você traz quantos compraram. Juntos, sai o custo por cliente.\n\nQual desses quatro você sabe hoje de cabeça?\n\nSalve este post e leve a lista para a próxima conversa com quem cuida dos seus anúncios."
+ "legenda": "Seu relatório de tráfego pago mostra cliques. Mas quantos clientes vieram daí?\n\nAlcance, impressões e cliques não estão errados. Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta.\n\nOs números que eu olho são quatro: custo por contato, quantos contatos viram cliente, custo por cliente e a margem de cada um.\n\nE tem uma parte que só você vê: a venda. Quem cuida do anúncio traz o custo por contato. Você traz quantos compraram. Juntos, sai o custo por cliente.\n\nSe você não sabe nenhum dos quatro de cabeça, este post é para você.\n\nSalve este post e leve a lista para a próxima conversa com quem cuida dos seus anúncios."
 }

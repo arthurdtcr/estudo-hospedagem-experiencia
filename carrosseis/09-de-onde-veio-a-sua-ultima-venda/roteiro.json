@@ -16,11 +16,11 @@
    "blocos": [
     [
      "manchete",
-     "De onde veio a última venda? “Acho que <em>do Instagram.</em>”"
+     "“Acho que <em>do Instagram.</em>”"
     ],
     [
      "corpo-suave",
-     "Muito dono de negócio responde assim. Não por descuido: ninguém montou o jeito de saber."
+     "É a resposta de muito dono de negócio. Não por descuido: ninguém montou o jeito de saber."
     ]
    ]
   },
@@ -44,18 +44,12 @@
    ]
   },
   {
-   "tipo": "texto",
-   "titulo": "O custo do chute",
-   "rotulo": "O custo do chute",
-   "blocos": [
-    [
-     "manchete",
-     "Sem saber de onde veio, você não sabe <em>onde pôr o próximo real.</em>"
-    ],
-    [
-     "corpo",
-     "E pode acabar cortando o que funcionava."
-    ]
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Sem saber de onde veio a venda,",
+    "você pode cortar o que funcionava.",
+    "<em>E manter o que não.</em>"
    ]
   },
   {
@@ -72,26 +66,6 @@
      "Se ela só sabe dos cliques, procura gente que clica. Se sabe quem comprou, procura gente parecida com quem compra."
     ]
    ]
-  },
-  {
-   "tipo": "lista",
-   "titulo": "O básico bem feito",
-   "rotulo": "O básico bem feito",
-   "itens": [
-    [
-     "Pixel e API de Conversões",
-     "o site avisa de cada venda ou pedido"
-    ],
-    [
-     "Links com etiqueta (UTM)",
-     "o Analytics mostra qual anúncio trouxe"
-    ],
-    [
-     "Uma pergunta",
-     "“como você conheceu a gente?”"
-    ]
-   ],
-   "fecho": "Perfeito não existe. <em>O básico, sim.</em>"
   },
   {
    "tipo": "lista",
@@ -112,6 +86,26 @@
     ]
    ],
    "fecho": "E já mostra <em>onde pôr o próximo real.</em>"
+  },
+  {
+   "tipo": "lista",
+   "titulo": "O básico bem feito",
+   "rotulo": "O básico bem feito",
+   "itens": [
+    [
+     "Pixel",
+     "avisa a plataforma de cada venda ou pedido"
+    ],
+    [
+     "Links com etiqueta",
+     "mostram qual anúncio trouxe a visita"
+    ],
+    [
+     "Uma pergunta",
+     "“como você conheceu a gente?”"
+    ]
+   ],
+   "fecho": "Perfeito não existe. <em>O básico, sim.</em>"
   },
   {
    "tipo": "cta",

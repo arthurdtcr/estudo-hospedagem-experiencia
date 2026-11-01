@@ -3,22 +3,19 @@
 **Canvas publicado:** https://claude.ai/artifact/FaVD7E6KRquZVKMFH1dNiq
 
 - Série 2 · nível de consciência: Consciente do problema para consciente da solução · ação: Salvar
-- Nota do crítico independente (versão v6): 7.3. Versão abaixo já é a 7ª reanálise.
-- Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.
-
-![prévia](previa.png)
+- Notas dos juízes independentes: 7,3 na rodada 1 (versão v6) e 8,0 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
-*itálico* = a única ênfase dourada do slide. Fonte da verdade: `roteiro.json`.
+Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
 
-1. **Capa** (capa) · "De onde veio a sua *última venda?*" · Arraste
-2. **A resposta comum** · rótulo A RESPOSTA COMUM · manchete "De onde veio a última venda? “Acho que *do Instagram.*”" · corpo-suave "Muito dono de negócio responde assim. Não por descuido: ninguém montou o jeito de saber."
-3. **Um problema antigo** · rótulo UM PROBLEMA ANTIGO · titulo "“Metade do que eu gasto em propaganda é desperdício. O problema é que *não sei qual metade.*”" · nota "Frase atribuída ao varejista John Wanamaker, há mais de cem anos." · corpo "Hoje dá para saber muito mais."
-4. **O custo do chute** · rótulo O CUSTO DO CHUTE · manchete "Sem saber de onde veio, você não sabe *onde pôr o próximo real.*" · corpo "E pode acabar cortando o que funcionava."
-5. **O efeito escondido** · rótulo O EFEITO ESCONDIDO · manchete "A plataforma aprende com o que você *conta para ela.*" · corpo-suave "Se ela só sabe dos cliques, procura gente que clica. Se sabe quem comprou, procura gente parecida com quem compra."
-6. **O básico bem feito** · rótulo O BÁSICO BEM FEITO · 01 Pixel e API de Conversões: o site avisa de cada venda ou pedido · 02 Links com etiqueta (UTM): o Analytics mostra qual anúncio trouxe · 03 Uma pergunta: “como você conheceu a gente?” · fecho "Perfeito não existe. *O básico, sim.*"
-7. **No WhatsApp, à mão** · rótulo NO WHATSAPP, VOCÊ CONTA À MÃO · 01 Mensagem pronta por anúncio: “vi o anúncio da promoção” · 02 Etiquetas no WhatsApp Business: contato, orçamento, cliente · 03 No fim do mês: quantos clientes vieram de cada anúncio · fecho "E já mostra *onde pôr o próximo real.*"
-8. **CTA** · rótulo PRÓXIMO PASSO · manchete "De onde veio a sua última venda?" · titulo "Da próxima vez, *você vai ter a resposta.*" · lead "Salve e comece pelo mais simples esta semana. Nada disso exige verba de anúncio." · chave SALVE PARA MONTAR
+1. **Capa** (capa, 7 palavras) · "De onde veio a sua *última venda?*" · Arraste
+2. **A resposta comum** (texto, 24 palavras) · rótulo A RESPOSTA COMUM · manchete "“Acho que *do Instagram.*”" · corpo-suave "É a resposta de muito dono de negócio. Não por descuido: ninguém montou o jeito de saber."
+3. **Um problema antigo** (texto, 37 palavras) · rótulo UM PROBLEMA ANTIGO · titulo "“Metade do que eu gasto em propaganda é desperdício. O problema é que *não sei qual metade.*”" · nota "Frase atribuída ao varejista John Wanamaker, há mais de cem anos." · corpo "Hoje dá para saber muito mais."
+4. **Pausa** (pausa, fundo claro, 18 palavras) · "Sem saber de onde veio a venda," / "você pode cortar o que funcionava." / "*E manter o que não.*"
+5. **O efeito escondido** (texto, 33 palavras) · rótulo O EFEITO ESCONDIDO · manchete "A plataforma aprende com o que você *conta para ela.*" · corpo-suave "Se ela só sabe dos cliques, procura gente que clica. Se sabe quem comprou, procura gente parecida com quem compra."
+6. **No WhatsApp, à mão** (lista, 40 palavras) · rótulo NO WHATSAPP, VOCÊ CONTA À MÃO · itens: Mensagem pronta por anúncio: “vi o anúncio da promoção”; Etiquetas no WhatsApp Business: contato, orçamento, cliente; No fim do mês: quantos clientes vieram de cada anúncio · fecho "E já mostra *onde pôr o próximo real.*"
+7. **O básico bem feito** (lista, 35 palavras) · rótulo O BÁSICO BEM FEITO · itens: Pixel: avisa a plataforma de cada venda ou pedido; Links com etiqueta: mostram qual anúncio trouxe a visita; Uma pergunta: “como você conheceu a gente?” · fecho "Perfeito não existe. *O básico, sim.*"
+8. **CTA** (cta, 32 palavras) · manchete "De onde veio a sua última venda?" · titulo2 "Da próxima vez, *você vai ter a resposta.*" · lead "Salve e comece pelo mais simples esta semana. Nada disso exige verba de anúncio." · chave "Salve para montar"
 
 ## Legenda (primeira pessoa do Arthur)
 
@@ -33,5 +30,3 @@
 > Nada disso exige verba de anúncio. Algumas partes pedem ajuda técnica, outras você faz hoje.
 >
 > Salve este post e comece pelo mais simples.
-
-Histórico do processo (rascunho, reanálises, pesquisa, crítica, filtro): `../processo/serie-2/`.

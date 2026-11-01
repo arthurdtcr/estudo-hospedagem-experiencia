@@ -36,28 +36,35 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "4 · Os números certos"
+      "title": "4 · Um exemplo"
     },
     "Slide05.dc.html": {
       "x": 4640,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "5 · Pausa"
+      "title": "5 · Os números que faltam"
     },
     "Slide06.dc.html": {
       "x": 5800,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "6 · Um trabalho a dois"
+      "title": "6 · Pausa"
     },
     "Slide07.dc.html": {
       "x": 6960,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "7 · CTA"
+      "title": "7 · Um trabalho a dois"
+    },
+    "Slide08.dc.html": {
+      "x": 8120,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "8 · CTA"
     }
   },
   "order": [
@@ -67,7 +74,8 @@
     "Slide04.dc.html",
     "Slide05.dc.html",
     "Slide06.dc.html",
-    "Slide07.dc.html"
+    "Slide07.dc.html",
+    "Slide08.dc.html"
   ],
   "notes": {
     "titulo": {
@@ -75,7 +83,7 @@
       "y": -300,
       "text": "Série 2 · Carrossel 8 · Seu relatório mostra cliques. E os clientes? · Impulse Elite · 1080 × 1350",
       "kind": "title1",
-      "maxW": 8040
+      "maxW": 9200
     }
   },
   "designSystems": [

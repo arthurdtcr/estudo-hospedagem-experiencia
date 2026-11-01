@@ -11,16 +11,16 @@
   },
   {
    "tipo": "texto",
-   "titulo": "O que o primeiro mês responde",
-   "rotulo": "O que o primeiro mês responde",
+   "titulo": "A resposta honesta",
+   "rotulo": "A resposta honesta",
    "blocos": [
     [
      "manchete",
-     "Quem compra de você, e <em>por que compra.</em>"
+     "Antes de olhar a sua conta, <em>ninguém sabe.</em>"
     ],
     [
      "corpo-suave",
-     "Sem essa resposta, todo anúncio é palpite. Com ela, cada real começa a ter endereço."
+     "Depende do seu volume, da oferta e do atendimento. O que dá para combinar é o que o primeiro mês precisa responder: quem compra de você."
     ]
    ]
   },
@@ -46,7 +46,7 @@
    "itens": [
     [
      "Semana um",
-     "mede do clique à venda"
+     "liga a medição, do clique à venda"
     ],
     [
      "Semana dois",
@@ -54,14 +54,14 @@
     ],
     [
      "Semana três",
-     "corta o fraco, reforça o forte"
+     "separa o fraco do forte"
     ],
     [
      "Semana quatro",
      "mostra o primeiro custo por cliente"
     ]
    ],
-   "fecho": "É assim que <em>o chute vira critério.</em>"
+   "fecho": "Com volume, <em>o chute vira critério.</em>"
   },
   {
    "tipo": "texto",
@@ -110,10 +110,10 @@
    "tipo": "cta",
    "titulo": "CTA",
    "manchete": "Em quanto tempo o anúncio dá resultado?",
-   "titulo2": "Comece sabendo <em>como medir a resposta.</em>",
-   "lead": "No diagnóstico gratuito, a gente olha com você o que medir e quem registra a venda. São 30 minutos.",
+   "titulo2": "Comece sabendo <em>quando vai saber.</em>",
+   "lead": "No diagnóstico gratuito, a gente combina com você o que medir, em quanto tempo e quem registra a venda. São 30 minutos.",
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "Em quanto tempo o anúncio dá resultado? Antes de olhar a sua conta, eu não sei. Ninguém sabe.\n\nO que eu sei é a pergunta que o primeiro mês precisa responder: quem compra de você, e por que compra.\n\nPara isso, combine antes: em quanto tempo, medindo o quê, e quem registra a venda. Sem isso, no fim do mês a conversa vira opinião.\n\nUm mês bem feito mede do clique à venda, mostra o que traz contato, corta o fraco e mostra o primeiro custo por cliente. Mexer todo dia atrapalha: cada mudança grande recomeça o aprendizado da plataforma.\n\nE se o cliente sair caro demais, às vezes a resposta é ajustar. Às vezes é parar. As duas são resposta.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser começar sabendo o que medir, comenta DIAGNÓSTICO."
+ "legenda": "Em quanto tempo o anúncio dá resultado? Antes de olhar a sua conta, eu não sei. Ninguém sabe.\n\nO que eu sei é a pergunta que o primeiro mês precisa responder: quem compra de você.\n\nPara isso, combine antes: em quanto tempo, medindo o quê, e quem registra a venda. Sem isso, no fim do mês a conversa vira opinião.\n\nUm mês bem feito liga a medição do clique à venda, mostra o que traz contato, separa o fraco do forte e mostra o primeiro custo por cliente. Com volume, o chute vira critério. Mexer todo dia atrapalha: cada mudança grande recomeça o aprendizado da plataforma.\n\nE se o cliente sair caro demais, às vezes a resposta é ajustar. Às vezes é parar. As duas são resposta.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser começar sabendo quando vai saber, comenta DIAGNÓSTICO."
 }

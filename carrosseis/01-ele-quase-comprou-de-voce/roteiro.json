@@ -57,7 +57,7 @@
     ],
     [
      "titulo",
-     "Às vezes é verdade. Mas muitas vezes o anúncio trouxe a pessoa até a <em>porta.</em>"
+     "Às vezes é. Mas muitas vezes ele chegou até a <em>porta.</em>"
     ]
    ]
   },
@@ -76,14 +76,14 @@
     ],
     [
      "No site",
-     "demorou para abrir no celular"
+     "travou no celular"
     ],
     [
      "No WhatsApp",
      "a resposta veio no dia seguinte"
     ]
    ],
-   "fecho": "Nada disso aparece <em>nos números.</em>"
+   "fecho": "Cada um custa <em>o clique que você pagou.</em>"
   },
   {
    "tipo": "lista",
@@ -110,9 +110,9 @@
    "titulo": "CTA",
    "manchete": "Ele quase comprou de você.",
    "titulo2": "Agora você sabe <em>onde procurar.</em>",
-   "lead": "Conhece alguém que ainda culpa o anúncio?",
+   "lead": "Manda para quem anuncia e não sabe onde o cliente desiste.",
    "chave": "Envie <b>este post</b>"
   }
  ],
- "legenda": "Ele viu o seu anúncio, clicou, olhou o seu perfil e comprou do concorrente. Você nunca ficou sabendo.\n\nNos números do tráfego pago, ele vira só mais um clique. E no fim do mês a conclusão costuma ser a mesma: anúncio não funciona.\n\nÀs vezes é verdade. Eu já vi anúncio ruim queimar dinheiro. Mas muitas vezes o cliente desistiu depois do clique: no perfil parado, na reclamação sem resposta no Google, no site lento, na mensagem respondida no dia seguinte no WhatsApp.\n\nO teste do slide 6 leva poucos minutos e mostra o que ele viu.\n\nEste é o primeiro de cinco posts sobre o caminho até a venda.\n\nConhece alguém que ainda culpa o anúncio? Envia este post para ele."
+ "legenda": "Ele viu o seu anúncio, clicou, olhou o seu perfil e comprou do concorrente. Você nunca ficou sabendo.\n\nNos números do tráfego pago, ele vira só mais um clique. E no fim do mês a conclusão costuma ser a mesma: anúncio não funciona.\n\nÀs vezes é verdade. Eu já vi anúncio ruim queimar dinheiro. Mas muitas vezes o cliente desistiu depois do clique: no perfil parado, na reclamação sem resposta no Google, no site lento, na mensagem respondida no dia seguinte no WhatsApp.\n\nO teste do slide 6 leva poucos minutos e mostra o que ele viu.\n\nEste é o primeiro de cinco posts sobre o caminho até a venda.\n\nConhece alguém que anuncia e não sabe onde o cliente desiste? Envia este post para ele."
 }

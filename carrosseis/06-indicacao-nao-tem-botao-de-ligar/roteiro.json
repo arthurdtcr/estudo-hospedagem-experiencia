@@ -26,6 +26,10 @@
     [
      "manchete",
      "Ela vem quando o cliente lembra de você. <em>Não quando você precisa.</em>"
+    ],
+    [
+     "corpo-suave",
+     "E aí vem o mês em que o telefone não toca."
     ]
    ]
   },
@@ -43,8 +47,8 @@
      "vem quem mandaram, não quem você quer"
     ],
     [
-     "Contratar",
-     "sem demanda previsível, não dá"
+     "Planejar",
+     "sem saber o próximo mês, ninguém contrata"
     ]
    ],
    "fecho": "Crescimento que depende da <em>memória dos outros.</em>"
@@ -53,9 +57,9 @@
    "tipo": "pausa",
    "titulo": "Pausa",
    "linhas": [
-    "Um mês, chove indicação.",
-    "No outro, nenhuma.",
-    "<em>E não dá para prever.</em>"
+    "Mês bom, parece que o negócio cresceu.",
+    "Mês ruim, parece crise.",
+    "<em>Era só a indicação.</em>"
    ]
   },
   {
@@ -111,7 +115,7 @@
     ],
     [
      "Mantenha",
-     "ligado, cobrindo a diferença"
+     "o anúncio ligado, cobrindo a diferença"
     ]
    ],
    "fecho": "<em>A meta para de depender só dela.</em>"
@@ -121,7 +125,7 @@
    "titulo": "CTA",
    "manchete": "Indicação não tem botão de ligar.",
    "titulo2": "O anúncio <em>tem.</em>",
-   "lead": "Conhece alguém que vive de indicação?",
+   "lead": "Você ou alguém que você conhece vive de indicação?",
    "chave": "Envie <b>este post</b>"
   }
  ],

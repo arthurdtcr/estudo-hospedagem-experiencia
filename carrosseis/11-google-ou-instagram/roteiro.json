@@ -35,7 +35,7 @@
     ],
     [
      "corpo-suave",
-     "Encanador 24 horas. Dentista perto de mim. Advogado trabalhista. A pessoa sabe o que quer. Só não escolheu de quem."
+     "Encanador 24 horas. Dentista perto de mim. Advogado trabalhista. A pessoa sabe o que quer. Só não escolheu de quem. E muitas vezes escolhe pelo mapa."
     ]
    ]
   },
@@ -63,8 +63,7 @@
      "titulo": "Google primeiro se",
      "itens": [
       "existe busca para o que você vende",
-      "a necessidade é urgente",
-      "o cliente compara antes de chamar"
+      "a necessidade é urgente"
      ]
     },
     {
@@ -75,15 +74,6 @@
       "ninguém sabe que precisa ainda"
      ]
     }
-   ]
-  },
-  {
-   "tipo": "pausa",
-   "titulo": "Pausa",
-   "linhas": [
-    "O cliente te viu no Instagram.",
-    "Depois, te procurou",
-    "<em>no Google.</em>"
    ]
   },
   {
@@ -102,12 +92,21 @@
    ]
   },
   {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "O cliente te viu no Instagram.",
+    "Depois, te procurou",
+    "<em>no Google.</em>"
+   ]
+  },
+  {
    "tipo": "cta",
    "titulo": "CTA",
    "manchete": "Google ou Instagram?",
    "titulo2": "Primeiro, descubra se alguém <em>digita o que você vende.</em>",
    "lead": "Google, Instagram ou nenhum: e o seu negócio, hoje anuncia onde?",
-   "chave": "Comente <b>onde você anuncia</b>"
+   "chave": "Comente <b>Google, Instagram ou nenhum</b>"
   }
  ],
  "legenda": "Google ou Instagram? Depende de uma pergunta: alguém digita o que você vende no Google?\n\nUm teste rápido: comece a digitar. Se o Google completa a frase, tem gente procurando.\n\nSe tem, o Google te coloca na frente de quem já está procurando. Encanador 24 horas, dentista perto de mim, advogado trabalhista.\n\nSe ninguém procura o que você vende antes de ver, o Instagram é onde você aparece para quem ainda não sabe que quer. E quem te viu no Instagram pode te procurar depois no Google.\n\nCom verba curta, não divida. Comece por um e acrescente o outro quando ele trouxer cliente. E lembre: nos dois, o anúncio só traz até a porta.\n\nSe você ainda não me segue, segue: a série continua.\n\nAgora comenta aqui: Google, Instagram ou nenhum?"

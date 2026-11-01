@@ -1,0 +1,90 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-01T07:27:31Z"
+  },
+  "title": "Carrossel 01 · Ele quase comprou de você",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "1 · Capa"
+    },
+    "Slide02.dc.html": {
+      "x": 1160,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "2 · Pausa"
+    },
+    "Slide03.dc.html": {
+      "x": 2320,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "3 · O que você vê"
+    },
+    "Slide04.dc.html": {
+      "x": 3480,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "4 · A conclusão"
+    },
+    "Slide05.dc.html": {
+      "x": 4640,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "5 · Onde ele desiste"
+    },
+    "Slide06.dc.html": {
+      "x": 5800,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "6 · Faça o teste"
+    },
+    "Slide07.dc.html": {
+      "x": 6960,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "7 · CTA"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Slide02.dc.html",
+    "Slide03.dc.html",
+    "Slide04.dc.html",
+    "Slide05.dc.html",
+    "Slide06.dc.html",
+    "Slide07.dc.html"
+  ],
+  "notes": {
+    "titulo": {
+      "x": 0,
+      "y": -300,
+      "text": "Carrossel 1 de 5 · Ele quase comprou de você · Impulse Elite · 1080 × 1350",
+      "kind": "title1",
+      "maxW": 8040
+    }
+  },
+  "designSystems": [
+    {
+      "title": "Impulse Elite",
+      "namespace": "impulse-elite",
+      "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
+      "version": "1793507287-6e32",
+      "copiedAt": "2026-11-01T07:27:31Z"
+    }
+  ]
+}

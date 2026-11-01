@@ -3,22 +3,19 @@
 **Canvas publicado:** https://claude.ai/artifact/3CYPFzTWK94cSUvorAgKx4
 
 - Série 2 · nível de consciência: Consciente da solução · ação: Comentar onde anuncia
-- Nota do crítico independente (versão v6): 6.6. Versão abaixo já é a 7ª reanálise.
-- Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.
-
-![prévia](previa.png)
+- Notas dos juízes independentes: 6,6 na rodada 1 (versão v6) e 8,2 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
-*itálico* = a única ênfase dourada do slide. Fonte da verdade: `roteiro.json`.
+Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
 
-1. **Capa** (capa) · "Google ou Instagram? *Depende de uma pergunta.*" · Arraste
-2. **A pergunta** · rótulo A PERGUNTA · manchete "Alguém digita o que você vende *no Google?*" · corpo-suave "Teste: comece a digitar. Se o Google completa a frase, tem gente procurando."
-3. **Quem já procura** · rótulo QUEM JÁ PROCURA · manchete "No Google, você encontra quem *já está procurando.*" · corpo-suave "Encanador 24 horas. Dentista perto de mim. Advogado trabalhista. A pessoa sabe o que quer. Só não escolheu de quem."
-4. **Quem ainda não procurou** · rótulo QUEM AINDA NÃO PROCUROU · manchete "No Instagram, você aparece para quem *ainda não procurou.*" · corpo-suave "Ninguém pesquisa a roupa que nunca viu. Ali, o anúncio desperta a vontade."
-5. **Por onde começar** · rótulo POR ONDE COMEÇAR · Google primeiro se: existe busca para o que você vende; a necessidade é urgente; o cliente compara antes de chamar | Instagram primeiro se: o produto é visual; a compra é por desejo; ninguém sabe que precisa ainda
-6. **Pausa** (pausa, marfim) · "O cliente te viu no Instagram." / "Depois, te procurou" / "*no Google.*"
-7. **Um de cada vez** · rótulo UM DE CADA VEZ · manchete "Com verba curta, *não divida.*" · corpo "Pouco dinheiro em dois canais vira dois testes pela metade. Comece por um. Quando ele trouxer cliente, acrescente o outro."
-8. **CTA** · rótulo PRÓXIMO PASSO · manchete "Google ou Instagram?" · titulo "Primeiro, descubra se alguém *digita o que você vende.*" · lead "Google, Instagram ou nenhum: e o seu negócio, hoje anuncia onde?" · chave COMENTE ONDE VOCÊ ANUNCIA
+1. **Capa** (capa, 7 palavras) · "Google ou Instagram? *Depende de uma pergunta.*" · Arraste
+2. **A pergunta** (texto, 23 palavras) · rótulo A PERGUNTA · manchete "Alguém digita o que você vende *no Google?*" · corpo-suave "Teste: comece a digitar. Se o Google completa a frase, tem gente procurando."
+3. **Quem já procura** (texto, 37 palavras) · rótulo QUEM JÁ PROCURA · manchete "No Google, você encontra quem *já está procurando.*" · corpo-suave "Encanador 24 horas. Dentista perto de mim. Advogado trabalhista. A pessoa sabe o que quer. Só não escolheu de quem. E muitas vezes escolhe pelo mapa."
+4. **Quem ainda não procurou** (texto, 26 palavras) · rótulo QUEM AINDA NÃO PROCUROU · manchete "No Instagram, você aparece para quem *ainda não procurou.*" · corpo-suave "Ninguém pesquisa a roupa que nunca viu. Ali, o anúncio desperta a vontade."
+5. **Por onde começar** (duplo, 34 palavras) · rótulo POR ONDE COMEÇAR · Google primeiro se: existe busca para o que você vende; a necessidade é urgente · Instagram primeiro se: o produto é visual; a compra é por desejo; ninguém sabe que precisa ainda
+6. **Um de cada vez** (texto, 29 palavras) · rótulo UM DE CADA VEZ · manchete "Com verba curta, *não divida.*" · corpo "Pouco dinheiro em dois canais vira dois testes pela metade. Comece por um. Quando ele trouxer cliente, acrescente o outro."
+7. **Pausa** (pausa, fundo claro, 11 palavras) · "O cliente te viu no Instagram." / "Depois, te procurou" / "*no Google.*"
+8. **CTA** (cta, 28 palavras) · manchete "Google ou Instagram?" · titulo2 "Primeiro, descubra se alguém *digita o que você vende.*" · lead "Google, Instagram ou nenhum: e o seu negócio, hoje anuncia onde?" · chave "Comente Google, Instagram ou nenhum"
 
 ## Legenda (primeira pessoa do Arthur)
 
@@ -35,5 +32,3 @@
 > Se você ainda não me segue, segue: a série continua.
 >
 > Agora comenta aqui: Google, Instagram ou nenhum?
-
-Histórico do processo (rascunho, reanálises, pesquisa, crítica, filtro): `../processo/serie-2/`.

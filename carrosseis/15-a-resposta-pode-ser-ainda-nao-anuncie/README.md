@@ -3,22 +3,19 @@
 **Canvas publicado:** https://claude.ai/artifact/MSRaVvuxDK6imR8kWTfzf9
 
 - Série 2 · nível de consciência: Totalmente consciente · ação: Comentar Diagnóstico
-- Nota do crítico independente (versão v6): 6.9. Versão abaixo já é a 7ª reanálise.
-- Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.
-
-![prévia](previa.png)
+- Notas dos juízes independentes: 6,9 na rodada 1 (versão v6) e 8,5 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
-*itálico* = a única ênfase dourada do slide. Fonte da verdade: `roteiro.json`.
+Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
 
-1. **Capa** (capa) · "A resposta pode ser: *ainda não anuncie.*" · Arraste
-2. **Estranho, né** · rótulo ESTRANHO, NÉ · manchete "Agência de tráfego mandando *não anunciar?*" · corpo-suave "Pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido."
-3. **Antes de anunciar** · rótulo ANTES DE ANUNCIAR · 01 A oferta: não cabe em uma frase · 02 O WhatsApp: ninguém responde rápido · 03 O perfil: parado, sem avaliação · 04 A margem: cada cliente custa mais do que deixa · fecho "Se marcou um, anunciar só *acelera o problema.*"
-4. **Quando é hora** · rótulo QUANDO É HORA · 01 A oferta: cabe em uma frase · 02 Alguém responde: em minutos, não em horas · 03 Quem pesquisa: encontra avaliação recente · 04 A margem: paga o cliente com folga · fecho "Aí, anunciar *acelera o que já funciona.*"
-5. **O que você leva** · rótulo O QUE VOCÊ LEVA · manchete "Você não sai com um não. Sai sabendo *o que arrumar primeiro.*" · corpo-suave "Na ordem do que mais trava. Muita coisa você resolve sozinho."
-6. **Pausa** (pausa, marfim) · "Dizer não custa caro" / "para a agência." / "*Dizer sim errado custa mais.*"
-7. **Arthur** · Foto do Arthur · P&B · titulo "Quem diz esse não *sou eu.*" · ARTHUR, FUNDADOR DA IMPULSE · suave "Cada diagnóstico passa pela minha mão." · "Prefiro adiar uma venda a começar um projeto que eu sei que vai te frustrar."
-8. **CTA** · rótulo PRÓXIMO PASSO · manchete "A resposta pode ser: ainda não anuncie." · titulo "Ou pode ser: *anuncie agora.*" · lead "O diagnóstico gratuito serve para saber qual das duas é a sua. São 30 minutos." · chave COMENTE DIAGNÓSTICO
+1. **Capa** (capa, 7 palavras) · "A resposta pode ser: *ainda não anuncie.*" · Arraste
+2. **Estranho, né** (texto, 26 palavras) · rótulo ESTRANHO, NÉ · manchete "Agência de tráfego mandando *não anunciar?*" · corpo-suave "Pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido."
+3. **Antes de anunciar** (lista, 39 palavras) · rótulo ANTES DE ANUNCIAR · itens: A oferta: não cabe em uma frase; O WhatsApp: ninguém responde rápido; O Google: perfil parado, sem avaliação recente; A margem: cada cliente custa mais do que deixa · fecho "Se marcou um, anunciar só *acelera o problema.*"
+4. **Quando é hora** (texto, 26 palavras) · rótulo QUANDO É HORA · manchete "Com os quatro de pé, anunciar *acelera o que já funciona.*" · corpo-suave "Oferta em uma frase. Resposta em minutos. Avaliação recente. Margem com folga."
+5. **O que você leva** (texto, 29 palavras) · rótulo O QUE VOCÊ LEVA · manchete "Do diagnóstico, você não sai com um não. Sai sabendo *o que arrumar primeiro.*" · corpo-suave "Na ordem do que mais trava. Muita coisa você resolve sozinho."
+6. **Pausa** (pausa, fundo claro, 12 palavras) · "Anúncio não conserta" / "o que vem depois dele." / "*Só mostra mais rápido.*"
+7. **Arthur** (retrato, 31 palavras) · foto "Foto do Arthur · P&B" · nome "Quem diz esse não *sou eu.*" · cargo "Arthur, fundador da Impulse" · corpo_suave "Cada diagnóstico passa pela minha mão." · corpo "Prefiro adiar uma venda a começar um projeto que eu sei que vai te frustrar."
+8. **CTA** (cta, 29 palavras) · manchete "A resposta pode ser: ainda não anuncie." · titulo2 "Ou pode ser: *anuncie agora.*" · lead "O diagnóstico gratuito serve para saber qual das duas é a sua. São 30 minutos." · chave "Comente Diagnóstico"
 
 ## Legenda (primeira pessoa do Arthur)
 
@@ -26,7 +23,7 @@
 >
 > Mas pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido. Isso é ruim para você e é ruim para mim.
 >
-> Se a oferta não cabe em uma frase, se ninguém responde rápido no WhatsApp, se o perfil está parado e sem avaliação, ou se cada cliente custa mais do que deixa, anunciar só acelera o problema.
+> Se a oferta não cabe em uma frase, se ninguém responde rápido no WhatsApp, se o seu Google está parado e sem avaliação recente, ou se cada cliente custa mais do que deixa, anunciar só acelera o problema.
 >
 > Quando é assim, você não sai com um não. Sai sabendo o que arrumar primeiro. Muita coisa você resolve sozinho.
 >
