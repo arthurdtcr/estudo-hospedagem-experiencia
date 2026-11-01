@@ -1,0 +1,90 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-01T12:34:54Z"
+  },
+  "title": "Carrossel 07 · Já investi em anúncio. Não funcionou",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "1 · Capa"
+    },
+    "Slide02.dc.html": {
+      "x": 1160,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "2 · Pode ser verdade"
+    },
+    "Slide03.dc.html": {
+      "x": 2320,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "3 · Onde costuma travar"
+    },
+    "Slide04.dc.html": {
+      "x": 3480,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "4 · Fato e conclusão"
+    },
+    "Slide05.dc.html": {
+      "x": 4640,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "5 · Pausa"
+    },
+    "Slide06.dc.html": {
+      "x": 5800,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "6 · Antes da próxima"
+    },
+    "Slide07.dc.html": {
+      "x": 6960,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "7 · CTA"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Slide02.dc.html",
+    "Slide03.dc.html",
+    "Slide04.dc.html",
+    "Slide05.dc.html",
+    "Slide06.dc.html",
+    "Slide07.dc.html"
+  ],
+  "notes": {
+    "titulo": {
+      "x": 0,
+      "y": -300,
+      "text": "Série 2 · Carrossel 7 · Já investi em anúncio. Não funcionou. · Impulse Elite · 1080 × 1350",
+      "kind": "title1",
+      "maxW": 8040
+    }
+  },
+  "designSystems": [
+    {
+      "title": "Impulse Elite",
+      "namespace": "impulse-elite",
+      "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
+      "version": "1793507287-6e32",
+      "copiedAt": "2026-11-01T12:34:54Z"
+    }
+  ]
+}

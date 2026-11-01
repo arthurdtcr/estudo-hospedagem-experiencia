@@ -1,0 +1,98 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-01T12:34:54Z"
+  },
+  "title": "Carrossel 09 · De onde veio a sua última venda?",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "1 · Capa"
+    },
+    "Slide02.dc.html": {
+      "x": 1160,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "2 · A resposta comum"
+    },
+    "Slide03.dc.html": {
+      "x": 2320,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "3 · Um problema antigo"
+    },
+    "Slide04.dc.html": {
+      "x": 3480,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "4 · O custo do chute"
+    },
+    "Slide05.dc.html": {
+      "x": 4640,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "5 · O efeito escondido"
+    },
+    "Slide06.dc.html": {
+      "x": 5800,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "6 · O básico bem feito"
+    },
+    "Slide07.dc.html": {
+      "x": 6960,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "7 · No WhatsApp, à mão"
+    },
+    "Slide08.dc.html": {
+      "x": 8120,
+      "y": 0,
+      "w": 1080,
+      "h": 1350,
+      "title": "8 · CTA"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Slide02.dc.html",
+    "Slide03.dc.html",
+    "Slide04.dc.html",
+    "Slide05.dc.html",
+    "Slide06.dc.html",
+    "Slide07.dc.html",
+    "Slide08.dc.html"
+  ],
+  "notes": {
+    "titulo": {
+      "x": 0,
+      "y": -300,
+      "text": "Série 2 · Carrossel 9 · De onde veio a sua última venda? · Impulse Elite · 1080 × 1350",
+      "kind": "title1",
+      "maxW": 9200
+    }
+  },
+  "designSystems": [
+    {
+      "title": "Impulse Elite",
+      "namespace": "impulse-elite",
+      "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
+      "version": "1793507287-6e32",
+      "copiedAt": "2026-11-01T12:34:54Z"
+    }
+  ]
+}

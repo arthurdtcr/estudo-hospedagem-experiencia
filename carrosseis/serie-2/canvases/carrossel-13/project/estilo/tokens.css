@@ -1,0 +1,60 @@
+/* Impulse Elite: variáveis compiladas do tokens.json do design system */
+:root, [data-theme="noite"] {
+  --fundo: var(--preto-impulse);
+  --superficie: var(--grafite);
+  --tinta: var(--marfim);
+  --tinta-suave: var(--cinza-texto);
+  --destaque: var(--dourado);
+  --on-destaque: var(--preto-impulse);
+  --filete: var(--borda-sutil);
+  --preto-impulse: #000000;
+  --grafite: #16161A;
+  --borda-sutil: #2E2E36;
+  --borda-elevada: #3A3A44;
+  --marfim: #F4F1E9;
+  --cinza-texto: #8E8E96;
+  --dourado: #E0BE72;
+  --ouro-medio: #C9A44E;
+  --ouro-claro: #E7C67F;
+  --champagne: #FBEE9A;
+  --ouro-escuro: #8C6D33;
+  --bronze: #7A5E1B;
+  --cinza-grafite: #55555E;
+  --marfim-profundo: #E7E1D2;
+}
+[data-theme="marfim"] {
+  --fundo: var(--marfim);
+  --superficie: var(--marfim-profundo);
+  --tinta: var(--preto-impulse);
+  --tinta-suave: var(--cinza-grafite);
+  --destaque: var(--bronze);
+  --on-destaque: var(--marfim);
+  --filete: #CFC6B2;
+}
+:root {
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-9: 72px;
+  --space-12: 96px;
+  --margem-x: 88px;
+  --margem-y: 112px;
+  --canto: 0px;
+  --chanfro-sm: 16px;
+  --chanfro-lg: 32px;
+  --grao: 0.09;
+  --brilho: 0.14;
+  --font-serif: "Instrument Serif", "Times New Roman", Georgia, serif;
+  --font-sans: Montserrat, "Helvetica Neue", Arial, sans-serif;
+}
+.numeral { font-family: var(--font-serif); font-size: 280px; line-height: 0.85; font-weight: 400; letter-spacing: -0.02em; }
+.capa { font-family: var(--font-serif); font-size: 176px; line-height: 0.95; font-weight: 400; letter-spacing: -0.025em; }
+.manchete { font-family: var(--font-serif); font-size: 120px; line-height: 1.0; font-weight: 400; letter-spacing: -0.02em; }
+.titulo { font-family: var(--font-serif); font-size: 84px; line-height: 1.05; font-weight: 400; letter-spacing: -0.01em; }
+.item { font-family: var(--font-serif); font-size: 56px; line-height: 1.1; font-weight: 400; letter-spacing: -0.01em; }
+.lead { font-family: var(--font-sans); font-size: 40px; line-height: 1.4; font-weight: 500; letter-spacing: -0.005em; }
+.corpo { font-family: var(--font-sans); font-size: 34px; line-height: 1.5; font-weight: 400; letter-spacing: 0em; }
+.nota { font-family: var(--font-sans); font-size: 24px; line-height: 1.45; font-weight: 500; letter-spacing: 0.02em; }
+.rotulo { font-family: var(--font-sans); font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: 0.32em; }

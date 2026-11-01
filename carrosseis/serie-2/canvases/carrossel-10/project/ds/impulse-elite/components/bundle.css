@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:wght@400;500;600&display=swap");
+
+/* Impulse Elite: classes de composição. Tipografia vem das classes de estilo do tokens.css
+   (.capa .manchete .titulo .item .numeral .lead .corpo .nota .rotulo). */
+
+.ie-arte {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+  background: var(--fundo);
+  color: var(--tinta);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  isolation: isolate;
+}
+.ie-arte *, .ie-arte *::before, .ie-arte *::after { box-sizing: border-box; }
+.ie-arte.ie-story { height: 1920px; }
+.ie-arte.ie-quadrado { height: 1080px; }
+
+/* Área útil: margens do sistema */
+.ie-area {
+  position: absolute;
+  inset: var(--margem-y) var(--margem-x);
+  display: flex;
+  flex-direction: column;
+}
+.ie-story .ie-area { inset: 250px var(--margem-x) 320px; padding: var(--space-6) 0; }
+.ie-entre { justify-content: space-between; }
+.ie-base { justify-content: flex-end; }
+.ie-centro { justify-content: center; }
+
+/* Tipografia: família e cor */
+.ie-serif { font-family: var(--font-serif); font-weight: 400; color: var(--tinta); margin: 0; }
+.ie-sans { font-family: var(--font-sans); margin: 0; }
+.ie-serif em { font-style: italic; color: var(--destaque); }
+.ie-suave { color: var(--tinta-suave); }
+.ie-ouro { color: var(--destaque); }
+.ie-maiusc { text-transform: uppercase; }
+.ie-largura { max-width: 820px; }
+p.ie-sans { margin: 0; }
+
+/* Rótulo: filete de 56px + texto espaçado */
+.ie-rotulo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--destaque);
+  text-transform: uppercase;
+  font-family: var(--font-sans);
+}
+.ie-rotulo::before {
+  content: "";
+  width: 56px;
+  height: 2px;
+  background: var(--destaque);
+  flex-shrink: 0;
+}
+
+/* Filete e diagonal (o ângulo do monograma) */
+.ie-filete { height: 1.5px; background: var(--filete); width: 100%; }
+.ie-filete.ie-ouro-linha { background: var(--destaque); width: 120px; height: 2px; }
+.ie-diagonal {
+  position: absolute;
+  width: 1.5px;
+  height: 1900px;
+  background: linear-gradient(to bottom, transparent, var(--destaque) 30%, var(--destaque) 70%, transparent);
+  opacity: 0.55;
+  transform-origin: top left;
+  transform: rotate(32deg);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Degradê metálico: só em numeral e filete curto */
+.metal-text {
+  background: linear-gradient(135deg, var(--ouro-escuro) 0%, var(--ouro-medio) 22%, var(--ouro-claro) 48%, var(--champagne) 66%, var(--ouro-medio) 86%, var(--ouro-escuro) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.ie-metal {
+  background: linear-gradient(135deg, var(--ouro-escuro) 0%, var(--ouro-medio) 22%, var(--ouro-claro) 48%, var(--champagne) 66%, var(--ouro-medio) 86%, var(--ouro-escuro) 100%);
+}
+
+/* Textura e luz */
+.ie-grao::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: var(--grao);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  z-index: 3;
+}
+.ie-brilho::before {
+  content: "";
+  position: absolute;
+  width: 1100px;
+  height: 1100px;
+  right: -420px;
+  top: -460px;
+  background: radial-gradient(circle, var(--dourado) 0%, transparent 62%);
+  opacity: var(--brilho);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Logo: o JPG tem fundo preto puro; lighten funde esse preto com o fundo, o brilho e o grão */
+.ie-logo { display: block; height: auto; mix-blend-mode: lighten; }
+.ie-logo-sm { width: 140px; }
+.ie-logo-md { width: 200px; }
+.ie-logo-lg { width: 460px; }
+.ie-brilho-centro::before {
+  content: "";
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  left: -60px;
+  top: -320px;
+  background: radial-gradient(circle, var(--dourado) 0%, transparent 60%);
+  opacity: var(--brilho);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Lista numerada com numerais serifados */
+.ie-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-6); counter-reset: ie; }
+.ie-lista li {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: var(--space-4);
+  align-items: baseline;
+  padding-top: var(--space-6);
+  border-top: 1.5px solid var(--filete);
+  counter-increment: ie;
+}
+.ie-lista li::before {
+  content: "0" counter(ie);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 56px;
+  line-height: 1;
+  color: var(--destaque);
+}
+
+/* Caixa com chanfro: CTA de palavra-chave e botão */
+.ie-chave {
+  display: inline-block;
+  padding: 2px;
+  background: var(--destaque);
+  clip-path: polygon(0 0, calc(100% - var(--chanfro-sm)) 0, 100% var(--chanfro-sm), 100% 100%, 0 100%);
+}
+.ie-chave > span {
+  display: block;
+  padding: 28px 52px;
+  background: var(--fundo);
+  clip-path: polygon(0 0, calc(100% - var(--chanfro-sm) + 1px) 0, 100% calc(var(--chanfro-sm) - 1px), 100% 100%, 0 100%);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--tinta);
+}
+.ie-chave > span b { color: var(--destaque); font-weight: 600; }
+.ie-botao {
+  display: inline-block;
+  padding: 28px 56px;
+  background: var(--destaque);
+  color: var(--on-destaque);
+  clip-path: polygon(0 0, calc(100% - var(--chanfro-sm)) 0, 100% var(--chanfro-sm), 100% 100%, 0 100%);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+/* Retrato em preto e branco */
+.ie-retrato {
+  position: relative;
+  overflow: hidden;
+  background: var(--borda-elevada);
+  clip-path: polygon(0 0, calc(100% - var(--chanfro-lg)) 0, 100% var(--chanfro-lg), 100% 100%, 0 100%);
+}
+.ie-retrato img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(1) contrast(1.12) brightness(0.95); }
+.ie-retrato::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 45%, var(--fundo) 100%);
+}
+.ie-retrato-vazio {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--tinta-suave);
+  background:
+    radial-gradient(ellipse 38% 30% at 50% 36%, #4a4a52 0%, transparent 70%),
+    radial-gradient(ellipse 60% 42% at 50% 92%, #3f3f47 0%, transparent 70%),
+    var(--grafite);
+}
+
+/* Capa de destaque (círculo do perfil) */
+.ie-destaque {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: var(--preto-impulse);
+  border: 2px solid var(--borda-sutil);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.ie-destaque::after {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border-radius: 50%;
+  border: 1.5px solid var(--ouro-escuro);
+}
+.ie-destaque span { font-family: var(--font-serif); font-style: italic; font-size: 132px; line-height: 1; color: var(--dourado); }
+
+/* Guias de zona segura (não exportar) */
+.ie-guia {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  border: 2px dashed rgba(229, 72, 77, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.24em;
+  color: rgba(229, 72, 77, 0.85);
+  text-transform: uppercase;
+}
+
+/* Painel neutro para prévias de peças pequenas */
+.ie-painel {
+  background: var(--fundo);
+  color: var(--tinta);
+  padding: 64px var(--margem-x);
+  font-family: var(--font-sans);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
