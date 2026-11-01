@@ -1,0 +1,1151 @@
+[
+ {
+  "id": 6,
+  "titulo": "Indicação não tem botão de ligar",
+  "nivel": "Inconsciente para consciente do problema",
+  "acao": "Enviar",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "Indicação não tem <em>botão de ligar.</em>"
+   },
+   {
+    "tipo": "numeral",
+    "titulo": "Indicação funciona",
+    "rotulo": "Indicação funciona",
+    "numeral": "88%",
+    "lead": "das pessoas confiam em recomendação de quem conhecem. Nenhum formato de propaganda ganhou dela.",
+    "nota": "Nielsen, Trust in Advertising 2021. Mais de 40 mil pessoas em 56 países.",
+    "corpo": "O problema é outro."
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O problema",
+    "rotulo": "O problema",
+    "blocos": [
+     [
+      "manchete",
+      "Ela vem quando o cliente lembra de você. <em>Não quando você precisa.</em>"
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "O que ela não deixa fazer",
+    "rotulo": "O que ela não deixa fazer",
+    "itens": [
+     [
+      "Crescer",
+      "poucos clientes, poucas indicações"
+     ],
+     [
+      "Escolher",
+      "vem quem mandaram, não quem você quer"
+     ],
+     [
+      "Contratar",
+      "sem demanda previsível, não dá"
+     ]
+    ],
+    "fecho": "Crescimento que depende da <em>memória dos outros.</em>"
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Um mês, chove indicação.",
+     "No outro, nenhuma.",
+     "<em>E não dá para prever.</em>"
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O que muda",
+    "rotulo": "O que muda",
+    "blocos": [
+     [
+      "manchete",
+      "Anúncio é o canal que <em>tem botão.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Você decide quando aparece, onde e com quanto."
+     ],
+     [
+      "corpo",
+      "Não é instantâneo: leva semanas para ficar previsível. Mas é regulável."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "A diferença",
+    "rotulo": "A diferença",
+    "blocos": [
+     [
+      "manchete",
+      "O cliente do anúncio chega <em>mais frio</em> que o indicado."
+     ],
+     [
+      "corpo",
+      "O anúncio traz até a porta. Quem fecha é o seu atendimento."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "Sem largar a indicação",
+    "rotulo": "Sem largar a indicação",
+    "itens": [
+     [
+      "Conte",
+      "quantos clientes vêm de indicação por mês"
+     ],
+     [
+      "Calcule",
+      "quantos faltam para a meta"
+     ],
+     [
+      "Teste",
+      "quanto custa um cliente vindo do anúncio"
+     ],
+     [
+      "Mantenha",
+      "ligado, cobrindo a diferença"
+     ]
+    ],
+    "fecho": "<em>A meta para de depender só dela.</em>"
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Indicação não tem botão de ligar.",
+    "titulo2": "O anúncio <em>tem.</em>",
+    "lead": "Conhece alguém que vive de indicação?",
+    "chave": "Envie <b>este post</b>"
+   }
+  ],
+  "legenda": "Cliente indicado chega pronto para comprar. Só não chega quando você chama.\n\nNão sou eu que digo que indicação funciona. Na pesquisa Trust in Advertising da Nielsen, de 2021, com mais de 40 mil pessoas em 56 países, 88% disseram confiar em recomendação de quem conhecem. Nenhum formato de propaganda ganhou dela.\n\nO problema é que ela chega quando o cliente lembra de você, e não quando o seu caixa precisa.\n\nTráfego pago não substitui a indicação. E vou ser honesto: o cliente que vem do anúncio chega mais frio que o indicado. O anúncio traz até a porta, quem fecha é o atendimento. Mas é o canal que você regula: quando aparece, onde e com quanto. Não é instantâneo, leva semanas para ficar previsível.\n\nConhece alguém que vive de indicação? Envie este post para ele."
+ },
+ {
+  "id": 7,
+  "titulo": "Já investi em anúncio. Não funcionou.",
+  "nivel": "Consciente do problema",
+  "acao": "Comentar Diagnóstico",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "“Já investi em anúncio. <em>Não funcionou.</em>”"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Pode ser verdade",
+    "rotulo": "Pode ser verdade",
+    "blocos": [
+     [
+      "manchete",
+      "Muitas vezes, o anúncio não funcionou <em>mesmo.</em>"
+     ],
+     [
+      "corpo-suave",
+      "A gente não vai dizer que foi impressão. Anúncio mal feito queima dinheiro."
+     ],
+     [
+      "corpo",
+      "A pergunta útil é outra: onde exatamente travou?"
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "Onde costuma travar",
+    "rotulo": "Onde costuma travar",
+    "itens": [
+     [
+      "O público",
+      "falou com quem não compra"
+     ],
+     [
+      "A oferta",
+      "ninguém viu motivo"
+     ],
+     [
+      "O caminho",
+      "clicaram e se perderam"
+     ],
+     [
+      "O tempo",
+      "desligou antes de ter dados"
+     ],
+     [
+      "A margem",
+      "custou mais do que deixou"
+     ]
+    ],
+    "fecho": "Cada uma tem <em>conserto diferente.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Fato e conclusão",
+    "rotulo": "Fato e conclusão",
+    "blocos": [
+     [
+      "manchete",
+      "“Não funcionou” é um fato."
+     ],
+     [
+      "titulo",
+      "“Não funciona para o meu negócio” é <em>uma conclusão.</em>"
+     ],
+     [
+      "corpo-suave",
+      "E conclusão precisa de dado."
+     ]
+    ]
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Campanha não é promessa.",
+     "É hipótese.",
+     "E hipótese <em>se testa.</em>"
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "Antes da próxima",
+    "rotulo": "Antes da próxima",
+    "itens": [
+     [
+      "O público",
+      "quem compraria"
+     ],
+     [
+      "A oferta",
+      "motivo para comprar"
+     ],
+     [
+      "O caminho",
+      "o depois do clique"
+     ],
+     [
+      "O prazo",
+      "quanto tempo testar"
+     ],
+     [
+      "A margem",
+      "quanto um cliente pode custar"
+     ]
+    ],
+    "fecho": "Assim, se der errado, <em>você sabe onde.</em>"
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Já investiu e não funcionou?",
+    "titulo2": "Antes de tentar de novo, <em>veja onde travou.</em>",
+    "lead": "No diagnóstico gratuito, a gente olha a última tentativa antes de falar da próxima. São 30 minutos.",
+    "chave": "Comente <b>Diagnóstico</b>"
+   }
+  ],
+  "legenda": "“Já investi em anúncio e não funcionou.” Eu escuto muito essa frase. E muitas vezes é verdade.\n\nAnúncio mal feito queima dinheiro, e eu não vou fingir que não.\n\nMas tem uma diferença entre “não funcionou” e “não funciona para o meu negócio”. A primeira é um fato. A segunda é uma conclusão, e conclusão precisa de dado.\n\nFoi o público? A oferta? O que a pessoa encontrou depois do clique? A campanha desligada antes de ter dados? Ou a margem, que nunca ia fechar? Cada uma tem um conserto diferente.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser que eu olhe a sua última tentativa antes da próxima, comenta DIAGNÓSTICO."
+ },
+ {
+  "id": 8,
+  "titulo": "Seu relatório mostra cliques. E os clientes?",
+  "nivel": "Consciente do problema",
+  "acao": "Salvar",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "Seu relatório mostra cliques. <em>E os clientes?</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "No seu relatório",
+    "rotulo": "No seu relatório",
+    "blocos": [
+     [
+      "manchete",
+      "Alcance, impressões, cliques. Tudo <em>subindo.</em>"
+     ],
+     [
+      "corpo-suave",
+      "E no fim do mês, ninguém te diz quantas vendas vieram daí."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Outra pergunta",
+    "rotulo": "Outra pergunta",
+    "blocos": [
+     [
+      "manchete",
+      "Esses números não estão errados. Só respondem <em>outra coisa.</em>"
+     ],
+     [
+      "corpo",
+      "Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta. E campanha que mira clique entrega clique."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "Os números certos",
+    "rotulo": "Os números certos",
+    "itens": [
+     [
+      "Custo por contato",
+      "quanto custa cada chamada"
+     ],
+     [
+      "Contato que vira cliente",
+      "de cada dez, quantos compram"
+     ],
+     [
+      "Custo por cliente",
+      "verba dividida pelos clientes do anúncio"
+     ],
+     [
+      "Margem",
+      "o que sobra de cada cliente"
+     ]
+    ],
+    "fecho": "O anúncio <em>se pagou?</em>"
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Clique é sinal.",
+     "Contato é chance.",
+     "<em>Cliente é resultado.</em>"
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Um trabalho a dois",
+    "rotulo": "Um trabalho a dois",
+    "blocos": [
+     [
+      "manchete",
+      "A agência vê o contato. <em>Você vê a venda.</em>"
+     ],
+     [
+      "corpo",
+      "Sem você contar quantos contatos compraram, ninguém fecha essa conta."
+     ]
+    ]
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Seu relatório mostra cliques.",
+    "titulo2": "Monte <em>o custo por cliente.</em>",
+    "lead": "Leve esta lista para quem cuida dos seus anúncios. Ele traz o custo por contato. Você traz as vendas.",
+    "chave": "Salve <b>esta lista</b>"
+   }
+  ],
+  "legenda": "Seu relatório de tráfego pago mostra cliques. Mas quantos clientes vieram daí?\n\nAlcance, impressões e cliques não estão errados. Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta.\n\nOs números que eu olho são quatro: custo por contato, quantos contatos viram cliente, custo por cliente e a margem de cada um.\n\nE tem uma parte que só você vê: a venda. Quem cuida do anúncio traz o custo por contato. Você traz quantos compraram. Juntos, sai o custo por cliente.\n\nQual desses quatro você sabe hoje de cabeça?\n\nSalve este post e leve a lista para a próxima conversa com quem cuida dos seus anúncios."
+ },
+ {
+  "id": 9,
+  "titulo": "De onde veio a sua última venda?",
+  "nivel": "Consciente do problema para consciente da solução",
+  "acao": "Salvar",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "De onde veio a sua <em>última venda?</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "A resposta comum",
+    "rotulo": "A resposta comum",
+    "blocos": [
+     [
+      "manchete",
+      "De onde veio a última venda? “Acho que <em>do Instagram.</em>”"
+     ],
+     [
+      "corpo-suave",
+      "Muito dono de negócio responde assim. Não por descuido: ninguém montou o jeito de saber."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Um problema antigo",
+    "rotulo": "Um problema antigo",
+    "blocos": [
+     [
+      "titulo",
+      "“Metade do que eu gasto em propaganda é desperdício. O problema é que <em>não sei qual metade.</em>”"
+     ],
+     [
+      "nota",
+      "Frase atribuída ao varejista John Wanamaker, há mais de cem anos."
+     ],
+     [
+      "corpo",
+      "Hoje dá para saber muito mais."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O custo do chute",
+    "rotulo": "O custo do chute",
+    "blocos": [
+     [
+      "manchete",
+      "Sem saber de onde veio, você não sabe <em>onde pôr o próximo real.</em>"
+     ],
+     [
+      "corpo",
+      "E pode acabar cortando o que funcionava."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O efeito escondido",
+    "rotulo": "O efeito escondido",
+    "blocos": [
+     [
+      "manchete",
+      "A plataforma aprende com o que você <em>conta para ela.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Se ela só sabe dos cliques, procura gente que clica. Se sabe quem comprou, procura gente parecida com quem compra."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "O básico bem feito",
+    "rotulo": "O básico bem feito",
+    "itens": [
+     [
+      "Pixel e API de Conversões",
+      "o site avisa de cada venda ou pedido"
+     ],
+     [
+      "Links com etiqueta (UTM)",
+      "o Analytics mostra qual anúncio trouxe"
+     ],
+     [
+      "Uma pergunta",
+      "“como você conheceu a gente?”"
+     ]
+    ],
+    "fecho": "Perfeito não existe. <em>O básico, sim.</em>"
+   },
+   {
+    "tipo": "lista",
+    "titulo": "No WhatsApp, à mão",
+    "rotulo": "No WhatsApp, você conta à mão",
+    "itens": [
+     [
+      "Mensagem pronta por anúncio",
+      "“vi o anúncio da promoção”"
+     ],
+     [
+      "Etiquetas no WhatsApp Business",
+      "contato, orçamento, cliente"
+     ],
+     [
+      "No fim do mês",
+      "quantos clientes vieram de cada anúncio"
+     ]
+    ],
+    "fecho": "E já mostra <em>onde pôr o próximo real.</em>"
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "De onde veio a sua última venda?",
+    "titulo2": "Da próxima vez, <em>você vai ter a resposta.</em>",
+    "lead": "Salve e comece pelo mais simples esta semana. Nada disso exige verba de anúncio.",
+    "chave": "Salve <b>para montar</b>"
+   }
+  ],
+  "legenda": "De onde veio a sua última venda? Se a resposta começou com “acho que”, você não está sozinho.\n\nTem uma frase atribuída ao varejista John Wanamaker, de mais de cem anos atrás: metade do que ele gastava em propaganda era desperdício, o problema é que ele não sabia qual metade.\n\nHoje dá para saber muito mais. O básico: Pixel e API de Conversões no site, um link com etiqueta (UTM) para cada anúncio, um número ou página por canal e uma pergunta simples para o cliente: como você conheceu a gente?\n\nNo WhatsApp, a conta é à mão: uma mensagem pronta diferente para cada anúncio e etiquetas no WhatsApp Business. No fim do mês, você vê quantos clientes vieram de cada um.\n\nNada disso exige verba de anúncio. Algumas partes pedem ajuda técnica, outras você faz hoje.\n\nSalve este post e comece pelo mais simples."
+ },
+ {
+  "id": 10,
+  "titulo": "Impulsionar não é anunciar",
+  "nivel": "Consciente da solução",
+  "acao": "Comentar Diagnóstico",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "Impulsionar não é <em>anunciar.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Turbinar ou impulsionar",
+    "rotulo": "Turbinar ou impulsionar",
+    "blocos": [
+     [
+      "manchete",
+      "O botão não é ruim. Ele só <em>faz menos.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "O que fica de fora",
+    "rotulo": "O que fica de fora",
+    "itens": [
+     [
+      "Objetivo de venda ou cadastro",
+      "no Gerenciador de Anúncios"
+     ],
+     [
+      "Teste de versões",
+      "vários anúncios lado a lado"
+     ],
+     [
+      "Escolher onde aparece",
+      "feed, stories ou reels"
+     ],
+     [
+      "Resultado",
+      "por anúncio e público"
+     ]
+    ],
+    "fecho": "Impulsionar é volume. Anunciar é <em>direção.</em>"
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Mais gente viu.",
+     "Mais gente curtiu.",
+     "<em>Quem comprou?</em>"
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Quando basta",
+    "rotulo": "Quando basta",
+    "blocos": [
+     [
+      "manchete",
+      "Às vezes o botão <em>basta.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Um post que já foi bem, uma novidade para a sua região, um evento no fim de semana."
+     ],
+     [
+      "corpo",
+      "Para vender todo mês... não é com ele."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "A diferença",
+    "rotulo": "A diferença",
+    "blocos": [
+     [
+      "manchete",
+      "O botão procura quem clica. O Gerenciador pode procurar <em>quem compra.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Desde que o site meça cada venda. Sem essa medição, os dois procuram quase a mesma pessoa."
+     ]
+    ]
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Impulsionar não é anunciar.",
+    "titulo2": "Se o objetivo é cliente, <em>peça cliente.</em>",
+    "lead": "No diagnóstico gratuito, a gente olha o que você pede para a plataforma hoje e o que acontece depois do clique. São 30 minutos.",
+    "chave": "Comente <b>Diagnóstico</b>"
+   }
+  ],
+  "legenda": "Você impulsionou. Mais gente viu, mais gente curtiu. E quem comprou?\n\nO botão (Turbinar no Instagram, Impulsionar no Facebook) não é ruim. Ele só faz menos: mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem. Às vezes basta, para um post que já foi bem ou um evento no fim de semana.\n\nPara vender todo mês, o caminho é o Gerenciador de Anúncios: objetivo de venda ou cadastro, teste de versões, escolha de onde o anúncio aparece e leitura por público.\n\nMas vou ser honesto: o Gerenciador só procura quem compra se o seu site mede cada venda. Sem isso, os dois procuram quase a mesma pessoa.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser que eu olhe o que você está pedindo para a plataforma hoje, comenta DIAGNÓSTICO."
+ },
+ {
+  "id": 11,
+  "titulo": "Google ou Instagram?",
+  "nivel": "Consciente da solução",
+  "acao": "Comentar onde anuncia",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "Google ou Instagram? <em>Depende de uma pergunta.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "A pergunta",
+    "rotulo": "A pergunta",
+    "blocos": [
+     [
+      "manchete",
+      "Alguém digita o que você vende <em>no Google?</em>"
+     ],
+     [
+      "corpo-suave",
+      "Teste: comece a digitar. Se o Google completa a frase, tem gente procurando."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Quem já procura",
+    "rotulo": "Quem já procura",
+    "blocos": [
+     [
+      "manchete",
+      "No Google, você encontra quem <em>já está procurando.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Encanador 24 horas. Dentista perto de mim. Advogado trabalhista. A pessoa sabe o que quer. Só não escolheu de quem."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Quem ainda não procurou",
+    "rotulo": "Quem ainda não procurou",
+    "blocos": [
+     [
+      "manchete",
+      "No Instagram, você aparece para quem <em>ainda não procurou.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Ninguém pesquisa a roupa que nunca viu. Ali, o anúncio desperta a vontade."
+     ]
+    ]
+   },
+   {
+    "tipo": "duplo",
+    "titulo": "Por onde começar",
+    "rotulo": "Por onde começar",
+    "blocos": [
+     {
+      "titulo": "Google primeiro se",
+      "itens": [
+       "existe busca para o que você vende",
+       "a necessidade é urgente",
+       "o cliente compara antes de chamar"
+      ]
+     },
+     {
+      "titulo": "Instagram primeiro se",
+      "itens": [
+       "o produto é visual",
+       "a compra é por desejo",
+       "ninguém sabe que precisa ainda"
+      ]
+     }
+    ]
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "O cliente te viu no Instagram.",
+     "Depois, te procurou",
+     "<em>no Google.</em>"
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Um de cada vez",
+    "rotulo": "Um de cada vez",
+    "blocos": [
+     [
+      "manchete",
+      "Com verba curta, <em>não divida.</em>"
+     ],
+     [
+      "corpo",
+      "Pouco dinheiro em dois canais vira dois testes pela metade. Comece por um. Quando ele trouxer cliente, acrescente o outro."
+     ]
+    ]
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Google ou Instagram?",
+    "titulo2": "Primeiro, descubra se alguém <em>digita o que você vende.</em>",
+    "lead": "Google, Instagram ou nenhum: e o seu negócio, hoje anuncia onde?",
+    "chave": "Comente <b>onde você anuncia</b>"
+   }
+  ],
+  "legenda": "Google ou Instagram? Depende de uma pergunta: alguém digita o que você vende no Google?\n\nUm teste rápido: comece a digitar. Se o Google completa a frase, tem gente procurando.\n\nSe tem, o Google te coloca na frente de quem já está procurando. Encanador 24 horas, dentista perto de mim, advogado trabalhista.\n\nSe ninguém procura o que você vende antes de ver, o Instagram é onde você aparece para quem ainda não sabe que quer. E quem te viu no Instagram pode te procurar depois no Google.\n\nCom verba curta, não divida. Comece por um e acrescente o outro quando ele trouxer cliente. E lembre: nos dois, o anúncio só traz até a porta.\n\nSe você ainda não me segue, segue: a série continua.\n\nAgora comenta aqui: Google, Instagram ou nenhum?"
+ },
+ {
+  "id": 12,
+  "titulo": "Quanto investir em anúncio? Comece pela conta.",
+  "nivel": "Consciente da solução para consciente do produto",
+  "acao": "Comentar Diagnóstico",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "Quanto investir em anúncio? <em>Comece pela conta.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Quanto investir",
+    "rotulo": "Quanto investir",
+    "blocos": [
+     [
+      "manchete",
+      "Comece por quanto você pode pagar <em>por um cliente.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Sem esse número, qualquer verba é chute. Com ele, a verba vira conta."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "O teto",
+    "rotulo": "O teto",
+    "itens": [
+     [
+      "Quanto ele paga",
+      "o seu preço médio"
+     ],
+     [
+      "Quanto custa entregar",
+      "produto, mão de obra, imposto, taxa"
+     ],
+     [
+      "O que sobra",
+      "é o máximo, não a meta"
+     ]
+    ],
+    "fecho": "Acima disso, <em>a primeira venda</em> dá prejuízo."
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Quem volta",
+    "rotulo": "Quem volta",
+    "blocos": [
+     [
+      "manchete",
+      "Se ele volta a comprar, você pode pagar <em>mais</em> por ele."
+     ],
+     [
+      "corpo-suave",
+      "Academia, salão, assinatura: o primeiro mês nem sempre paga o anúncio. Se ele fica o ano, o ano paga."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O piso",
+    "rotulo": "O piso",
+    "blocos": [
+     [
+      "manchete",
+      "Verba suficiente para a plataforma <em>aprender.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Ela precisa de contatos para saber em quem mirar. Verba que mal gera contato não ensina nada, e parece que anúncio não funciona."
+     ]
+    ]
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Pouca demais: não aprende.",
+     "Muita demais: não fecha a conta.",
+     "<em>A certa fica no meio.</em>"
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "A conta da verba",
+    "rotulo": "A conta da verba",
+    "itens": [
+     [
+      "O teto",
+      "o que você pode pagar por um cliente"
+     ],
+     [
+      "Vezes",
+      "quantos clientes a mais você atende"
+     ],
+     [
+      "Nunca abaixo do piso",
+      "o que a plataforma precisa para aprender"
+     ]
+    ],
+    "fecho": "A mensalidade de quem gerencia <em>entra na conta.</em>"
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Quanto investir em anúncio?",
+    "titulo2": "A gente faz <em>essa conta com os seus números.</em>",
+    "lead": "No diagnóstico gratuito, com o seu preço, a sua margem e a sua capacidade de atender. São 30 minutos.",
+    "chave": "Comente <b>Diagnóstico</b>"
+   }
+  ],
+  "legenda": "Quanto investir em tráfego pago? Escuto muito essa pergunta. E a resposta não começa pela verba.\n\nComeça por quanto você pode pagar por um cliente. Pegue o preço médio, tire o que custa entregar (produto, mão de obra, imposto, taxa) e o que sobra é o teto. O máximo, não a meta.\n\nSe o cliente volta a comprar, o teto sobe. Se ele fica o ano, o ano paga.\n\nTem também o piso: verba que mal gera contato não ensina nada à plataforma, e parece que anúncio não funciona.\n\nA conta fica assim: o teto, vezes quantos clientes a mais você consegue atender, nunca abaixo do piso. E a minha mensalidade também entra nessa conta. Custo para conquistar cliente é custo.\n\nUm detalhe que muda tudo: quanto custa um cliente depende também de quem atende o contato.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser fazer essa conta com os seus números, comenta DIAGNÓSTICO."
+ },
+ {
+  "id": 13,
+  "titulo": "Em quanto tempo o anúncio dá resultado?",
+  "nivel": "Consciente do produto",
+  "acao": "Comentar Diagnóstico",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "Em quanto tempo <em>o anúncio dá resultado?</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O que o primeiro mês responde",
+    "rotulo": "O que o primeiro mês responde",
+    "blocos": [
+     [
+      "manchete",
+      "Quem compra de você, e <em>por que compra.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Sem essa resposta, todo anúncio é palpite. Com ela, cada real começa a ter endereço."
+     ]
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Antes de começar",
+    "rotulo": "Antes de começar",
+    "blocos": [
+     [
+      "manchete",
+      "Combine antes: em quanto tempo e <em>medindo o quê.</em>"
+     ],
+     [
+      "corpo",
+      "E quem registra a venda. Sem isso, no fim do mês, a conversa vira opinião."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "Semana a semana",
+    "rotulo": "Semana a semana",
+    "itens": [
+     [
+      "Semana um",
+      "mede do clique à venda"
+     ],
+     [
+      "Semana dois",
+      "mostra o que traz contato"
+     ],
+     [
+      "Semana três",
+      "corta o fraco, reforça o forte"
+     ],
+     [
+      "Semana quatro",
+      "mostra o primeiro custo por cliente"
+     ]
+    ],
+    "fecho": "É assim que <em>o chute vira critério.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O que atrapalha",
+    "rotulo": "O que atrapalha",
+    "blocos": [
+     [
+      "manchete",
+      "Mexer todo dia atrapalha. Ajuste tem <em>dia marcado.</em>"
+     ],
+     [
+      "corpo-suave",
+      "A plataforma precisa de tempo e de dados. Cada mudança grande recomeça o aprendizado."
+     ]
+    ]
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Pressa desliga cedo.",
+     "Teimosia desliga tarde.",
+     "<em>Método desliga na hora certa.</em>"
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "E se sair caro",
+    "rotulo": "E se sair caro",
+    "blocos": [
+     [
+      "manchete",
+      "E se o cliente sair <em>caro demais?</em>"
+     ],
+     [
+      "corpo-suave",
+      "Às vezes a resposta é ajustar a oferta, o público ou o atendimento. Às vezes é parar."
+     ],
+     [
+      "corpo",
+      "As duas são resposta."
+     ]
+    ]
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Em quanto tempo o anúncio dá resultado?",
+    "titulo2": "Comece sabendo <em>como medir a resposta.</em>",
+    "lead": "No diagnóstico gratuito, a gente olha com você o que medir e quem registra a venda. São 30 minutos.",
+    "chave": "Comente <b>Diagnóstico</b>"
+   }
+  ],
+  "legenda": "Em quanto tempo o anúncio dá resultado? Antes de olhar a sua conta, eu não sei. Ninguém sabe.\n\nO que eu sei é a pergunta que o primeiro mês precisa responder: quem compra de você, e por que compra.\n\nPara isso, combine antes: em quanto tempo, medindo o quê, e quem registra a venda. Sem isso, no fim do mês a conversa vira opinião.\n\nUm mês bem feito mede do clique à venda, mostra o que traz contato, corta o fraco e mostra o primeiro custo por cliente. Mexer todo dia atrapalha: cada mudança grande recomeça o aprendizado da plataforma.\n\nE se o cliente sair caro demais, às vezes a resposta é ajustar. Às vezes é parar. As duas são resposta.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser começar sabendo o que medir, comenta DIAGNÓSTICO."
+ },
+ {
+  "id": 14,
+  "titulo": "Cinco perguntas antes de contratar uma agência",
+  "nivel": "Consciente do produto",
+  "acao": "Salvar",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "Cinco perguntas antes de <em>contratar uma agência.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O teste",
+    "rotulo": "O teste",
+    "blocos": [
+     [
+      "manchete",
+      "Agência boa gosta <em>dessas perguntas.</em>"
+     ],
+     [
+      "corpo",
+      "Quem trabalha direito responde claro e sem rodeio. Quem enrola, já te respondeu."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "As perguntas",
+    "rotulo": "As perguntas",
+    "itens": [
+     [
+      "“A conta fica no meu nome?”",
+      "sim: conta, pixel e cartão seus"
+     ],
+     [
+      "“Como você vai medir venda?”",
+      "com os seus números, não só clique"
+     ],
+     [
+      "“Quem mexe na minha conta?”",
+      "alguém que você conhece"
+     ]
+    ],
+    "fecho": ""
+   },
+   {
+    "tipo": "lista",
+    "titulo": "As perguntas, continuação",
+    "rotulo": "As perguntas",
+    "inicio": 4,
+    "itens": [
+     [
+      "“O que você precisa de mim?”",
+      "resposta rápida, acessos, números de venda"
+     ],
+     [
+      "“Você garante resultado?”",
+      "se disser sim, já te respondeu"
+     ]
+    ],
+    "fecho": "Cinco perguntas. <em>Nenhuma exige saber de tráfego.</em>"
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Ninguém controla tudo",
+     "entre o anúncio",
+     "<em>e a venda.</em>"
+    ]
+   },
+   {
+    "tipo": "texto",
+    "titulo": "E para a gente",
+    "rotulo": "E para a gente",
+    "blocos": [
+     [
+      "manchete",
+      "Faça essas perguntas <em>para a gente também.</em>"
+     ],
+     [
+      "corpo",
+      "A conta fica no seu nome. Quem mexe nela é quem você conhece. E a gente vai precisar dos seus números de venda."
+     ]
+    ]
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "Antes de contratar, pergunte.",
+    "titulo2": "Para a próxima agência, <em>ou para a que você já tem.</em>",
+    "lead": "Salve e use na próxima conversa. Inclusive com a gente.",
+    "chave": "Salve <b>esta lista</b>"
+   }
+  ],
+  "legenda": "Antes de contratar alguém para cuidar do seu tráfego pago, faça estas cinco perguntas. Agência boa gosta delas.\n\n1. A conta de anúncio fica no meu nome? (A resposta boa: conta, pixel e cartão no seu portfólio da Meta.)\n2. Como você vai medir venda, e não só clique?\n3. Quem mexe na minha conta?\n4. O que você precisa de mim?\n5. Você garante resultado? (Se disser sim, já te respondeu.)\n\nNinguém controla tudo o que acontece entre o anúncio e a venda. Por isso garantia não é a pergunta certa. Processo é.\n\nServe também para a agência que você já tem. E para a minha.\n\nSalve para usar na próxima conversa."
+ },
+ {
+  "id": 15,
+  "titulo": "A resposta pode ser: ainda não anuncie",
+  "nivel": "Totalmente consciente",
+  "acao": "Comentar Diagnóstico",
+  "slides": [
+   {
+    "tipo": "capa",
+    "titulo": "Capa",
+    "texto": "A resposta pode ser: <em>ainda não anuncie.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "Estranho, né",
+    "rotulo": "Estranho, né",
+    "blocos": [
+     [
+      "manchete",
+      "Agência de tráfego mandando <em>não anunciar?</em>"
+     ],
+     [
+      "corpo-suave",
+      "Pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido."
+     ]
+    ]
+   },
+   {
+    "tipo": "lista",
+    "titulo": "Antes de anunciar",
+    "rotulo": "Antes de anunciar",
+    "itens": [
+     [
+      "A oferta",
+      "não cabe em uma frase"
+     ],
+     [
+      "O WhatsApp",
+      "ninguém responde rápido"
+     ],
+     [
+      "O perfil",
+      "parado, sem avaliação"
+     ],
+     [
+      "A margem",
+      "cada cliente custa mais do que deixa"
+     ]
+    ],
+    "fecho": "Se marcou um, anunciar só <em>acelera o problema.</em>"
+   },
+   {
+    "tipo": "lista",
+    "titulo": "Quando é hora",
+    "rotulo": "Quando é hora",
+    "itens": [
+     [
+      "A oferta",
+      "cabe em uma frase"
+     ],
+     [
+      "Alguém responde",
+      "em minutos, não em horas"
+     ],
+     [
+      "Quem pesquisa",
+      "encontra avaliação recente"
+     ],
+     [
+      "A margem",
+      "paga o cliente com folga"
+     ]
+    ],
+    "fecho": "Aí, anunciar <em>acelera o que já funciona.</em>"
+   },
+   {
+    "tipo": "texto",
+    "titulo": "O que você leva",
+    "rotulo": "O que você leva",
+    "blocos": [
+     [
+      "manchete",
+      "Você não sai com um não. Sai sabendo <em>o que arrumar primeiro.</em>"
+     ],
+     [
+      "corpo-suave",
+      "Na ordem do que mais trava. Muita coisa você resolve sozinho."
+     ]
+    ]
+   },
+   {
+    "tipo": "pausa",
+    "titulo": "Pausa",
+    "linhas": [
+     "Dizer não custa caro",
+     "para a agência.",
+     "<em>Dizer sim errado custa mais.</em>"
+    ]
+   },
+   {
+    "tipo": "retrato",
+    "titulo": "Arthur",
+    "foto": "Foto do Arthur · P&amp;B",
+    "nome": "Quem diz esse não <em>sou eu.</em>",
+    "cargo": "Arthur, fundador da Impulse",
+    "corpo_suave": "Cada diagnóstico passa pela minha mão.",
+    "corpo": "Prefiro adiar uma venda a começar um projeto que eu sei que vai te frustrar."
+   },
+   {
+    "tipo": "cta",
+    "titulo": "CTA",
+    "manchete": "A resposta pode ser: ainda não anuncie.",
+    "titulo2": "Ou pode ser: <em>anuncie agora.</em>",
+    "lead": "O diagnóstico gratuito serve para saber qual das duas é a sua. São 30 minutos.",
+    "chave": "Comente <b>Diagnóstico</b>"
+   }
+  ],
+  "legenda": "A resposta do diagnóstico pode ser: ainda não anuncie. Parece estranho vindo de quem vive de tráfego pago.\n\nMas pôr verba num caminho que ainda não segura o cliente é pagar para ele ir embora mais rápido. Isso é ruim para você e é ruim para mim.\n\nSe a oferta não cabe em uma frase, se ninguém responde rápido no WhatsApp, se o perfil está parado e sem avaliação, ou se cada cliente custa mais do que deixa, anunciar só acelera o problema.\n\nQuando é assim, você não sai com um não. Sai sabendo o que arrumar primeiro. Muita coisa você resolve sozinho.\n\nE quando a oferta cabe em uma frase, alguém responde em minutos, quem pesquisa encontra avaliação recente e a margem paga o cliente com folga, a resposta é a outra: anuncie agora.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser saber qual das duas é a sua, comenta DIAGNÓSTICO."
+ }
+]
