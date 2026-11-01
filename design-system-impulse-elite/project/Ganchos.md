@@ -37,3 +37,22 @@ O gancho é a frase da capa. Ele tem um segundo para fazer o polegar parar. Os e
 - Uma ação por post, com verbo no imperativo e duas ou três palavras.
 - A palavra-chave muda só quando a oferta muda, para a resposta automática continuar funcionando.
 - Nunca "marque um amigo", "comente sim se concorda" ou sorteio: rendem comentário vazio e não viram cliente.
+
+## Ganchos para Reels
+
+No Reels o gancho é dito e escrito ao mesmo tempo. A fala e o texto na tela dizem a mesma ideia com palavras diferentes: quem está sem som lê, quem está com som ouve, e ninguém lê duas vezes a mesma frase.
+
+| Tipo | Fala (0 a 2 s) | Texto na tela (`gancho-video`) |
+| --- | --- | --- |
+| Perda quase evitada | "Ele chegou até o seu WhatsApp e foi embora." | Ele *quase* comprou. |
+| Reenquadre | "Seu cliente não desapareceu. Ele só esfriou." | Não sumiu. *Esfriou.* |
+| Objeção dita em voz alta | "Você já investiu em anúncio e não funcionou. Eu sei." | "Já tentei. *Não funciona.*" |
+| Pergunta de diagnóstico | "Se eu te perguntar de onde veio a sua última venda, você sabe?" | De onde veio a sua *última venda?* |
+| Escolha | "Google ou Instagram: qual é melhor pro seu negócio?" | Google ou *Instagram?* |
+
+**Estrutura de um Reels de um ponto só (30 a 45 segundos):**
+1. **0 a 2 s, gancho:** fala e texto na tela, ao mesmo tempo, sem apresentação ("Oi, eu sou o Arthur" vem depois ou não vem).
+2. **2 a 6 s, promessa:** o que a pessoa vai saber no fim, em uma frase.
+3. **Meio, uma prova ou um exemplo:** a conversa que esfriou, o relatório de cliques, a conta da verba. Um só.
+4. **Virada:** a frase que muda o jeito de ver; é ela que vira o título da capa.
+5. **Últimos 3 s, a ação do objetivo:** dita e repetida na legenda escrita ("Manda pra quem ainda acha que é o anúncio.").

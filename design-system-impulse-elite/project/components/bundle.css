@@ -642,3 +642,46 @@ p.ie-sans { margin: 0; }
 
 /* Camada de vídeo: exporte com fundo transparente para sobrepor ao Reels no editor */
 .ie-arte.ie-transparente { background: transparent; }
+
+/* ===================================================================
+   v4: PERGUNTA NO MIOLO E MINIATURA DE POST
+   =================================================================== */
+
+/* MioloPergunta: a pergunta num bloco de `superficie-alta` no topo, a resposta logo abaixo do corte */
+.ie-pergunta-topo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 600px;
+  background: var(--superficie-alta);
+  padding: var(--margem-y) var(--margem-x) var(--space-9);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 96px), calc(100% - 96px) 100%, 0 100%);
+  z-index: 2;
+}
+.ie-pergunta-base {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 600px;
+  bottom: 0;
+  padding: var(--space-9) var(--margem-x) var(--margem-y);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+/* Miniatura de um post dentro de outra arte (story de divulgação): 560 × 700, a arte 4:5 inteira reduzida */
+.ie-miniatura {
+  position: relative;
+  width: 560px;
+  height: 700px;
+  overflow: hidden;
+  outline: 1.5px solid var(--filete);
+  flex: none;
+}
+.ie-miniatura > .ie-arte { position: absolute; left: 0; top: 0; transform: scale(calc(560 / 1080)); transform-origin: 0 0; }

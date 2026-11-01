@@ -44,7 +44,8 @@ Não descreva a dica "Arraste", o filete ou a diagonal: é ruído para quem usa 
 
 - A legenda escrita segue a mesma estrutura; a primeira linha é o gancho falado.
 - A fala aparece queimada no vídeo do começo ao fim (`legenda-video` sobre `placa`), porque muita gente assiste sem som.
-- A capa (`CapaReels`) tem o título; o texto alternativo descreve o vídeo em uma frase.
+- A capa (`CapaReels`, `CapaReelsDividida` ou `CapaReelsMarfim`) tem o título; o texto alternativo descreve o vídeo em uma frase.
+- A ação do Reels vai na fala dos últimos segundos e na legenda escrita, nunca desenhada no vídeo.
 
 ## Comentários da palavra-chave
 

@@ -1,16 +1,18 @@
-<!-- @dsCard group="Reels" height=1920 width=1080 subtitle="Texto na tela e legenda da fala, sobre placa, fora da interface (guias não vão no vídeo)" -->
+<!-- @dsCard group="Reels" height=1920 width=1080 subtitle="Camada transparente do Reels: gancho e legenda sobre placa (o quadro do vídeo e as guias não vão no PNG)" -->
 <!doctype html>
 <html lang="pt-BR">
 <head><meta charset="utf-8"><title>Reels · Texto na tela</title></head>
-<body style="margin:0; background:var(--fundo)">
-<div class="ie-arte ie-reels">
+<body style="margin:0; background:transparent">
+<div style="position:relative; width:1080px; height:1920px">
   <div class="ie-video-vazio"></div>
-  <div class="ie-guia" style="top:0; height:250px">Interface · 250px</div>
-  <div class="ie-guia" style="bottom:0; height:440px">Interface · 440px</div>
-  <div class="ie-guia-lado"></div>
-  <div class="ie-area ie-entre" style="z-index:2">
-    <p class="ie-placa gancho-video ie-serif">Seu cliente não sumiu. <em>Esfriou.</em></p>
-    <p class="ie-legenda legenda-video ie-sans">ele só não lembra mais de você</p>
+  <div class="ie-arte ie-reels ie-transparente" style="position:absolute; left:0; top:0">
+    <div class="ie-guia" style="top:0; height:250px">Interface · 250px</div>
+    <div class="ie-guia" style="bottom:0; height:440px">Interface · 440px</div>
+    <div class="ie-guia-lado"></div>
+    <div class="ie-area ie-entre" style="z-index:2">
+      <p class="ie-placa gancho-video ie-serif">Seu cliente não sumiu. <em>Esfriou.</em></p>
+      <p class="ie-legenda legenda-video ie-sans">ele só não lembra mais de você</p>
+    </div>
   </div>
 </div>
 </body>

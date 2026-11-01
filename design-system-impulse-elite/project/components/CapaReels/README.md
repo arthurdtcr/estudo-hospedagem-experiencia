@@ -1,6 +1,6 @@
-Capa de Reels: 1080 × 1920 com o título na faixa que aparece na grade 3:4 do perfil e longe da interface do Reels. Esta é a forma escura.
+Capa de Reels escura: 1080 × 1920, título em `capa` no meio da faixa que aparece na grade 3:4 do perfil, longe da interface do Reels.
 
-- **Use quando:** todo Reels. A capa fica na grade, ao lado das capas de carrossel: entra na janela de três e na regra de não repetir. Se a janela pede capa clara, use `CapaReelsDividida`.
-- **Você fornece:** a série e o número (opcional, `ie-selo`), o título em `manchete` (até 4 linhas, um `<em>`) e um `lead` de uma frase.
-- **Estrutura:** `ie-arte ie-capa-reels ie-grao ie-brilho` > diagonal > `ie-area ie-entre`. A área já começa em 336px (corte de 240 da grade + respiro) e termina 440px acima da base.
-- **Não faça:** usar um quadro do vídeo com texto pequeno como capa; texto nos 240px de cima ou nos 440px de baixo. Confira na prévia da grade do app antes de publicar.
+- **Use quando:** o próximo Reels não precisa de capa clara (a janela de três já tem uma). Se precisa: título de pergunta e resposta vai para `CapaReelsDividida`; o resto, para `CapaReelsMarfim`.
+- **Você fornece:** a série e o número (opcional, `ie-selo`), o título em `capa` (até 6 palavras, até 3 linhas, um `<em>`) e um `lead` de uma frase (opcional).
+- **Estrutura:** `ie-arte ie-capa-reels ie-grao ie-brilho` > diagonal entrando pela borda direita > `ie-area ie-centro` com gap 48px. A área vai de y 336 a y 1480: o título fica no meio da faixa que a grade mostra, com o mesmo peso das capas de carrossel.
+- **Não faça:** usar um quadro do vídeo com texto pequeno como capa; título em `manchete` (fica pequeno na grade ao lado das capas de carrossel); texto nos 240px de cima ou nos 440px de baixo. Confira na prévia da grade do app.

@@ -1,4 +1,4 @@
-<!-- @dsCard group="Feed e Stories" height=1920 width=1080 subtitle="Story de divulgação: o post compartilhado no meio, clicável, sobre o fundo do sistema (guias não vão na arte)" -->
+<!-- @dsCard group="Feed e Stories" height=1920 width=1080 subtitle="Story de divulgação: a capa do post em miniatura e o espaço do sticker de link (guias não vão na arte)" -->
 <!doctype html>
 <html lang="pt-BR">
 <head><meta charset="utf-8"><title>Story · Divulgação</title></head>
@@ -8,8 +8,19 @@
   <div class="ie-guia" style="bottom:0; height:340px">Zona da interface · 340px</div>
   <div class="ie-area ie-entre">
     <div class="ie-rotulo rotulo">Novo no perfil</div>
-    <div class="ie-guia-sticker" style="align-self:center; width:640px; height:800px">Post compartilhado · colocar no app</div>
-    <p class="titulo ie-serif">Saiu hoje. <em>Toque no post</em> para ler.</p>
+    <div class="ie-miniatura" style="align-self:center">
+      <div class="ie-arte ie-grao ie-brilho">
+        <span class="ie-diagonal" style="left:900px; top:-80px; height:700px"></span>
+        <div class="ie-area ie-base">
+          <h1 class="capa ie-serif">Anúncio não vende <em>nada</em> sozinho.</h1>
+          <div class="ie-arraste" style="margin-top:96px"><span>Arraste</span></div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:32px">
+      <p class="titulo ie-serif">Saiu hoje. <em>Toque no link</em> para ler.</p>
+      <div class="ie-guia-sticker" style="min-height:140px; width:560px">Sticker de link para o post</div>
+    </div>
   </div>
 </div>
 </body>

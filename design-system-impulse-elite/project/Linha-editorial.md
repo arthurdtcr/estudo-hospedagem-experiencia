@@ -16,8 +16,8 @@ Qualquer receita combina com qualquer objetivo: o último slide é sempre o fech
 
 ## Mistura
 
-- A cada três posts, um de cada objetivo: alcance, valor, conversa. O de conversa vem depois de um de valor sobre o mesmo pilar.
-- Os pilares se alternam: dois posts seguidos no mesmo pilar só quando são da mesma série, numerados.
+- A cada três publicações, uma de cada objetivo: alcance, valor, conversa.
+- O post de conversa vem até duas publicações depois de um de valor do mesmo pilar, com outro pilar entre os dois. Dois posts seguidos no mesmo pilar só quando são episódios seguidos da mesma série.
 - Reels e carrossel do mesmo pilar podem dividir o gancho: o Reels diz em 30 segundos, o carrossel aprofunda.
 - Story todo dia de post: divulgação do post novo (`Story`) e uma pergunta do pilar (`StoryInterativo`). A resposta da enquete vira gancho.
 
@@ -34,16 +34,16 @@ O formato está no README ("O registro"): uma linha por publicação, em todo fo
 
 ## Medição
 
-Cada objetivo tem a sua métrica no Insights. Compare o post com a média dos últimos nove do mesmo objetivo, não com o post mais famoso.
+Cada objetivo tem a sua métrica no Insights. Anote 7 dias depois de publicar, no fim da linha do registro. Compare o post com a média dos últimos nove do mesmo objetivo, não com o post mais famoso. Os nomes das métricas mudam com o app: use o equivalente mais próximo e anote qual usou.
 
 | Objetivo | Métrica principal | Métrica de apoio |
 | --- | --- | --- |
 | Alcance | envios ÷ alcance | % do alcance que veio de não seguidores |
-| Valor | salvamentos ÷ alcance | tempo médio no carrossel ou no Reels |
+| Valor | salvamentos ÷ alcance | no Reels, tempo médio de visualização; no carrossel, visitas ao perfil |
 | Conversa | comentários com a palavra-chave | conversas no direct que viraram diagnóstico marcado |
 
 - **A cada nove publicações**, revise: o terço com pior métrica principal perde o tipo de gancho ou o pilar que usou; o melhor terço vira receita.
-- Anote o resultado no registro da publicação (por exemplo, "envios 1,8%"), para o próximo post comparar.
+- Formato da anotação no registro: `· 7d: envios 1,8% · não seguidores 62%`.
 
 ## Perfil
 

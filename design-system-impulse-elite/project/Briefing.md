@@ -15,6 +15,7 @@ Toda peça começa por aqui. O Claude pede o que faltar, assume o resto pela se�
 | Material disponível | Fotos reais (de quem, quais), números com fonte e período, cliente que autorizou | Foto do Arthur de jun/2026; nenhum dado |
 | Ação | A mesma na arte e na legenda | Envie para quem só aperta impulsionar |
 | Restrições | Oferta vigente, datas, palavras proibidas | Palavra-chave atual: Diagnóstico |
+| Histórico | As três últimas linhas do registro (README, "O registro"); sem registro, a capa da última publicação | `Reels · 15 · … · CapaReels …` / `Carrossel · 14 · … · C3 …` / `Carrossel · 13 · … · C6 …` |
 
 ## O que o Claude entrega, nesta ordem
 
@@ -40,7 +41,7 @@ Briefing da tabela acima. Receita Objeção adaptada; a capa é clara (C4), ent�
 
 ## Outros formatos
 
-- **Reels:** roteiro em tabela com tempo, fala, texto na tela e imagem. O gancho na tela aparece no segundo 0 e fica até o 2; a legenda da fala vai do começo ao fim. A capa (`CapaReels`) segue a rotação de capas da grade.
+- **Reels:** roteiro em tabela com tempo, fala, texto na tela e imagem. O gancho na tela aparece no segundo 0 e fica até o 2; a legenda da fala vai do começo ao fim. A capa (`CapaReels`, `CapaReelsDividida` ou `CapaReelsMarfim`) segue a ordem de decisão de capa do README. Ganchos falados e a estrutura de 30 segundos estão em `Ganchos.md`.
 - **Sequência de stories:** de 3 a 5 telas. `StoryAbertura` (o contexto em uma frase), `StoryInterativo` (enquete ou caixinha) e `Story` (o post compartilhado ou o sticker de link). O resultado da enquete pode virar o gancho do próximo carrossel.
-- **Anúncio:** a mesma conversa do post orgânico, em `AnuncioVertical` (story e Reels) ou numa composição 4:5 (feed). Uma condição real da oferta, nenhuma promessa de resultado.
+- **Anúncio:** a mesma conversa do post orgânico, em `AnuncioVertical` (story e Reels) ou `AnuncioFeed` (feed, 4:5). Uma condição real da oferta, nenhuma promessa de resultado.
 - **Estático:** uma frase. Se precisar de explicação, é um carrossel.
