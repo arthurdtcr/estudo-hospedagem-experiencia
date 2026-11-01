@@ -54,20 +54,16 @@
   },
   {
    "tipo": "texto",
-   "titulo": "Fato e conclusão",
-   "rotulo": "Fato e conclusão",
+   "titulo": "Antes de desistir",
+   "rotulo": "Antes de desistir",
    "blocos": [
     [
      "manchete",
-     "“Não funcionou” é um fato."
-    ],
-    [
-     "titulo",
-     "“Não funciona para o meu negócio” é <em>uma conclusão.</em>"
+     "Uma vez não é <em>todas as vezes.</em>"
     ],
     [
      "corpo-suave",
-     "E conclusão precisa de dado."
+     "“Não funcionou” diz o que aconteceu. “Não funciona para o meu negócio” precisa de prova."
     ]
    ]
   },
@@ -75,15 +71,15 @@
    "tipo": "pausa",
    "titulo": "Pausa",
    "linhas": [
-    "Campanha não é promessa.",
-    "É hipótese.",
-    "E hipótese <em>se testa.</em>"
+    "Anúncio não é aposta.",
+    "É teste.",
+    "<em>E teste se anota antes.</em>"
    ]
   },
   {
    "tipo": "lista",
-   "titulo": "Antes da próxima, escreva",
-   "rotulo": "Antes da próxima, escreva",
+   "titulo": "Antes da próxima, anote",
+   "rotulo": "Antes da próxima, anote",
    "itens": [
     [
      "Quem compra",
@@ -91,7 +87,7 @@
     ],
     [
      "Quem responde",
-     "quem chamar, e em quanto tempo"
+     "quem atende, e em quanto tempo"
     ],
     [
      "Quanto tempo",
@@ -109,9 +105,9 @@
    "titulo": "CTA",
    "manchete": "Já investiu e não funcionou?",
    "titulo2": "Antes de tentar de novo, <em>veja onde travou.</em>",
-   "lead": "No diagnóstico gratuito, a gente olha a última tentativa antes de falar da próxima. São 30 minutos.",
+   "lead": "No diagnóstico gratuito de 30 minutos, a gente olha a última tentativa antes de falar da próxima.",
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "“Já investi em anúncio e não funcionou.” Eu escuto muito essa frase. E muitas vezes é verdade.\n\nAnúncio mal feito queima dinheiro, e eu não vou fingir que não.\n\nMas tem uma diferença entre “não funcionou” e “não funciona para o meu negócio”. A primeira é um fato. A segunda é uma conclusão, e conclusão precisa de dado.\n\nNinguém clicou? Clicaram e não chamaram? Chamaram e ninguém respondeu a tempo? Venderam e não sobrou nada? Cada sintoma tem um conserto diferente.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser que eu olhe a sua última tentativa antes da próxima, comenta DIAGNÓSTICO."
+ "legenda": "“Já investi em anúncio e não funcionou.” Eu escuto muito essa frase. E muitas vezes é verdade.\n\nAnúncio mal feito queima dinheiro, e eu não vou fingir que não.\n\nMas uma vez não é todas as vezes. “Não funcionou” diz o que aconteceu. “Não funciona para o meu negócio” precisa de prova.\n\nNinguém clicou? Clicaram e não chamaram? Chamaram e ninguém respondeu a tempo? Venderam e não sobrou nada? Cada sintoma tem um conserto diferente.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e eu olho a sua última tentativa antes da próxima."
 }

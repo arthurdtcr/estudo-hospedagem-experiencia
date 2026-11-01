@@ -1,7 +1,7 @@
 # Carrossel 02 · Seu cliente não sumiu. Esfriou.
 
 - Série 1 · nível de consciência: Consciente do problema · ação: Comentar Diagnóstico
-- Notas dos juízes independentes: 7,8 na rodada 1 (versão v6) e 8,1 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
+- Notas dos juízes independentes: 7,8 na rodada 1 (versão v6) e 8,1 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 9ª refinação (coerência e simplicidade, `../processo/rodada-3-coerencia/`), feita depois da 8ª refinação com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
 Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
@@ -10,10 +10,10 @@ Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de 
 2. **Por que acontece** (texto, 35 palavras) · rótulo POR QUE ACONTECE · manchete "Quem cuida de tudo responde quando *sobra tempo.*" · corpo-suave "Cliente, fornecedor, equipe, banco. A mensagem chega no meio disso e fica para depois." · corpo "O problema é que o cliente não espera o depois."
 3. **Tempo de resposta** (numeral, 38 palavras) · rótulo TEMPO DE RESPOSTA · numeral "7x" · lead "mais chance de virar conversa de verdade quando a resposta vem na primeira hora, e não na segunda." · nota "Quase 7 vezes. Harvard Business Review, 2011. Análise de 1,25 milhão de contatos online nos EUA."
 4. **A conta piora** (texto, 37 palavras) · rótulo A CONTA PIORA · manchete "Depois de 24 horas, a diferença passa de *60 vezes.*" · corpo-suave "Em um dia, dá tempo de chamar o concorrente. E a vontade que o trouxe até você passa." · nota "Mesma análise. Harvard Business Review, 2011."
-5. **Pausa** (pausa, fundo claro, 11 palavras) · "Você pagou o anúncio." / "O cliente chamou." / "E ficou lá... *esperando.*"
-6. **Quem responde rápido** (numeral, 33 palavras) · rótulo QUEM RESPONDE RÁPIDO · numeral "37%" · lead "das empresas testadas responderam na primeira hora." · corpo "Hoje, esse contato chega pelo WhatsApp." · nota "23% nunca responderam. Teste com 2.241 empresas dos EUA, Harvard Business Review, 2011, antes do WhatsApp."
+5. **E quase ninguém responde** (numeral, 30 palavras) · rótulo E QUASE NINGUÉM RESPONDE · numeral "37%" · lead "das empresas responderam na primeira hora. As outras deixaram o cliente esperando." · nota "23% nunca responderam. Teste com 2.241 empresas dos EUA. Harvard Business Review, 2011."
+6. **Pausa** (pausa, fundo claro, 11 palavras) · "Você pagou o anúncio." / "O cliente chamou." / "E ficou lá... *esperando.*"
 7. **Como não esfriar** (lista, 38 palavras) · rótulo COMO NÃO ESFRIAR · itens: Boas-vindas úteis: horário, endereço, próximo passo; Respostas prontas: para as perguntas de sempre; Um responsável: com horário definido, até no sábado; Um cronômetro: do "oi" até a primeira resposta · fecho "Anúncio traz o cliente. *Atendimento* fecha."
-8. **CTA** (cta, 33 palavras) · manchete "Seu cliente não sumiu." · titulo2 "Quanto tempo o seu leva *para esfriar?*" · lead "No diagnóstico gratuito, a gente confere o seu tempo de resposta e onde o anúncio perde cliente. São 30 minutos." · chave "Comente Diagnóstico"
+8. **CTA** (cta, 33 palavras) · manchete "Seu cliente não sumiu." · titulo2 "Quanto tempo o seu leva *para esfriar?*" · lead "No diagnóstico gratuito de 30 minutos, a gente confere o seu tempo de resposta e onde o anúncio perde cliente." · chave "Comente Diagnóstico"
 
 ## Legenda (primeira pessoa do Arthur)
 

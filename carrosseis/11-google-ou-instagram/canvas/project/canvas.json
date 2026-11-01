@@ -2,7 +2,7 @@
   "v": 3,
   "createdOnFiles": {
     "v": 1,
-    "at": "2026-11-01T12:34:55Z"
+    "at": "2026-11-01T15:23:56Z"
   },
   "title": "Carrossel 11 · Google ou Instagram?",
   "launch": {
@@ -43,21 +43,21 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "5 · Por onde começar"
+      "title": "5 · Pausa"
     },
     "Slide06.dc.html": {
       "x": 5800,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "6 · Um de cada vez"
+      "title": "6 · Por onde começar"
     },
     "Slide07.dc.html": {
       "x": 6960,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "7 · Pausa"
+      "title": "7 · Um de cada vez"
     },
     "Slide08.dc.html": {
       "x": 8120,
@@ -92,7 +92,7 @@
       "namespace": "impulse-elite",
       "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
       "version": "1793507287-6e32",
-      "copiedAt": "2026-11-01T12:34:55Z"
+      "copiedAt": "2026-11-01T15:23:56Z"
     }
   ]
 }

@@ -3,7 +3,7 @@
 **Canvas publicado:** https://claude.ai/artifact/NuwkexHUr4ndVxNpmsPCRL
 
 - Série 2 · nível de consciência: Inconsciente para consciente do problema · ação: Enviar
-- Notas dos juízes independentes: 7,0 na rodada 1 (versão v6) e 8,5 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
+- Notas dos juízes independentes: 7,0 na rodada 1 (versão v6) e 8,5 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 9ª refinação (coerência e simplicidade, `../processo/rodada-3-coerencia/`), feita depois da 8ª refinação com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
 Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
@@ -28,4 +28,7 @@ Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de 
 >
 > Tráfego pago não substitui a indicação. E vou ser honesto: o cliente que vem do anúncio chega mais frio que o indicado. O anúncio traz até a porta, quem fecha é o atendimento. Mas é o canal que você regula: quando aparece, onde e com quanto. Não é instantâneo, leva semanas para ficar previsível.
 >
+> Se você ainda não me segue, segue: a série continua.
+>
 > Conhece alguém que vive de indicação? Envie este post para ele.
+

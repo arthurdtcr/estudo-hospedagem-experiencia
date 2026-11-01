@@ -66,10 +66,11 @@ def bloco(tipo, html):
 def corpo_slide(s):
     t = s["tipo"]
     if t == "capa":
+        sub = f'\n    <p class="titulo ie-serif ie-suave" style="margin-top: 48px">{s["sub"]}</p>' if s.get("sub") else ''
         return f"""<div class="ie-arte ie-grao ie-brilho" {ROOT_ATTRS}>
   <span class="ie-diagonal" style="left: 900px; top: -80px; height: 700px"></span>
   <div class="ie-area ie-base">
-    <h1 class="capa ie-serif">{s['texto']}</h1>
+    <h1 class="capa ie-serif">{s['texto']}</h1>{sub}
     <div style="display: flex; align-items: center; gap: 24px; margin-top: 96px">
       <div class="ie-filete ie-ouro-linha" style="width: 56px"></div>
       <span class="nota ie-sans ie-suave ie-maiusc" style="letter-spacing: 0.32em">Arraste</span>

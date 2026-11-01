@@ -4,7 +4,7 @@ Pedido do Arthur (01/11/2026): 5 carrosséis que seguem o carrossel de apresenta
 (https://claude.ai/artifact/HvuBQG3AmoDzAA2g2fEVAg), depois mais 10 com o mesmo método. Cada um sobe um nível de
 consciência (Schwartz). Método por roteiro: rascunho > 5 reanálises > pesquisa de persuasão > 6ª reanálise > crítico
 independente (subagente) > filtro > 7ª reanálise > construção no Claude Design com o Design System Impulse Elite.
-**Tudo isso já foi feito para os 15.** Depois, a pedido do Arthur, uma rodada 2: três juízes novos deram notas aos roteiros finais (com o carrossel de apresentação como calibração) e veio a 8ª refinação. Notas em `processo/rodada-2/NOTAS.md`, filtro em `processo/rodada-2/FILTRO.md`. Hospedagem de experiência NÃO é mais o nicho: não usar.
+**Tudo isso já foi feito para os 15.** Depois, a pedido do Arthur, uma rodada 2: três juízes novos deram notas aos roteiros finais (com o carrossel de apresentação como calibração) e veio a 8ª refinação. Notas em `processo/rodada-2/NOTAS.md`, filtro em `processo/rodada-2/FILTRO.md`. Por último, a 9ª refinação: coerência e simplicidade entre os 15 e o novo gancho do C15 (`processo/rodada-3-coerencia/CONVENCOES.md`). Hospedagem de experiência NÃO é mais o nicho: não usar.
 
 ## Índice
 | # | Carrossel | Ação | Canvas |
@@ -23,7 +23,7 @@ independente (subagente) > filtro > 7ª reanálise > construção no Claude Desi
 | 12 | [Quanto investir em anúncio? Comece pela conta.](12-quanto-investir-em-anuncio-comece-pela-conta/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/RRJeoQwdgofT6dD3eYMvpP |
 | 13 | [Em quanto tempo o anúncio dá resultado?](13-em-quanto-tempo-o-anuncio-da-resultado/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/5Npe1zNbFAXfXHrQnn1y1A |
 | 14 | [Cinco perguntas antes de contratar uma agência](14-cinco-perguntas-antes-de-contratar-uma-agenci/README.md) | Salvar | https://claude.ai/artifact/EAJRC9spcyPXFV2W1MuwLV |
-| 15 | [A resposta pode ser: ainda não anuncie](15-a-resposta-pode-ser-ainda-nao-anuncie/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/MSRaVvuxDK6imR8kWTfzf9 |
+| 15 | [Nunca faça anúncio pago se...](15-nunca-faca-anuncio-pago-se/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/MSRaVvuxDK6imR8kWTfzf9 |
 
 Cada pasta tem `README.md` (roteiro final legível, legenda, pendências), `roteiro.json` (fonte da verdade) e, nos 6 a 15,
 `canvas/` (arquivos prontos para publicar) e `previa.png` (folha de prévia).
@@ -31,11 +31,10 @@ Cada pasta tem `README.md` (roteiro final legível, legenda, pendências), `rote
 ## Estado e o que falta
 1. **Os 15 carrosséis estão publicados no Claude Design** (links no índice). Os canvases são privados: para mostrar a
    alguém, compartilhe pelo menu Share de cada um.
-2. **Push para o GitHub** falha com 403 (sem acesso ao repositório). Commits só locais até o Arthur reconectar o GitHub
-   em https://claude.ai/connect-github.
+2. **GitHub:** o push funciona; tudo está no branch.
 3. **Prova de primeira mão:** os três juízes da rodada 2 apontaram a falta de um caso real da Impulse como o que mais separa os roteiros de um 9 (C1, C5, C11, C15). Não pode ser inventado: o Arthur precisa mandar casos reais.
 4. **Pendências do Arthur** (estão no README de cada carrossel): fluxo do diagnóstico (C5), conta no nome do cliente (C14),
-   "cada diagnóstico passa pela minha mão" (C15), frases em primeira pessoa das legendas, foto P&B (C5 e C15).
+   frases em primeira pessoa das legendas, foto P&B (C5 e C15).
 
 ## Como publicar um canvas pronto (para carrosséis novos)
 - Tipo Design: `https://claude.ai/artifact/QKN21svewxgyPb6SYRqWnd`. Criar: Artifact publish com `type_url` desse tipo,

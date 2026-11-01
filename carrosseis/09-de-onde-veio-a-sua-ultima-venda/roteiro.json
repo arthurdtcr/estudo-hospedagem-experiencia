@@ -53,9 +53,29 @@
    ]
   },
   {
+   "tipo": "lista",
+   "titulo": "Comece pelo simples",
+   "rotulo": "Comece pelo simples",
+   "itens": [
+    [
+     "Uma pergunta",
+     "“como você conheceu a gente?”"
+    ],
+    [
+     "Uma mensagem pronta por anúncio",
+     "“vi o anúncio da promoção”"
+    ],
+    [
+     "Etiquetas no WhatsApp Business",
+     "contato, orçamento, cliente"
+    ]
+   ],
+   "fecho": "No fim do mês, você vê <em>qual anúncio trouxe cliente.</em>"
+  },
+  {
    "tipo": "texto",
-   "titulo": "O efeito escondido",
-   "rotulo": "O efeito escondido",
+   "titulo": "Por que importa",
+   "rotulo": "Por que importa",
    "blocos": [
     [
      "manchete",
@@ -69,28 +89,8 @@
   },
   {
    "tipo": "lista",
-   "titulo": "No WhatsApp, à mão",
-   "rotulo": "No WhatsApp, você conta à mão",
-   "itens": [
-    [
-     "Mensagem pronta por anúncio",
-     "“vi o anúncio da promoção”"
-    ],
-    [
-     "Etiquetas no WhatsApp Business",
-     "contato, orçamento, cliente"
-    ],
-    [
-     "No fim do mês",
-     "quantos clientes vieram de cada anúncio"
-    ]
-   ],
-   "fecho": "E já mostra <em>onde pôr o próximo real.</em>"
-  },
-  {
-   "tipo": "lista",
-   "titulo": "O básico bem feito",
-   "rotulo": "O básico bem feito",
+   "titulo": "No site",
+   "rotulo": "No site",
    "itens": [
     [
      "Pixel",
@@ -99,10 +99,6 @@
     [
      "Links com etiqueta",
      "mostram qual anúncio trouxe a visita"
-    ],
-    [
-     "Uma pergunta",
-     "“como você conheceu a gente?”"
     ]
    ],
    "fecho": "Perfeito não existe. <em>O básico, sim.</em>"
@@ -116,5 +112,5 @@
    "chave": "Salve <b>para montar</b>"
   }
  ],
- "legenda": "De onde veio a sua última venda? Se a resposta começou com “acho que”, você não está sozinho.\n\nTem uma frase atribuída ao varejista John Wanamaker, de mais de cem anos atrás: metade do que ele gastava em propaganda era desperdício, o problema é que ele não sabia qual metade.\n\nHoje dá para saber muito mais. O básico: Pixel e API de Conversões no site, um link com etiqueta (UTM) para cada anúncio, um número ou página por canal e uma pergunta simples para o cliente: como você conheceu a gente?\n\nNo WhatsApp, a conta é à mão: uma mensagem pronta diferente para cada anúncio e etiquetas no WhatsApp Business. No fim do mês, você vê quantos clientes vieram de cada um.\n\nNada disso exige verba de anúncio. Algumas partes pedem ajuda técnica, outras você faz hoje.\n\nSalve este post e comece pelo mais simples."
+ "legenda": "De onde veio a sua última venda? Se a resposta começou com “acho que”, você não está sozinho.\n\nTem uma frase atribuída ao varejista John Wanamaker, de mais de cem anos atrás: metade do que ele gastava em propaganda era desperdício, o problema é que ele não sabia qual metade.\n\nHoje dá para saber muito mais. O básico: Pixel e API de Conversões no site, um link com etiqueta (UTM) para cada anúncio, um número ou página por canal e uma pergunta simples para o cliente: como você conheceu a gente?\n\nNo WhatsApp, a conta é à mão: uma mensagem pronta diferente para cada anúncio e etiquetas no WhatsApp Business. No fim do mês, você vê quantos clientes vieram de cada um.\n\nNada disso exige verba de anúncio. Algumas partes pedem ajuda técnica, outras você faz hoje.\n\nSe você ainda não me segue, segue: a série continua.\n\nSalve este post e comece pelo mais simples."
 }

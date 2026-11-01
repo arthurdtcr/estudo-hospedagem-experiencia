@@ -2,7 +2,7 @@
   "v": 3,
   "createdOnFiles": {
     "v": 1,
-    "at": "2026-11-01T07:27:31Z"
+    "at": "2026-11-01T15:23:53Z"
   },
   "title": "Carrossel 01 · Ele quase comprou de você",
   "launch": {
@@ -36,7 +36,7 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "4 · A conclusão"
+      "title": "4 · No fim do mês"
     },
     "Slide05.dc.html": {
       "x": 4640,
@@ -73,7 +73,7 @@
     "titulo": {
       "x": 0,
       "y": -300,
-      "text": "Carrossel 1 de 5 · Ele quase comprou de você · Impulse Elite · 1080 × 1350",
+      "text": "Série 2 · Carrossel 1 · Ele quase comprou de você · Impulse Elite · 1080 × 1350",
       "kind": "title1",
       "maxW": 8040
     }
@@ -84,7 +84,7 @@
       "namespace": "impulse-elite",
       "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
       "version": "1793507287-6e32",
-      "copiedAt": "2026-11-01T07:27:31Z"
+      "copiedAt": "2026-11-01T15:23:53Z"
     }
   ]
 }

@@ -25,6 +25,30 @@
    ]
   },
   {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Mais gente viu.",
+    "Mais gente curtiu.",
+    "<em>Quem comprou?</em>"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "A diferença",
+   "rotulo": "A diferença",
+   "blocos": [
+    [
+     "manchete",
+     "O botão procura quem interage. O Gerenciador pode procurar <em>quem compra.</em>"
+    ],
+    [
+     "corpo-suave",
+     "Desde que ele saiba quem comprou. Sem essa medição, os dois procuram quase a mesma pessoa."
+    ]
+   ]
+  },
+  {
    "tipo": "lista",
    "titulo": "O que só o Gerenciador tem",
    "rotulo": "O que só o Gerenciador tem",
@@ -46,16 +70,7 @@
      "qual anúncio e público trouxe resultado"
     ]
    ],
-   "fecho": "Impulsionar é volume. Anunciar é <em>direção.</em>"
-  },
-  {
-   "tipo": "pausa",
-   "titulo": "Pausa",
-   "linhas": [
-    "Mais gente viu.",
-    "Mais gente curtiu.",
-    "<em>Quem comprou?</em>"
-   ]
+   "fecho": "Para vender todo mês, <em>é por aqui.</em>"
   },
   {
    "tipo": "texto",
@@ -68,26 +83,7 @@
     ],
     [
      "corpo-suave",
-     "Um post que já foi bem, uma novidade para a sua região, um evento no fim de semana."
-    ],
-    [
-     "corpo",
-     "Para vender todo mês... não é com ele."
-    ]
-   ]
-  },
-  {
-   "tipo": "texto",
-   "titulo": "A diferença",
-   "rotulo": "A diferença",
-   "blocos": [
-    [
-     "manchete",
-     "O botão procura quem interage. O Gerenciador pode procurar <em>quem compra.</em>"
-    ],
-    [
-     "corpo-suave",
-     "Desde que ele saiba quem comprou. Sem essa medição, os dois procuram quase a mesma pessoa."
+     "Para um post que já foi bem, uma novidade na sua região ou um evento no fim de semana."
     ]
    ]
   },
@@ -96,9 +92,9 @@
    "titulo": "CTA",
    "manchete": "Impulsionar não é anunciar.",
    "titulo2": "Se o objetivo é cliente, <em>peça cliente.</em>",
-   "lead": "No diagnóstico gratuito, a gente olha o que você pede para a plataforma hoje e o que acontece depois do clique. São 30 minutos.",
+   "lead": "No diagnóstico gratuito de 30 minutos, a gente olha o que você pede para a plataforma hoje e o que acontece depois do clique.",
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "Você impulsionou. Mais gente viu, mais gente curtiu. E quem comprou?\n\nO botão (Turbinar no Instagram, Impulsionar no Facebook) não é ruim. Ele só faz menos: mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem. Às vezes basta, para um post que já foi bem ou um evento no fim de semana.\n\nPara vender todo mês, o caminho é o Gerenciador de Anúncios: objetivo de venda ou cadastro, teste de versões, escolha de onde o anúncio aparece e leitura por público.\n\nMas vou ser honesto: o Gerenciador só procura quem compra se ele fica sabendo de cada venda, pelo site ou pelo WhatsApp. Sem isso, os dois procuram quase a mesma pessoa.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nSe quiser que eu olhe o que você está pedindo para a plataforma hoje, comenta DIAGNÓSTICO."
+ "legenda": "Você impulsionou. Mais gente viu, mais gente curtiu. E quem comprou?\n\nO botão (Turbinar no Instagram, Impulsionar no Facebook) não é ruim. Ele só faz menos: mostra seu post para mais gente e pede uma visita ao perfil, ao site ou uma mensagem. Às vezes basta, para um post que já foi bem ou um evento no fim de semana.\n\nPara vender todo mês, o caminho é o Gerenciador de Anúncios: objetivo de venda ou cadastro, teste de versões, escolha de onde o anúncio aparece e leitura por público.\n\nMas vou ser honesto: o Gerenciador só procura quem compra se ele fica sabendo de cada venda, pelo site ou pelo WhatsApp. Sem isso, os dois procuram quase a mesma pessoa.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e eu olho o que você está pedindo para a plataforma hoje."
 }

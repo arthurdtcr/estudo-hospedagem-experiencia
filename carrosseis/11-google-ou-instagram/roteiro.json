@@ -35,7 +35,7 @@
     ],
     [
      "corpo-suave",
-     "Encanador 24 horas. Dentista perto de mim. Advogado trabalhista. A pessoa sabe o que quer. Só não escolheu de quem. E muitas vezes escolhe pelo mapa."
+     "Encanador 24 horas. Dentista perto de mim. Advogado trabalhista. A pessoa sabe o que quer. Só não escolheu de quem."
     ]
    ]
   },
@@ -52,6 +52,15 @@
      "corpo-suave",
      "Ninguém pesquisa a roupa que nunca viu. Ali, o anúncio desperta a vontade."
     ]
+   ]
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "O cliente te viu no Instagram.",
+    "Depois, te procurou",
+    "<em>no Google.</em>"
    ]
   },
   {
@@ -92,20 +101,11 @@
    ]
   },
   {
-   "tipo": "pausa",
-   "titulo": "Pausa",
-   "linhas": [
-    "O cliente te viu no Instagram.",
-    "Depois, te procurou",
-    "<em>no Google.</em>"
-   ]
-  },
-  {
    "tipo": "cta",
    "titulo": "CTA",
    "manchete": "Google ou Instagram?",
    "titulo2": "Primeiro, descubra se alguém <em>digita o que você vende.</em>",
-   "lead": "Google, Instagram ou nenhum: e o seu negócio, hoje anuncia onde?",
+   "lead": "E o seu negócio, anuncia onde hoje?",
    "chave": "Comente <b>Google, Instagram ou nenhum</b>"
   }
  ],

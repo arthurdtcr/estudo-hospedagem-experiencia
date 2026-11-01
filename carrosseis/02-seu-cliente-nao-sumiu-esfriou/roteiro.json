@@ -56,6 +56,14 @@
    ]
   },
   {
+   "tipo": "numeral",
+   "titulo": "E quase ninguém responde",
+   "rotulo": "E quase ninguém responde",
+   "numeral": "37%",
+   "lead": "das empresas responderam na primeira hora. As outras deixaram o cliente esperando.",
+   "nota": "23% nunca responderam. Teste com 2.241 empresas dos EUA. Harvard Business Review, 2011."
+  },
+  {
    "tipo": "pausa",
    "titulo": "Pausa",
    "linhas": [
@@ -63,15 +71,6 @@
     "O cliente chamou.",
     "E ficou lá... <em>esperando.</em>"
    ]
-  },
-  {
-   "tipo": "numeral",
-   "titulo": "Quem responde rápido",
-   "rotulo": "Quem responde rápido",
-   "numeral": "37%",
-   "lead": "das empresas testadas responderam na primeira hora.",
-   "nota": "23% nunca responderam. Teste com 2.241 empresas dos EUA, Harvard Business Review, 2011, antes do WhatsApp.",
-   "corpo": "Hoje, esse contato chega pelo WhatsApp."
   },
   {
    "tipo": "lista",
@@ -102,7 +101,7 @@
    "titulo": "CTA",
    "manchete": "Seu cliente não sumiu.",
    "titulo2": "Quanto tempo o seu leva <em>para esfriar?</em>",
-   "lead": "No diagnóstico gratuito, a gente confere o seu tempo de resposta e onde o anúncio perde cliente. São 30 minutos.",
+   "lead": "No diagnóstico gratuito de 30 minutos, a gente confere o seu tempo de resposta e onde o anúncio perde cliente.",
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],

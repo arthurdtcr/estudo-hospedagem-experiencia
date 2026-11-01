@@ -1,0 +1,110 @@
+{
+ "id": 15,
+ "titulo": "Nunca faça anúncio pago se...",
+ "nivel": "Totalmente consciente",
+ "acao": "Comentar Diagnóstico",
+ "slides": [
+  {
+   "tipo": "capa",
+   "titulo": "Capa",
+   "texto": "Nunca faça <em>anúncio pago</em>",
+   "sub": "se a sua empresa ainda não está pronta para o cliente."
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Por quê",
+   "rotulo": "Por quê",
+   "blocos": [
+    [
+     "manchete",
+     "O anúncio só traz o cliente <em>até a porta.</em>"
+    ],
+    [
+     "corpo-suave",
+     "O que ele encontra depois decide se compra. Se encontra problema, você pagou para ele ir embora."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Não está pronta se",
+   "rotulo": "Não está pronta se",
+   "itens": [
+    [
+     "A oferta",
+     "não cabe em uma frase"
+    ],
+    [
+     "O Google e o perfil",
+     "parados, sem avaliação recente"
+    ],
+    [
+     "O WhatsApp",
+     "demora para responder"
+    ],
+    [
+     "A margem",
+     "cada cliente custa mais do que deixa"
+    ]
+   ],
+   "fecho": "Marcou um? <em>Arrume antes de anunciar.</em>"
+  },
+  {
+   "tipo": "pausa",
+   "titulo": "Pausa",
+   "linhas": [
+    "Anúncio não conserta",
+    "o que vem depois dele.",
+    "<em>Só mostra mais rápido.</em>"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "titulo": "Quando está pronta",
+   "rotulo": "Quando está pronta",
+   "blocos": [
+    [
+     "manchete",
+     "Com os quatro em ordem, <em>anuncie.</em>"
+    ],
+    [
+     "corpo-suave",
+     "Oferta clara, resposta rápida, avaliação recente e margem com folga. Aí o anúncio acelera o que já funciona."
+    ]
+   ]
+  },
+  {
+   "tipo": "retrato",
+   "titulo": "Arthur",
+   "foto": "Foto do Arthur · P&amp;B",
+   "nome": "Quem diz isso sou eu, o <em>Arthur.</em>",
+   "cargo": "Fundador da Impulse",
+   "corpo_suave": "Sim, eu vivo de anúncio pago.",
+   "corpo": "Por isso mesmo, prefiro adiar o seu a começar um que vai te frustrar."
+  },
+  {
+   "tipo": "texto",
+   "titulo": "O que você leva",
+   "rotulo": "O que você leva",
+   "blocos": [
+    [
+     "manchete",
+     "Do diagnóstico, você sai sabendo <em>o que arrumar primeiro.</em>"
+    ],
+    [
+     "corpo-suave",
+     "Na ordem do que mais trava. Muita coisa você resolve sozinho, sem gastar nada com anúncio."
+    ]
+   ]
+  },
+  {
+   "tipo": "cta",
+   "titulo": "CTA",
+   "manchete": "Nunca faça anúncio pago antes da hora.",
+   "titulo2": "Descubra <em>se a sua já chegou.</em>",
+   "lead": "No diagnóstico gratuito de 30 minutos, a gente confere os quatro pontos com você.",
+   "chave": "Comente <b>Diagnóstico</b>"
+  }
+ ],
+ "legenda": "Nunca faça anúncio pago se a sua empresa ainda não está pronta para o cliente. Sim, quem diz isso vive de tráfego pago.\n\nO anúncio só traz o cliente até a porta. O que ele encontra depois decide se ele compra. Se encontra problema, você pagou para ele ir embora.\n\nAntes de anunciar, confira quatro pontos: a oferta cabe em uma frase? O seu Google e o seu perfil têm avaliação recente e post novo? O seu WhatsApp responde em minutos? Cada cliente deixa mais do que custa?\n\nSe algum falhou, arrume antes. Muita coisa você resolve sozinho, sem gastar nada com anúncio.\n\nSe os quatro estão em ordem, aí sim: anuncie. O anúncio acelera o que já funciona.\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e a gente confere os quatro com você."
+}

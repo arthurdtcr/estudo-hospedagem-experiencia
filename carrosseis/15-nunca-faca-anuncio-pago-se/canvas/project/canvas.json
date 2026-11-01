@@ -2,9 +2,9 @@
   "v": 3,
   "createdOnFiles": {
     "v": 1,
-    "at": "2026-11-01T12:34:56Z"
+    "at": "2026-11-01T15:23:58Z"
   },
-  "title": "Carrossel 15 · A resposta pode ser: ainda não anuncie",
+  "title": "Carrossel 15 · Nunca faça anúncio pago se",
   "launch": {
     "view": "canvas"
   },
@@ -22,42 +22,42 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "2 · Estranho, né"
+      "title": "2 · Por quê"
     },
     "Slide03.dc.html": {
       "x": 2320,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "3 · Antes de anunciar"
+      "title": "3 · Não está pronta se"
     },
     "Slide04.dc.html": {
       "x": 3480,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "4 · Quando é hora"
+      "title": "4 · Pausa"
     },
     "Slide05.dc.html": {
       "x": 4640,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "5 · O que você leva"
+      "title": "5 · Quando está pronta"
     },
     "Slide06.dc.html": {
       "x": 5800,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "6 · Pausa"
+      "title": "6 · Arthur"
     },
     "Slide07.dc.html": {
       "x": 6960,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "7 · Arthur"
+      "title": "7 · O que você leva"
     },
     "Slide08.dc.html": {
       "x": 8120,
@@ -81,7 +81,7 @@
     "titulo": {
       "x": 0,
       "y": -300,
-      "text": "Série 2 · Carrossel 15 · A resposta pode ser: ainda não anuncie · Impulse Elite · 1080 × 1350",
+      "text": "Série 2 · Carrossel 15 · Nunca faça anúncio pago se... · Impulse Elite · 1080 × 1350",
       "kind": "title1",
       "maxW": 9200
     }
@@ -92,7 +92,7 @@
       "namespace": "impulse-elite",
       "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
       "version": "1793507287-6e32",
-      "copiedAt": "2026-11-01T12:34:56Z"
+      "copiedAt": "2026-11-01T15:23:58Z"
     }
   ]
 }

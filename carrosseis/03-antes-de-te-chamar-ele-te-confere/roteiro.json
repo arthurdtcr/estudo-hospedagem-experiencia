@@ -28,12 +28,8 @@
      "Uma estrela a mais: de 5% a 9% <em>mais receita.</em>"
     ],
     [
-     "lead",
-     "Nos restaurantes independentes. Nas grandes redes, nenhum efeito."
-    ],
-    [
      "corpo",
-     "Rede famosa já chega com confiança. Negócio como o seu precisa provar."
+     "Nos restaurantes independentes. Nas grandes redes, nenhum efeito. Quem não tem nome famoso precisa provar."
     ],
     [
      "nota",
@@ -45,8 +41,9 @@
    "tipo": "pausa",
    "titulo": "Pausa",
    "linhas": [
-    "O anúncio leva até a porta.",
-    "O que ele confere <em>decide.</em>"
+    "O anúncio traz até a porta.",
+    "Se ele entra,",
+    "<em>depende do que ele encontra.</em>"
    ]
   },
   {
@@ -106,5 +103,5 @@
    "chave": "Salve <b>para conferir</b>"
   }
  ],
- "legenda": "Antes de te chamar, ele te confere. No Google, no Instagram e no site.\n\nUma pesquisa da BrightLocal de 2026, com 1.002 adultos nos EUA, mostrou que 97% leem avaliações de negócios locais.\n\nE tem um estudo que eu acho ainda mais importante. Michael Luca, da Harvard Business School, cruzou avaliações do Yelp com o faturamento de restaurantes de Seattle (2011): uma estrela a mais rendeu de 5% a 9% mais receita nos independentes. Nas grandes redes, nenhum efeito.\n\nRede famosa já chega com confiança. Negócio como o seu precisa provar.\n\nAntes de mexer em qualquer anúncio de cliente, é isso que eu olho primeiro.\n\nPesquise hoje o nome da sua empresa no Google, pelo celular, como um cliente novo faria. E salve este post para conferir item por item."
+ "legenda": "Antes de te chamar, ele te confere. No Google, no Instagram e no site.\n\nUma pesquisa da BrightLocal de 2026, com 1.002 adultos nos EUA, mostrou que 97% leem avaliações de negócios locais.\n\nE tem um estudo que eu acho ainda mais importante. Michael Luca, da Harvard Business School, cruzou avaliações do Yelp com o faturamento de restaurantes de Seattle (2011): uma estrela a mais rendeu de 5% a 9% mais receita nos independentes. Nas grandes redes, nenhum efeito.\n\nRede famosa já chega com confiança. Negócio como o seu precisa provar.\n\nAntes de mexer em qualquer anúncio de cliente, é isso que eu olho primeiro.\n\nSe você ainda não me segue, segue: a série continua.\n\nPesquise hoje o nome da sua empresa no Google, pelo celular, como um cliente novo faria. E salve este post para conferir item por item."
 }

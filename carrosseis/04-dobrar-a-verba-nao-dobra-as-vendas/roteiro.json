@@ -31,11 +31,11 @@
    "blocos": [
     [
      "manchete",
-     "Dobrar de uma vez faz o anúncio <em>reaprender.</em>"
+     "Aumento grande faz o anúncio <em>recomeçar a aprender.</em>"
     ],
     [
      "corpo-suave",
-     "Mudança grande no orçamento devolve o conjunto de anúncios à fase de aprendizado. Por um tempo, a entrega oscila."
+     "A plataforma volta a testar para quem mostrar. Por um tempo, o resultado sobe e desce."
     ],
     [
      "nota",
@@ -47,59 +47,39 @@
    "tipo": "pausa",
    "titulo": "Pausa",
    "linhas": [
-    "Mais verba.",
-    "Gente mais fria.",
-    "<em>O mesmo caminho.</em>"
+    "Mais verba traz mais gente.",
+    "Mas essa gente encontra",
+    "<em>os mesmos problemas.</em>"
    ]
   },
   {
    "tipo": "lista",
-   "titulo": "Onde o caminho perde",
-   "rotulo": "Onde o caminho perde",
-   "itens": [
-    [
-     "Oferta confusa",
-     "quem chega frio não pergunta, vai embora"
-    ],
-    [
-     "Perfil que não convence",
-     "quem não te conhece não arrisca"
-    ],
-    [
-     "Atendimento lento",
-     "fica mais lento quando chega mais gente"
-    ]
-   ],
-   "fecho": "Verba em cima disso é <em>desperdício mais rápido.</em>"
-  },
-  {
-   "tipo": "lista",
-   "titulo": "Por onde a gente começa",
-   "rotulo": "Por onde a gente começa",
+   "titulo": "Antes de aumentar",
+   "rotulo": "Antes de aumentar",
    "itens": [
     [
      "A oferta",
      "cabe em uma frase?"
     ],
     [
-     "A checagem",
-     "quem procura seu nome confia?"
+     "O Google e o perfil",
+     "passam confiança?"
     ],
     [
-     "O atendimento",
-     "quanto tempo até responder?"
+     "O WhatsApp",
+     "responde em minutos?"
     ],
     [
-     "A conta",
-     "quanto custa um cliente, e quanto ele deixa no caixa?"
+     "A margem",
+     "cada cliente deixa mais do que custa?"
     ]
    ],
-   "fecho": "Só depois, <em>o anúncio.</em>"
+   "fecho": "Se algum falha, mais verba é <em>perder dinheiro mais rápido.</em>"
   },
   {
    "tipo": "texto",
-   "titulo": "A objeção",
-   "rotulo": "A objeção",
+   "titulo": "E a pressa?",
+   "rotulo": "E a pressa?",
    "blocos": [
     [
      "manchete",
@@ -107,7 +87,7 @@
     ],
     [
      "corpo",
-     "Com o caminho arrumado, aumentar a verba passa a fazer sentido. A gente não é contra escalar. É contra escalar antes."
+     "Com os quatro em ordem, aumentar a verba faz sentido. A gente não é contra aumentar. É contra aumentar antes."
     ]
    ]
   },
@@ -115,10 +95,10 @@
    "tipo": "cta",
    "titulo": "CTA",
    "manchete": "Dobrar a verba não dobra as vendas.",
-   "titulo2": "Antes de aumentar, descubra <em>onde o caminho perde.</em>",
-   "lead": "É isso que a gente faz no diagnóstico gratuito de 30 minutos.",
+   "titulo2": "Antes de aumentar, <em>confira os quatro.</em>",
+   "lead": "No diagnóstico gratuito de 30 minutos, a gente confere os quatro com você.",
    "chave": "Comente <b>Diagnóstico</b>"
   }
  ],
- "legenda": "Dobrar a verba de tráfego pago não costuma dobrar as vendas. Eu sei que não é o que você espera ouvir de uma agência.\n\nO primeiro motivo: a plataforma entrega o anúncio primeiro para quem tem mais chance de comprar. Quando a verba sobe, ela precisa buscar gente mais longe, e os clientes a mais tendem a custar mais.\n\nO segundo: uma mudança grande no orçamento devolve o conjunto de anúncios da Meta à fase de aprendizado. Por um tempo, a entrega oscila.\n\nE quem chega de mais longe precisa de mais motivo para comprar. Oferta confusa, perfil fraco e resposta lenta já perdiam clientes. Com esse público mais frio, perdem ainda mais.\n\nNão sou contra escalar. Sou contra escalar antes de arrumar o caminho.\n\nAntes de aumentar, quatro perguntas: a oferta cabe em uma frase? Quem procura seu nome confia? Quanto tempo você leva para responder? Quanto custa um cliente, e quanto ele deixa no caixa?\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e a gente faz isso com você em 30 minutos, de graça."
+ "legenda": "Dobrar a verba de tráfego pago não costuma dobrar as vendas. Eu sei que não é o que você espera ouvir de uma agência.\n\nO primeiro motivo: a plataforma entrega o anúncio primeiro para quem tem mais chance de comprar. Quando a verba sobe, ela precisa buscar gente mais longe, e os clientes a mais tendem a custar mais.\n\nO segundo: uma mudança grande no orçamento devolve o conjunto de anúncios da Meta à fase de aprendizado. Por um tempo, a entrega oscila.\n\nMais verba traz mais gente. Mas essa gente encontra os mesmos problemas: oferta confusa, perfil que não convence, resposta lenta.\n\nNão sou contra aumentar. Sou contra aumentar antes.\n\nAntes de aumentar, quatro perguntas: a oferta cabe em uma frase? O seu Google e o seu perfil passam confiança? O seu WhatsApp responde em minutos? Cada cliente deixa mais do que custa?\n\nSe você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.\n\nDepois comenta DIAGNÓSTICO e a gente confere os quatro com você em 30 minutos, de graça."
 }

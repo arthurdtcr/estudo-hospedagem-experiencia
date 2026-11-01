@@ -15,7 +15,7 @@ for i, s in enumerate(d["slides"], 1):
     tp = s["tipo"]; partes = []; txt = []
     if s.get("rotulo"): partes.append(f"rótulo {s['rotulo'].upper()}"); txt.append(s["rotulo"])
     if tp == "capa":
-        partes.append(f"\"{t(s['texto'])}\" · Arraste"); txt.append(s["texto"])
+        partes.append(f"\"{t(s['texto'])}\"" + (f" · menor: \"{t(s['sub'])}\"" if s.get("sub") else "") + " · Arraste"); txt += [s["texto"], s.get("sub")]
     elif tp == "pausa":
         partes.append(" / ".join(f"\"{t(l)}\"" for l in s["linhas"])); txt += s["linhas"]
     elif tp == "texto":

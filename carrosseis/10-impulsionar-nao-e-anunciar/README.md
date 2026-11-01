@@ -3,18 +3,18 @@
 **Canvas publicado:** https://claude.ai/artifact/43DCSWzixAgBjX4sYUYc3S
 
 - Série 2 · nível de consciência: Consciente da solução · ação: Comentar Diagnóstico
-- Notas dos juízes independentes: 7,1 na rodada 1 (versão v6) e 8,4 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 8ª refinação, feita com as críticas da rodada 2 (`../processo/rodada-2/`).
+- Notas dos juízes independentes: 7,1 na rodada 1 (versão v6) e 8,4 na rodada 2 (versão da 7ª reanálise). A versão abaixo é a 9ª refinação (coerência e simplicidade, `../processo/rodada-3-coerencia/`), feita depois da 8ª refinação com as críticas da rodada 2 (`../processo/rodada-2/`).
 
 ## Roteiro final
 Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de apoio em cinza.
 
 1. **Capa** (capa, 4 palavras) · "Impulsionar não é *anunciar.*" · Arraste
 2. **O botão** (texto, 29 palavras) · rótulo O BOTÃO · manchete "O botão não é ruim. Ele só *faz menos.*" · corpo-suave "No Instagram, Turbinar. No Facebook, Impulsionar. Mostra seu post para mais gente e pede uma visita ou mensagem."
-3. **O que só o Gerenciador tem** (lista, 38 palavras) · rótulo O QUE SÓ O GERENCIADOR TEM · itens: Objetivo: de venda ou cadastro; Teste: vários anúncios lado a lado; Onde aparece: feed, stories ou reels, você escolhe; Relatório: qual anúncio e público trouxe resultado · fecho "Impulsionar é volume. Anunciar é *direção.*"
-4. **Pausa** (pausa, fundo claro, 8 palavras) · "Mais gente viu." / "Mais gente curtiu." / "*Quem comprou?*"
-5. **Quando basta** (texto, 33 palavras) · rótulo QUANDO BASTA · manchete "Às vezes o botão *basta.*" · corpo-suave "Um post que já foi bem, uma novidade para a sua região, um evento no fim de semana." · corpo "Para vender todo mês... não é com ele."
-6. **A diferença** (texto, 29 palavras) · rótulo A DIFERENÇA · manchete "O botão procura quem interage. O Gerenciador pode procurar *quem compra.*" · corpo-suave "Desde que ele saiba quem comprou. Sem essa medição, os dois procuram quase a mesma pessoa."
-7. **CTA** (cta, 37 palavras) · manchete "Impulsionar não é anunciar." · titulo2 "Se o objetivo é cliente, *peça cliente.*" · lead "No diagnóstico gratuito, a gente olha o que você pede para a plataforma hoje e o que acontece depois do clique. São 30 minutos." · chave "Comente Diagnóstico"
+3. **Pausa** (pausa, fundo claro, 8 palavras) · "Mais gente viu." / "Mais gente curtiu." / "*Quem comprou?*"
+4. **A diferença** (texto, 29 palavras) · rótulo A DIFERENÇA · manchete "O botão procura quem interage. O Gerenciador pode procurar *quem compra.*" · corpo-suave "Desde que ele saiba quem comprou. Sem essa medição, os dois procuram quase a mesma pessoa."
+5. **O que só o Gerenciador tem** (lista, 39 palavras) · rótulo O QUE SÓ O GERENCIADOR TEM · itens: Objetivo: de venda ou cadastro; Teste: vários anúncios lado a lado; Onde aparece: feed, stories ou reels, você escolhe; Relatório: qual anúncio e público trouxe resultado · fecho "Para vender todo mês, *é por aqui.*"
+6. **Quando basta** (texto, 26 palavras) · rótulo QUANDO BASTA · manchete "Às vezes o botão *basta.*" · corpo-suave "Para um post que já foi bem, uma novidade na sua região ou um evento no fim de semana."
+7. **CTA** (cta, 37 palavras) · manchete "Impulsionar não é anunciar." · titulo2 "Se o objetivo é cliente, *peça cliente.*" · lead "No diagnóstico gratuito de 30 minutos, a gente olha o que você pede para a plataforma hoje e o que acontece depois do clique." · chave "Comente Diagnóstico"
 
 ## Legenda (primeira pessoa do Arthur)
 
@@ -28,7 +28,7 @@ Convenção: *itálico* = a única ênfase dourada do slide. "suave" = texto de 
 >
 > Se você ainda não me segue, segue antes: direct de quem não segue cai em solicitações.
 >
-> Se quiser que eu olhe o que você está pedindo para a plataforma hoje, comenta DIAGNÓSTICO.
+> Depois comenta DIAGNÓSTICO e eu olho o que você está pedindo para a plataforma hoje.
 
 ## Confirmar antes de postar
 - Conferir no app o nome do botão (Turbinar no Instagram, Impulsionar no Facebook).

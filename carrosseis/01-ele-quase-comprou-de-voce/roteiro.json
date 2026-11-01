@@ -44,12 +44,12 @@
   },
   {
    "tipo": "texto",
-   "titulo": "A conclusão",
-   "rotulo": "A conclusão",
+   "titulo": "No fim do mês",
+   "rotulo": "No fim do mês",
    "blocos": [
     [
      "manchete",
-     "No fim do mês, o veredito: anúncio não funciona."
+     "A conclusão: “anúncio não funciona.”"
     ],
     [
      "filete",
@@ -57,7 +57,7 @@
     ],
     [
      "titulo",
-     "Às vezes é. Mas muitas vezes ele chegou até a <em>porta.</em>"
+     "Às vezes é verdade. Mas muitas vezes o anúncio trouxe o cliente <em>até a porta.</em>"
     ]
    ]
   },
@@ -114,5 +114,5 @@
    "chave": "Envie <b>este post</b>"
   }
  ],
- "legenda": "Ele viu o seu anúncio, clicou, olhou o seu perfil e comprou do concorrente. Você nunca ficou sabendo.\n\nNos números do tráfego pago, ele vira só mais um clique. E no fim do mês a conclusão costuma ser a mesma: anúncio não funciona.\n\nÀs vezes é verdade. Eu já vi anúncio ruim queimar dinheiro. Mas muitas vezes o cliente desistiu depois do clique: no perfil parado, na reclamação sem resposta no Google, no site lento, na mensagem respondida no dia seguinte no WhatsApp.\n\nO teste do slide 6 leva poucos minutos e mostra o que ele viu.\n\nEste é o primeiro de cinco posts sobre o caminho até a venda.\n\nConhece alguém que anuncia e não sabe onde o cliente desiste? Envia este post para ele."
+ "legenda": "Ele viu o seu anúncio, clicou, olhou o seu perfil e comprou do concorrente. Você nunca ficou sabendo.\n\nNos números do tráfego pago, ele vira só mais um clique. E no fim do mês a conclusão costuma ser a mesma: anúncio não funciona.\n\nÀs vezes é verdade. Eu já vi anúncio ruim queimar dinheiro. Mas muitas vezes o cliente desistiu depois do clique: no perfil parado, na reclamação sem resposta no Google, no site lento, na mensagem respondida no dia seguinte no WhatsApp.\n\nO teste do slide 6 leva poucos minutos e mostra o que ele viu.\n\nEste é o primeiro post de uma série sobre o que acontece depois do clique.\n\nSe você ainda não me segue, segue: a série continua.\n\nConhece alguém que anuncia e não sabe onde o cliente desiste? Envia este post para ele."
 }

@@ -2,7 +2,7 @@
   "v": 3,
   "createdOnFiles": {
     "v": 1,
-    "at": "2026-11-01T07:37:00Z"
+    "at": "2026-11-01T15:23:54Z"
   },
   "title": "Carrossel 04 · Dobrar a verba não dobra as vendas",
   "launch": {
@@ -43,28 +43,21 @@
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "5 · Onde o caminho perde"
+      "title": "5 · Antes de aumentar"
     },
     "Slide06.dc.html": {
       "x": 5800,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "6 · Por onde a gente começa"
+      "title": "6 · E a pressa?"
     },
     "Slide07.dc.html": {
       "x": 6960,
       "y": 0,
       "w": 1080,
       "h": 1350,
-      "title": "7 · A objeção"
-    },
-    "Slide08.dc.html": {
-      "x": 8120,
-      "y": 0,
-      "w": 1080,
-      "h": 1350,
-      "title": "8 · CTA"
+      "title": "7 · CTA"
     }
   },
   "order": [
@@ -74,16 +67,15 @@
     "Slide04.dc.html",
     "Slide05.dc.html",
     "Slide06.dc.html",
-    "Slide07.dc.html",
-    "Slide08.dc.html"
+    "Slide07.dc.html"
   ],
   "notes": {
     "titulo": {
       "x": 0,
       "y": -300,
-      "text": "Carrossel 4 de 5 · Dobrar a verba não dobra as vendas · Impulse Elite · 1080 × 1350",
+      "text": "Série 2 · Carrossel 4 · Dobrar a verba não dobra as vendas · Impulse Elite · 1080 × 1350",
       "kind": "title1",
-      "maxW": 9200
+      "maxW": 8040
     }
   },
   "designSystems": [
@@ -92,7 +84,7 @@
       "namespace": "impulse-elite",
       "artifact": "https://claude.ai/artifact/9eggYVve7p8i6mN5X71wRe",
       "version": "1793507287-6e32",
-      "copiedAt": "2026-11-01T07:37:00Z"
+      "copiedAt": "2026-11-01T15:23:54Z"
     }
   ]
 }

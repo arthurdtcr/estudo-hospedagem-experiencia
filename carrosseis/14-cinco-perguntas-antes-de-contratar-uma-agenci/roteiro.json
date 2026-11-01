@@ -31,7 +31,7 @@
    "itens": [
     [
      "“A conta fica no meu nome?”",
-     "sim: conta, pixel e cartão seus"
+     "sim, com conta, pixel e cartão seus"
     ],
     [
      "“Como você vai medir venda?”",
@@ -67,7 +67,7 @@
    "linhas": [
     "Ninguém controla tudo",
     "entre o anúncio e a venda.",
-    "<em>Por isso, processo vale mais que garantia.</em>"
+    "<em>Por isso, ninguém pode garantir.</em>"
    ]
   },
   {
@@ -94,5 +94,5 @@
    "chave": "Salve <b>esta lista</b>"
   }
  ],
- "legenda": "Antes de contratar alguém para cuidar do seu tráfego pago, faça estas cinco perguntas. Agência boa gosta delas.\n\n1. A conta de anúncio fica no meu nome? (A resposta boa: conta, pixel e cartão no seu portfólio da Meta.)\n2. Como você vai medir venda, e não só clique?\n3. Quem mexe na minha conta?\n4. O que você precisa de mim?\n5. Você garante resultado? (Se disser sim, desconfie.)\n\nNinguém controla tudo o que acontece entre o anúncio e a venda. Por isso garantia não é a pergunta certa. Processo é.\n\nServe também para a agência que você já tem. E para a minha.\n\nSe você ainda não me segue, segue: a série continua.\n\nSalve para usar na próxima conversa."
+ "legenda": "Antes de contratar alguém para cuidar do seu tráfego pago, faça estas cinco perguntas. Agência boa gosta delas.\n\n1. A conta de anúncio fica no meu nome? (A resposta boa: conta, pixel e cartão no seu portfólio da Meta.)\n2. Como você vai medir venda, e não só clique?\n3. Quem mexe na minha conta?\n4. O que você precisa de mim?\n5. Você garante resultado? (Se disser sim, desconfie.)\n\nNinguém controla tudo o que acontece entre o anúncio e a venda. Por isso, ninguém pode garantir resultado. Quem garante está vendendo promessa.\n\nServe também para a agência que você já tem. E para a minha.\n\nSe você ainda não me segue, segue: a série continua.\n\nSalve para usar na próxima conversa."
 }

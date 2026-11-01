@@ -26,16 +26,16 @@
   },
   {
    "tipo": "texto",
-   "titulo": "Outra pergunta",
-   "rotulo": "Outra pergunta",
+   "titulo": "O que eles dizem",
+   "rotulo": "O que eles dizem",
    "blocos": [
     [
      "manchete",
-     "Campanha que mira clique <em>entrega clique.</em>"
+     "Esses números dizem se o anúncio <em>chamou atenção.</em>"
     ],
     [
      "corpo",
-     "Esses números não estão errados. Dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta."
+     "Não dizem se ele pagou a conta. E campanha feita para dar clique entrega clique."
     ]
    ]
   },
@@ -60,12 +60,12 @@
   },
   {
    "tipo": "lista",
-   "titulo": "Os números que faltam",
-   "rotulo": "Os números que faltam",
+   "titulo": "O que falta",
+   "rotulo": "O que falta",
    "itens": [
     [
      "Custo por contato",
-     "quanto custa cada chamada"
+     "quanto custa cada pessoa que chama"
     ],
     [
      "Contato que vira cliente",
@@ -73,7 +73,7 @@
     ],
     [
      "Custo por cliente",
-     "verba dividida pelos clientes do anúncio"
+     "verba dividida pelos clientes"
     ],
     [
      "Margem",
@@ -115,5 +115,5 @@
    "chave": "Salve <b>esta lista</b>"
   }
  ],
- "legenda": "Seu relatório de tráfego pago mostra cliques. Mas quantos clientes vieram daí?\n\nAlcance, impressões e cliques não estão errados. Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta.\n\nOs números que eu olho são quatro: custo por contato, quantos contatos viram cliente, custo por cliente e a margem de cada um.\n\nE tem uma parte que só você vê: a venda. Quem cuida do anúncio traz o custo por contato. Você traz quantos compraram. Juntos, sai o custo por cliente.\n\nSe você não sabe nenhum dos quatro de cabeça, este post é para você.\n\nSalve este post e leve a lista para a próxima conversa com quem cuida dos seus anúncios."
+ "legenda": "Seu relatório de tráfego pago mostra cliques. Mas quantos clientes vieram daí?\n\nAlcance, impressões e cliques não estão errados. Eles dizem se o anúncio chamou atenção. Não dizem se ele pagou a conta.\n\nOs números que eu olho são quatro: custo por contato, quantos contatos viram cliente, custo por cliente e a margem de cada um.\n\nE tem uma parte que só você vê: a venda. Quem cuida do anúncio traz o custo por contato. Você traz quantos compraram. Juntos, sai o custo por cliente.\n\nSe você não sabe nenhum dos quatro de cabeça, este post é para você.\n\nSe você ainda não me segue, segue: a série continua.\n\nSalve este post e leve a lista para a próxima conversa com quem cuida dos seus anúncios."
 }
