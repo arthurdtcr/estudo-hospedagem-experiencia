@@ -1,5 +1,7 @@
 # Carrossel 08 · Seu relatório mostra cliques. E os clientes?
 
+**Canvas publicado:** https://claude.ai/artifact/R2VopuvsdWj2aZrMZBu4rm
+
 - Série 2 · nível de consciência: Consciente do problema · ação: Salvar
 - Nota do crítico independente (versão v6): 7.4. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

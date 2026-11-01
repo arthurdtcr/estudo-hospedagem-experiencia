@@ -1,5 +1,7 @@
 # Carrossel 15 · A resposta pode ser: ainda não anuncie
 
+**Canvas publicado:** https://claude.ai/artifact/MSRaVvuxDK6imR8kWTfzf9
+
 - Série 2 · nível de consciência: Totalmente consciente · ação: Comentar Diagnóstico
 - Nota do crítico independente (versão v6): 6.9. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

@@ -1,5 +1,7 @@
 # Carrossel 09 · De onde veio a sua última venda?
 
+**Canvas publicado:** https://claude.ai/artifact/FaVD7E6KRquZVKMFH1dNiq
+
 - Série 2 · nível de consciência: Consciente do problema para consciente da solução · ação: Salvar
 - Nota do crítico independente (versão v6): 7.3. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

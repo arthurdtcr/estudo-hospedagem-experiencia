@@ -1,5 +1,7 @@
 # Carrossel 14 · Cinco perguntas antes de contratar uma agência
 
+**Canvas publicado:** https://claude.ai/artifact/EAJRC9spcyPXFV2W1MuwLV
+
 - Série 2 · nível de consciência: Consciente do produto · ação: Salvar
 - Nota do crítico independente (versão v6): 7.0. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

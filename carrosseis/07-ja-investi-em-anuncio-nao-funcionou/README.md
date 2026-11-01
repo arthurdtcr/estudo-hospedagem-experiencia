@@ -1,5 +1,7 @@
 # Carrossel 07 · Já investi em anúncio. Não funcionou.
 
+**Canvas publicado:** https://claude.ai/artifact/3N9f92AykyFfNH4PoHqLq7
+
 - Série 2 · nível de consciência: Consciente do problema · ação: Comentar Diagnóstico
 - Nota do crítico independente (versão v6): 7.2. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

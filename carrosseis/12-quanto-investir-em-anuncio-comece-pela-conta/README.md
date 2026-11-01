@@ -1,5 +1,7 @@
 # Carrossel 12 · Quanto investir em anúncio? Comece pela conta.
 
+**Canvas publicado:** https://claude.ai/artifact/RRJeoQwdgofT6dD3eYMvpP
+
 - Série 2 · nível de consciência: Consciente da solução para consciente do produto · ação: Comentar Diagnóstico
 - Nota do crítico independente (versão v6): 6.8. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

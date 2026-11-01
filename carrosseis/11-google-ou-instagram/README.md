@@ -1,5 +1,7 @@
 # Carrossel 11 · Google ou Instagram?
 
+**Canvas publicado:** https://claude.ai/artifact/3CYPFzTWK94cSUvorAgKx4
+
 - Série 2 · nível de consciência: Consciente da solução · ação: Comentar onde anuncia
 - Nota do crítico independente (versão v6): 6.6. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

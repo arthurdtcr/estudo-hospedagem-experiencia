@@ -1,5 +1,7 @@
 # Carrossel 06 · Indicação não tem botão de ligar
 
+**Canvas publicado:** https://claude.ai/artifact/NuwkexHUr4ndVxNpmsPCRL
+
 - Série 2 · nível de consciência: Inconsciente para consciente do problema · ação: Enviar
 - Nota do crítico independente (versão v6): 7.0. Versão abaixo já é a 7ª reanálise.
 - Status: Canvas pronto em `canvas/` (arquivos locais), NÃO publicado: a criação de artifact foi bloqueada pela permissão da sessão. Para publicar, ver `../README.md`.

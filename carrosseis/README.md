@@ -14,29 +14,29 @@ independente (subagente) > filtro > 7ª reanálise > construção no Claude Desi
 | 03 | [Antes de te chamar, ele te confere](03-antes-de-te-chamar-ele-te-confere/README.md) | Salvar | https://claude.ai/artifact/KrHHxd6EDGjvvY4gzFVZ1n |
 | 04 | [Dobrar a verba não dobra as vendas](04-dobrar-a-verba-nao-dobra-as-vendas/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/UtcRgSTM8rQA8DPfF2Vz7o |
 | 05 | [Diagnóstico de graça? Qual é a pegadinha?](05-diagnostico-de-graca-qual-e-a-pegadinha/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/9DL6ALxBy99BgTjXCPbAiM |
-| 06 | [Indicação não tem botão de ligar](06-indicacao-nao-tem-botao-de-ligar/README.md) | Enviar | pronto, **não publicado** |
-| 07 | [Já investi em anúncio. Não funcionou.](07-ja-investi-em-anuncio-nao-funcionou/README.md) | Comentar Diagnóstico | pronto, **não publicado** |
-| 08 | [Seu relatório mostra cliques. E os clientes?](08-seu-relatorio-mostra-cliques-e-os-clientes/README.md) | Salvar | pronto, **não publicado** |
-| 09 | [De onde veio a sua última venda?](09-de-onde-veio-a-sua-ultima-venda/README.md) | Salvar | pronto, **não publicado** |
-| 10 | [Impulsionar não é anunciar](10-impulsionar-nao-e-anunciar/README.md) | Comentar Diagnóstico | pronto, **não publicado** |
-| 11 | [Google ou Instagram?](11-google-ou-instagram/README.md) | Comentar onde anuncia | pronto, **não publicado** |
-| 12 | [Quanto investir em anúncio? Comece pela conta.](12-quanto-investir-em-anuncio-comece-pela-conta/README.md) | Comentar Diagnóstico | pronto, **não publicado** |
-| 13 | [Em quanto tempo o anúncio dá resultado?](13-em-quanto-tempo-o-anuncio-da-resultado/README.md) | Comentar Diagnóstico | pronto, **não publicado** |
-| 14 | [Cinco perguntas antes de contratar uma agência](14-cinco-perguntas-antes-de-contratar-uma-agenci/README.md) | Salvar | pronto, **não publicado** |
-| 15 | [A resposta pode ser: ainda não anuncie](15-a-resposta-pode-ser-ainda-nao-anuncie/README.md) | Comentar Diagnóstico | pronto, **não publicado** |
+| 06 | [Indicação não tem botão de ligar](06-indicacao-nao-tem-botao-de-ligar/README.md) | Enviar | https://claude.ai/artifact/NuwkexHUr4ndVxNpmsPCRL |
+| 07 | [Já investi em anúncio. Não funcionou.](07-ja-investi-em-anuncio-nao-funcionou/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/3N9f92AykyFfNH4PoHqLq7 |
+| 08 | [Seu relatório mostra cliques. E os clientes?](08-seu-relatorio-mostra-cliques-e-os-clientes/README.md) | Salvar | https://claude.ai/artifact/R2VopuvsdWj2aZrMZBu4rm |
+| 09 | [De onde veio a sua última venda?](09-de-onde-veio-a-sua-ultima-venda/README.md) | Salvar | https://claude.ai/artifact/FaVD7E6KRquZVKMFH1dNiq |
+| 10 | [Impulsionar não é anunciar](10-impulsionar-nao-e-anunciar/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/43DCSWzixAgBjX4sYUYc3S |
+| 11 | [Google ou Instagram?](11-google-ou-instagram/README.md) | Comentar onde anuncia | https://claude.ai/artifact/3CYPFzTWK94cSUvorAgKx4 |
+| 12 | [Quanto investir em anúncio? Comece pela conta.](12-quanto-investir-em-anuncio-comece-pela-conta/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/RRJeoQwdgofT6dD3eYMvpP |
+| 13 | [Em quanto tempo o anúncio dá resultado?](13-em-quanto-tempo-o-anuncio-da-resultado/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/5Npe1zNbFAXfXHrQnn1y1A |
+| 14 | [Cinco perguntas antes de contratar uma agência](14-cinco-perguntas-antes-de-contratar-uma-agenci/README.md) | Salvar | https://claude.ai/artifact/EAJRC9spcyPXFV2W1MuwLV |
+| 15 | [A resposta pode ser: ainda não anuncie](15-a-resposta-pode-ser-ainda-nao-anuncie/README.md) | Comentar Diagnóstico | https://claude.ai/artifact/MSRaVvuxDK6imR8kWTfzf9 |
 
 Cada pasta tem `README.md` (roteiro final legível, legenda, pendências), `roteiro.json` (fonte da verdade) e, nos 6 a 15,
 `canvas/` (arquivos prontos para publicar) e `previa.png` (folha de prévia).
 
 ## Estado e o que falta
-1. **Publicar os carrosséis 6 a 15 no Claude Design.** A criação de artifact novo foi bloqueada pelo classificador de
-   permissões ("Account & Standing-Rule Changes"). Precisa de liberação do Arthur. Os arquivos estão prontos.
+1. **Os 15 carrosséis estão publicados no Claude Design** (links no índice). Os canvases são privados: para mostrar a
+   alguém, compartilhe pelo menu Share de cada um.
 2. **Push para o GitHub** falha com 403 (sem acesso ao repositório). Commits só locais até o Arthur reconectar o GitHub
    em https://claude.ai/connect-github.
 3. **Pendências do Arthur** (estão no README de cada carrossel): fluxo do diagnóstico (C5), conta no nome do cliente (C14),
    "cada diagnóstico passa pela minha mão" (C15), frases em primeira pessoa das legendas, foto P&B (C5 e C15).
 
-## Como publicar um canvas pronto (6 a 15)
+## Como publicar um canvas pronto (para carrosséis novos)
 - Tipo Design: `https://claude.ai/artifact/QKN21svewxgyPb6SYRqWnd`. Criar: Artifact publish com `type_url` desse tipo,
   `title` = o `title` do `canvas/project/canvas.json`, `auto_open: "after_first_write"`.
 - Depois, com o `url` devolvido e `root` = a pasta `canvas/` do carrossel: primeiro publish com `file_path` =
